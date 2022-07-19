@@ -1,0 +1,14 @@
+version: 0.1
+cli:
+  version: 0.15.0-beta
+lint:
+  enabled:
+    - git-diff-check@SYSTEM
+    - gitleaks@8.8.12
+    - markdownlint@0.32.0
+    - prettier@2.7.1
+    - svgo@2.8.0
+  ignore:
+    - linters: [ALL]
+      paths:
+        - dist/**
