@@ -31,3 +31,6 @@ LOCAL-NOTES.md
 # Finder junk
 .DS_Store
 **/.DS_Store
+
+# Output
+dist
