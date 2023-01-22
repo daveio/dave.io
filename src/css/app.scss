@@ -1,13 +1,13 @@
-@import 'fonts';
-@import 'utils';
-@import 'bootstrap-overrides';
-@import '~bootstrap/scss/bootstrap';
+@import "fonts";
+@import "utils";
+@import "bootstrap-overrides";
+@import "~bootstrap/scss/bootstrap";
 
 body {
-  font-family: 'Fira Sans';
+  font-family: "Fira Sans", sans-serif;
   background-repeat: repeat-vertical;
   background-position: center center;
-  background-image: url(../images/img_bg.png);
+  background-image: url("../images/img_bg.png");
   background-size: auto;
 }
 
@@ -18,7 +18,7 @@ body {
 
 kbd,
 code {
-  font-family: 'Fira Code' !important;
+  font-family: "Fira Code", sans-serif !important;
   font-variant-ligatures: normal;
 }
 
@@ -27,7 +27,7 @@ code {
 }
 
 .nav-subtitle {
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .nav-item {
@@ -45,6 +45,7 @@ code {
   overflow-x: hidden;
   overflow-y: auto;
   line-height: 30px;
+
   /* Scrollable contents if viewport is shorter than content. */
 }
 
@@ -53,12 +54,11 @@ code {
 }
 
 .gender-subhead {
-  color: #ffcc00;
+  color: #fc0;
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sidebar-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 }
@@ -87,5 +87,5 @@ code {
 
 blockquote {
   padding-left: 2em;
-  color: #aaaaaa;
+  color: #aaa;
 }

@@ -2,4 +2,4 @@
 
 [dave.io](https://dave.io) codebase
 
-Build to dist/
+Build to dist with Parcel

@@ -1,11 +1,13 @@
 /node_modules
-/public
-/.eleventy.out
 /.parcel-cache
 
 # local env files
 .env.local
 .env.*.local
+.env
+.envrc
+.envrc.local
+.envrc.*.local
 
 # Log files
 npm-debug.log*
@@ -29,6 +31,3 @@ LOCAL-NOTES.md
 # Finder junk
 .DS_Store
 **/.DS_Store
-
-/dok8s.yml
-/worker/worker

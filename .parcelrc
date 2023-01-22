@@ -1,0 +1,31 @@
+{
+  "extends": "@parcel/config-default",
+  "optimizers": {
+    "*.svg": [
+      "@parcel/optimizer-svgo",
+      "..."
+    ],
+    "*.{js,mjs,cjs}": [
+      "@parcel/optimizer-terser",
+      "..."
+    ],
+    "*.png": [
+      "@parcel/optimizer-image",
+      "..."
+    ]
+  },
+  "reporters": [
+    "...",
+    "parcel-reporter-static-files-copy"
+  ],
+  "transformers": {
+    "*.scss": [
+      "@parcel/transformer-sass",
+      "..."
+    ],
+    "*.{ts,tsx}": [
+      "@parcel/transformer-typescript-tsc",
+      "..."
+    ]
+  }
+}
