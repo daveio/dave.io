@@ -18,6 +18,7 @@ import {
   faGithub,
   faFlickr,
   faLinkedin,
+  faMastodon,
   faSkype
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -49,6 +50,7 @@ const iconSubset = [
   faGithub,
   faFlickr,
   faLinkedin,
+  faMastodon,
   faSkype
 ]
 iconSubset.forEach(ikon => {
