@@ -87,5 +87,6 @@
       "stylelint-config-standard-scss"
     ]
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "packageManager": "yarn@4.0.2"
 }
