@@ -1,7 +1,10 @@
+// trunk-ignore-begin(stylelint/scss/at-rule-no-unknown)
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+// trunk-ignore-end(stylelint/scss/at-rule-no-unknown)
 
 div#bg {
   background-image: url('../img/rack.jpg');
