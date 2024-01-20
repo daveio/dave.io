@@ -4,5 +4,5 @@
 @tailwind variants;
 
 div#bg {
-  background-image:url('../img/rack.jpg');
+  background-image: url('../img/rack.jpg');
 }

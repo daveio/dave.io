@@ -8,7 +8,7 @@ import {
   faInfoSquare,
   faEnvelope,
   faNewspaper,
-  faBroadcastTower
+  faBroadcastTower,
 } from '@fortawesome/sharp-light-svg-icons'
 import {
   faKeybase,
@@ -18,7 +18,7 @@ import {
   faFlickr,
   faLinkedin,
   faMastodon,
-  faSkype
+  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 
 declare global {
@@ -48,9 +48,9 @@ const iconSubset = [
   faFlickr,
   faLinkedin,
   faMastodon,
-  faSkype
+  faSkype,
 ]
-iconSubset.forEach(ikon => {
+iconSubset.forEach((ikon) => {
   faLibrary.add(ikon)
 })
 faDom.watch()
