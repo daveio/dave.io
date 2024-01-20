@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+div#bg {
+  background-image:url('../img/rack.jpg');
+}
