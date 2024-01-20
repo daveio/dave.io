@@ -5,15 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="css/main.css" rel="stylesheet" />
     <title>dave.io</title>
-    <!-- <script src="https://kit.fontawesome.com/d86544e9cc.js" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script>
+      /* Pinegrow Interactions, do not remove */ ;(function () {
+        try {
+          if (!document.documentElement.hasAttribute('data-pg-ia-disabled')) {
+            window.pgia_small_mq = typeof pgia_small_mq == 'string' ? pgia_small_mq : '(max-width:767px)'
+            window.pgia_large_mq = typeof pgia_large_mq == 'string' ? pgia_large_mq : '(min-width:768px)'
+            var style = document.createElement('style')
+            var pgcss =
+              'html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}'
+            if (
+              document.documentElement.hasAttribute('data-pg-id') &&
+              document.documentElement.hasAttribute('data-pg-mobile')
+            ) {
+              pgia_small_mq = '(min-width:0)'
+              pgia_large_mq = '(min-width:99999px)'
+            }
+            pgcss +=
+              '@media ' +
+              pgia_small_mq +
+              '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}'
+            pgcss +=
+              '@media ' +
+              pgia_large_mq +
+              '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}'
+            style.innerHTML = pgcss
+            document.querySelector('head').appendChild(style)
+          }
+        } catch (e) {
+          console && console.log(e)
+        }
+      })()
+    </script>
+    <script src="https://kit.fontawesome.com/d86544e9cc.js" crossorigin="anonymous"></script>
     <!-- <i class="fa-sharp fa-thin fa-user"></i> -->
     <!-- <span class="fa-brands fa-twitter"></span> -->
   </head>
-
   <body>
     <div class="bg-cover flex h-screen items-center justify-center" id="bg">
       <div class="bg-gray-100 border border-black border-solid h-5/6 overflow-scroll shadow-2xl shadow-black w-5/6">
-        <section class="py-8 text-center text-gray-500" data-pg-collapsed>
+        <section class="py-8 text-center text-gray-500">
           <div class="container mx-auto px-4 relative">
             <div class="flex flex-wrap -mx-4 justify-center">
               <div class="p-4 w-full md:w-6/12 lg:w-4/12">
@@ -28,16 +60,14 @@
                         class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
                         aria-label="facebook"
                       >
-                        <i class="fa-brands fa-facebook fa-fw"></i
-                      ></a>
-                      <a
+                        <i class="fa-brands fa-facebook fa-fw"></i></a
+                      ><a
                         href="#"
                         class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
                         aria-label="twitter"
                       >
-                        <i class="fa-brands fa-facebook fa-fw"></i
-                      ></a>
-                      <a
+                        <i class="fa-brands fa-facebook fa-fw"></i></a
+                      ><a
                         href="#"
                         class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
                         aria-label="linkedin"
