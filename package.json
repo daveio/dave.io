@@ -1,35 +1,10 @@
 {
+  "name": "dave.io",
+  "packageManager": "yarn@4.0.2",
+  "private": true,
   "author": "Dave Williams <dave@dave.io>",
   "browserslist": "> 1%, last 2 versions, not dead",
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.1",
-    "@fortawesome/free-brands-svg-icons": "^6.5.1",
-    "@fortawesome/pro-solid-svg-icons": "^6.5.1",
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.2",
-    "jquery": "^3.7.1"
-  },
   "description": "dave.io codebase",
-  "devDependencies": {
-    "@parcel/core": "^2.11.0",
-    "@parcel/optimizer-svgo": "^2.11.0",
-    "@parcel/optimizer-terser": "^2.11.0",
-    "@parcel/transformer-sass": "2.11.0",
-    "@parcel/transformer-typescript-tsc": "^2.11.0",
-    "@types/bootstrap": "^5.2.10",
-    "@types/jquery": "^3.5.29",
-    "@typescript-eslint/parser": "^6.19.0",
-    "eslint": "^8.56.0",
-    "parcel": "^2.11.0",
-    "parcel-reporter-static-files-copy": "^1.5.3",
-    "postcss": "^8.4.33",
-    "prettier": "^3.2.4",
-    "stylelint": "^16.2.0",
-    "stylelint-config-standard": "^36.0.0",
-    "stylelint-config-standard-scss": "^13.0.0",
-    "ts-standard": "^12.0.2",
-    "typescript": "^5.3.3"
-  },
   "eslintConfig": {
     "ecmaFeatures": {
       "jsx": true
@@ -57,7 +32,6 @@
     }
   },
   "license": "All Rights Reserved",
-  "name": "dave.io",
   "prettier": {
     "overrides": [],
     "semi": false,
@@ -65,7 +39,6 @@
     "tabWidth": 2,
     "trailingComma": "es5"
   },
-  "private": true,
   "repository": "https://github.com/daveio/dave.io",
   "scripts": {
     "build": "rm -rf dist || mkdir dist && yarn parcel build src/index.html --dist-dir dist"
@@ -87,6 +60,45 @@
       "stylelint-config-standard-scss"
     ]
   },
-  "version": "1.0.0",
-  "packageManager": "yarn@4.0.2"
+  "devDependencies": {
+    "@parcel/config-default": "^2.11.0",
+    "@parcel/core": "^2.11.0",
+    "@parcel/optimizer-image": "^2.11.0",
+    "@parcel/optimizer-svgo": "^2.11.0",
+    "@parcel/optimizer-terser": "^2.11.0",
+    "@parcel/transformer-sass": "^2.11.0",
+    "@parcel/transformer-typescript-tsc": "^2.11.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/eslint": "^8.56.2",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "parcel": "^2.11.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "postcss": "^8.4.33",
+    "prettier": "^3.2.4",
+    "stylelint": "^16.2.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "tailwindcss": "^3.4.1",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/pro-duotone-svg-icons": "^6.5.1",
+    "@fortawesome/pro-light-svg-icons": "^6.5.1",
+    "@fortawesome/pro-regular-svg-icons": "^6.5.1",
+    "@fortawesome/pro-solid-svg-icons": "^6.5.1",
+    "@fortawesome/pro-thin-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-light-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-regular-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-solid-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-thin-svg-icons": "^6.5.1"
+  }
 }

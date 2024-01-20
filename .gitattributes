@@ -1,2 +1,4 @@
-/wrangler.toml	filter=git-crypt diff=git-crypt
-
+/.yarn/**            linguist-vendored
+/.yarn/releases/*    binary
+/.yarn/plugins/**/*  binary
+/.pnp.*              binary linguist-generated
