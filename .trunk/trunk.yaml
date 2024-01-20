@@ -60,6 +60,9 @@ lint:
         - '**/*.cts'
         - '**/*.css'
         - '**/*.scss'
+  definitions:
+    - name: stylelint
+      scss/at-rule-no-unknown: false
 actions:
   enabled:
     - trunk-announce
