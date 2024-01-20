@@ -156,84 +156,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/pro-duotone-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/pro-duotone-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-duotone-svg-icons%2F-%2F6.5.1%2Fpro-duotone-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: a06f145caaf206e3bbb98971a34f00eae49743e7654c73b1d22fc029e275a5427c0e8bb64ca5e7bc18ef1b59d3744dd453c62aeb5d44337d321b26761a0e4a57
-  languageName: node
-  linkType: hard
-
-"@fortawesome/pro-light-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/pro-light-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-light-svg-icons%2F-%2F6.5.1%2Fpro-light-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: 1f66f670944b94b0c554d728bc5252657b82d554c096b28b876a25cb97106978858d0f6c278031a556e2f6e655a0f2ce534df8cd5a809b42dfcb52915f59d318
-  languageName: node
-  linkType: hard
-
-"@fortawesome/pro-regular-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/pro-regular-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-regular-svg-icons%2F-%2F6.5.1%2Fpro-regular-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: 1d27358b2b23059beacd89e6041206d0e94d2e0117f83c970e24bd824d0316e4b7de5f03b8659a7f3bce3e96ff8c723d6c3314774a8eb0738a14956653d93822
-  languageName: node
-  linkType: hard
-
-"@fortawesome/pro-solid-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/pro-solid-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-solid-svg-icons%2F-%2F6.5.1%2Fpro-solid-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: 8bc03fe04b51c77f1e5a5f7e301eddfa14952cc7cd706f05b9bc9a888cf3c3c9578952a26b5172b7128e0a41a27008f3f86120f11a38a22d2e74408a2f670563
-  languageName: node
-  linkType: hard
-
-"@fortawesome/pro-thin-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/pro-thin-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fpro-thin-svg-icons%2F-%2F6.5.1%2Fpro-thin-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: c15cc90922f32fd88d8067b35da2b3a5ad65586499a1a6bd071b6b04ff475189aa7867fe76653d0c756441ce19779b5723e31bac9e0add96cb3f3e3b0439770d
-  languageName: node
-  linkType: hard
-
 "@fortawesome/sharp-light-svg-icons@npm:^6.5.1":
   version: 6.5.1
   resolution: "@fortawesome/sharp-light-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fsharp-light-svg-icons%2F-%2F6.5.1%2Fsharp-light-svg-icons-6.5.1.tgz"
   dependencies:
     "@fortawesome/fontawesome-common-types": "npm:6.5.1"
   checksum: 403a3654500614feb06e53a72613bb10cb15b3bd010caff674ab8bfae6048378bbec80dd47853fe17a65362ce3809409d271ac6d7083649731a4f8af579bc9fb
-  languageName: node
-  linkType: hard
-
-"@fortawesome/sharp-regular-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/sharp-regular-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fsharp-regular-svg-icons%2F-%2F6.5.1%2Fsharp-regular-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: 47fc07003489b058a77e585f64e81d1d7b68ab268fec734e1ba4c9d89378eacd09cb5b05331c78a11f27083b379081167bb7a4e7599edfbe20ce777389d56ab8
-  languageName: node
-  linkType: hard
-
-"@fortawesome/sharp-solid-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/sharp-solid-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fsharp-solid-svg-icons%2F-%2F6.5.1%2Fsharp-solid-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: d7c4efb008b8a3b751ceafa5825a3e623d23b1a66d292d5b4ad0ef97cb1839ef01ecdf5df0c3e3d0cc75710919b7b786c2f418976db1789e5a470c9e66f2f1b5
-  languageName: node
-  linkType: hard
-
-"@fortawesome/sharp-thin-svg-icons@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@fortawesome/sharp-thin-svg-icons@npm:6.5.1::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Fsharp-thin-svg-icons%2F-%2F6.5.1%2Fsharp-thin-svg-icons-6.5.1.tgz"
-  dependencies:
-    "@fortawesome/fontawesome-common-types": "npm:6.5.1"
-  checksum: 861a06d8bb6430b898f35e4ab6d322c138efeee12204cc8b53d80a31b33e06f46e8c33f422d73f09e222ca36a3148eafb6b035720749e42cfc3a5f6a62d11889
   languageName: node
   linkType: hard
 
@@ -1545,15 +1473,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/line-clamp@npm:^0.4.4":
-  version: 0.4.4
-  resolution: "@tailwindcss/line-clamp@npm:0.4.4"
-  peerDependencies:
-    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
-  checksum: 53e74e75bff066469501b784ab70af444fa460d556a3adf95cb14ccf1a56b1e63c106f0c4bb94463ba0310f2ce1f71350f9b18a556048655cfd2a0ad308ccfb8
-  languageName: node
-  linkType: hard
-
 "@tailwindcss/typography@npm:^0.5.10":
   version: 0.5.10
   resolution: "@tailwindcss/typography@npm:0.5.10"
@@ -1592,7 +1511,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:^3":
+"@types/jquery@npm:^3.5.29":
   version: 3.5.29
   resolution: "@types/jquery@npm:3.5.29"
   dependencies:
@@ -2492,15 +2411,7 @@ __metadata:
     "@fortawesome/fontawesome-pro": "npm:^6.5.1"
     "@fortawesome/fontawesome-svg-core": "npm:^6.5.1"
     "@fortawesome/free-brands-svg-icons": "npm:^6.5.1"
-    "@fortawesome/pro-duotone-svg-icons": "npm:^6.5.1"
-    "@fortawesome/pro-light-svg-icons": "npm:^6.5.1"
-    "@fortawesome/pro-regular-svg-icons": "npm:^6.5.1"
-    "@fortawesome/pro-solid-svg-icons": "npm:^6.5.1"
-    "@fortawesome/pro-thin-svg-icons": "npm:^6.5.1"
     "@fortawesome/sharp-light-svg-icons": "npm:^6.5.1"
-    "@fortawesome/sharp-regular-svg-icons": "npm:^6.5.1"
-    "@fortawesome/sharp-solid-svg-icons": "npm:^6.5.1"
-    "@fortawesome/sharp-thin-svg-icons": "npm:^6.5.1"
     "@parcel/config-default": "npm:^2.11.0"
     "@parcel/core": "npm:^2.11.0"
     "@parcel/optimizer-image": "npm:^2.11.0"
@@ -2511,10 +2422,9 @@ __metadata:
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@tailwindcss/container-queries": "npm:^0.1.1"
     "@tailwindcss/forms": "npm:^0.5.7"
-    "@tailwindcss/line-clamp": "npm:^0.4.4"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/eslint": "npm:^8.56.2"
-    "@types/jquery": "npm:^3"
+    "@types/jquery": "npm:^3.5.29"
     "@typescript-eslint/parser": "npm:^6.19.0"
     eslint: "npm:^8.56.0"
     jquery: "npm:^3.7.1"
