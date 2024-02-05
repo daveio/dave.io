@@ -18,7 +18,7 @@
     "@parcel/transformer-typescript-tsc": "^2.11.0",
     "@types/bootstrap": "^5.2.10",
     "@types/jquery": "^3.5.29",
-    "@typescript-eslint/parser": "^6.19.0",
+    "@typescript-eslint/parser": "^6.20.0",
     "eslint": "^8.56.0",
     "parcel": "^2.11.0",
     "parcel-reporter-static-files-copy": "^1.5.3",
