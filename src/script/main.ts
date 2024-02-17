@@ -1,6 +1,4 @@
 // import * as jQuery from 'jquery'
-import { library as faLibrary, dom as faDom } from '@fortawesome/fontawesome-svg-core'
-import { faBroadcastTower } from '@fortawesome/sharp-light-svg-icons'
 import {
   faKeybase,
   faTwitter,
@@ -10,6 +8,8 @@ import {
   faMastodon,
   faSkype,
 } from '@fortawesome/free-brands-svg-icons'
+import { library as faLibrary, dom as faDom } from '@fortawesome/fontawesome-svg-core'
+import { faBroadcastTower } from '@fortawesome/sharp-light-svg-icons'
 
 // declare global {
 //   interface Window {
