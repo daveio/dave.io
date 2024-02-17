@@ -5,40 +5,7 @@
   "author": "Dave Williams <dave@dave.io>",
   "browserslist": "> 1%, last 2 versions, not dead",
   "description": "dave.io codebase",
-  "eslintConfig": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "env": {
-      "browser": true,
-      "es6": true
-    },
-    "extends": [
-      "standard-with-typescript"
-    ],
-    "globals": {
-      "document": true,
-      "navigator": true,
-      "window": true
-    },
-    "ignorePatterns": [
-      "tmp/**"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaVersion": 2018,
-      "project": "./tsconfig.json",
-      "sourceType": "module"
-    }
-  },
   "license": "All Rights Reserved",
-  "prettier": {
-    "overrides": [],
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5"
-  },
   "repository": "https://github.com/daveio/dave.io",
   "scripts": {
     "build": "rm -rf dist || mkdir dist && yarn parcel build src/index.html --dist-dir dist"
@@ -55,11 +22,6 @@
       "staticPath": "src/_well-known"
     }
   ],
-  "stylelint": {
-    "extends": [
-      "stylelint-config-standard-scss"
-    ]
-  },
   "devDependencies": {
     "@parcel/config-default": "^2.11.0",
     "@parcel/core": "^2.11.0",
@@ -72,16 +34,8 @@
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
-    "@types/eslint": "^8.56.2",
     "@types/jquery": "^3.5.29",
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^7.0.1",
     "autoprefixer": "^10.4.17",
-    "eslint": "^8.0.1",
-    "eslint-config-standard-with-typescript": "^43.0.1",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
-    "eslint-plugin-promise": "^6.0.0",
     "parcel": "^2.11.0",
     "parcel-reporter-static-files-copy": "^1.5.3",
     "postcss": "^8.4.35",
@@ -94,18 +48,14 @@
     "prettier-plugin-sort-imports": "^1.8.3",
     "prettier-plugin-style-order": "^0.2.2",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "stylelint": "^16.2.1",
-    "stylelint-config-standard": "^36.0.0",
-    "stylelint-config-standard-scss": "^13.0.0",
     "tailwindcss": "^3.4.1",
     "ts-standard": "^12.0.2",
-    "typescript": "*"
+    "typescript": "5.3.3"
   },
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.5.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
-    "@fortawesome/sharp-light-svg-icons": "^6.5.1",
-    "jquery": "^3.7.1"
+    "@fortawesome/sharp-light-svg-icons": "^6.5.1"
   }
 }

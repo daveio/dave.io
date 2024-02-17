@@ -1,55 +1,28 @@
-import * as jQuery from 'jquery'
+// import * as jQuery from 'jquery'
 import { library as faLibrary, dom as faDom } from '@fortawesome/fontawesome-svg-core'
-import {
-  faCircle,
-  faHammer,
-  faWrench,
-  faTransgender,
-  faInfoSquare,
-  faEnvelope,
-  faNewspaper,
-  faBroadcastTower,
-} from '@fortawesome/sharp-light-svg-icons'
+import { faBroadcastTower } from '@fortawesome/sharp-light-svg-icons'
 import {
   faKeybase,
   faTwitter,
   faFacebook,
   faGithub,
-  faFlickr,
   faLinkedin,
   faMastodon,
   faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 
-declare global {
-  interface Window {
-    jQuery: typeof jQuery
-    $: typeof jQuery
-  }
-}
+// declare global {
+//   interface Window {
+//     jQuery: typeof jQuery
+//     $: typeof jQuery
+//   }
+// }
 
-window.$ = jQuery
-window.jQuery = jQuery
+// window.$ = jQuery
+// window.jQuery = jQuery
 
 // Font Awesome
-const iconSubset = [
-  faCircle,
-  faHammer,
-  faWrench,
-  faTransgender,
-  faInfoSquare,
-  faEnvelope,
-  faNewspaper,
-  faBroadcastTower,
-  faKeybase,
-  faTwitter,
-  faFacebook,
-  faGithub,
-  faFlickr,
-  faLinkedin,
-  faMastodon,
-  faSkype,
-]
+const iconSubset = [faBroadcastTower, faKeybase, faTwitter, faFacebook, faGithub, faLinkedin, faMastodon, faSkype]
 
 iconSubset.forEach((ikon) => {
   faLibrary.add(ikon)

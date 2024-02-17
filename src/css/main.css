@@ -3,6 +3,12 @@
 @tailwind utilities;
 @tailwind variants;
 
-div#bg {
-  background: linear-gradient(90deg, #536976, #292e49);
+@layer components {
+  div#bg {
+    background: linear-gradient(90deg, #536976, #292e49);
+  }
+
+  div#bg-inner {
+    background-image: url('../img/aurora.jpg');
+  }
 }
