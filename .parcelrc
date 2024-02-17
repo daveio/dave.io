@@ -9,7 +9,7 @@
       "@parcel/optimizer-terser",
       "..."
     ],
-    "*.png": [
+    "*.{jpeg,jpg,png,webp,avif}": [
       "@parcel/optimizer-image",
       "..."
     ]

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer components {
+  div#bg {
+    background: linear-gradient(90deg, #536976, #292e49);
+  }
+
+  div#bg-inner {
+    background-image: url('../img/aurora.jpg');
+  }
+}

@@ -1,54 +1,50 @@
+# This file controls the behavior of Trunk: https://docs.trunk.io/cli
+# To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
 version: 0.1
 cli:
-  version: 1.11.1
+  version: 1.20.0
+# Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
     - id: trunk
-      ref: v0.0.21
+      ref: v1.4.3
       uri: https://github.com/trunk-io/plugins
+# Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
+runtimes:
+  enabled:
+    - go@1.21.0
+    - node@18.12.1
+    - python@3.10.8
+# This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   enabled:
-    - yamllint@1.32.0
-    - oxipng@8.0.0
+    - checkov@3.2.21
     - git-diff-check
-    - prettier@3.0.0
-    - svgo@3.0.2
-    - markdownlint@0.35.0
-    - gitleaks@8.17.0
-    - eslint@8.44.0:
+    - markdownlint@0.39.0
+    - osv-scanner@1.6.2
+    - prettier@3.2.5:
         packages:
-          - '@typescript-eslint/parser'
-          - ts-standard
-          - typescript
-    - stylelint@15.10.1:
-        packages:
-          - stylelint-config-standard
-          - stylelint-config-standard-scss
-          - postcss
+          - prettier-plugin-tailwindcss
+          - prettier-plugin-css-order
+          - prettier-plugin-import-sort
+          - prettier-plugin-jsdoc
+          - prettier-plugin-organize-attributes
+          - prettier-plugin-organize-imports
+          - prettier-plugin-style-order
+          - prettier-plugin-sort-imports
+    - trivy@0.49.1
+    - trufflehog@3.67.6
+    - yamllint@1.35.0
+    - oxipng@9.0.0
+    - svgo@3.2.0
+    - gitleaks@8.18.2
+
   ignore:
     - linters: [ALL]
       paths:
         - .parcel-cache
         - dist
         - node_modules
-    - linters:
-        - prettier
-      paths:
-        - '**/*.js'
-        - '**/*.jsx'
-        - '**/*.mjs'
-        - '**/*.cjs'
-        - '**/*.ts'
-        - '**/*.tsx'
-        - '**/*.mts'
-        - '**/*.cts'
-        - '**/*.css'
-        - '**/*.scss'
-runtimes:
-  enabled:
-    - python@3.10.8
-    - go@1.19.5
-    - node@18.12.1
 actions:
   enabled:
     - trunk-announce
