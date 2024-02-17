@@ -5,47 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="css/main.css" rel="stylesheet" />
     <title>dave.io</title>
-    <!-- <script src="https://kit.fontawesome.com/d86544e9cc.js" crossorigin="anonymous"></script> -->
+    <script>
+      /* Pinegrow Interactions, do not remove */ ;(function () {
+        try {
+          if (!document.documentElement.hasAttribute('data-pg-ia-disabled')) {
+            window.pgia_small_mq = typeof pgia_small_mq == 'string' ? pgia_small_mq : '(max-width:767px)'
+            window.pgia_large_mq = typeof pgia_large_mq == 'string' ? pgia_large_mq : '(min-width:768px)'
+            var style = document.createElement('style')
+            var pgcss =
+              'html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}'
+            if (
+              document.documentElement.hasAttribute('data-pg-id') &&
+              document.documentElement.hasAttribute('data-pg-mobile')
+            ) {
+              pgia_small_mq = '(min-width:0)'
+              pgia_large_mq = '(min-width:99999px)'
+            }
+            pgcss +=
+              '@media ' +
+              pgia_small_mq +
+              '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}'
+            pgcss +=
+              '@media ' +
+              pgia_large_mq +
+              '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}'
+            style.innerHTML = pgcss
+            document.querySelector('head').appendChild(style)
+          }
+        } catch (e) {
+          console && console.log(e)
+        }
+      })()
+    </script>
+    <script src="https://kit.fontawesome.com/d86544e9cc.js" crossorigin="anonymous"></script>
     <!-- <i class="fa-sharp fa-thin fa-user"></i> -->
     <!-- <span class="fa-brands fa-twitter"></span> -->
+    <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono&display=swap" />
   </head>
-
   <body>
-    <div class="bg-cover flex h-screen items-center justify-center" id="bg">
-      <div class="bg-gray-100 border border-black border-solid h-5/6 overflow-scroll shadow-2xl shadow-black w-5/6">
-        <section class="py-8 text-center text-gray-500" data-pg-collapsed>
-          <div class="container mx-auto px-4 relative">
-            <div class="flex flex-wrap -mx-4 justify-center">
-              <div class="p-4 w-full md:w-6/12 lg:w-4/12">
-                <div>
-                  <img src="img/self.jpg" class="mx-auto rounded-full w-9/12" alt="..." width="400" height="400" />
-                  <div class="p-5">
-                    <h3 class="font-bold text-2xl text-gray-900">Dave Williams</h3>
-                    <h4 class="font-light mb-3 text-gray-700">DevOps Engineer & Team Lead</h4>
-                    <div class="flex-wrap inline-flex space-x-1">
-                      <a
-                        href="#"
+    <div class="flex h-screen items-center justify-center" id="bg">
+      <div
+        class="bg-cover bg-gray-100 bg-opacity-90 border border-black border-solid h-full overflow-scroll ring-8 ring-gray-900 ring-opacity-100 shadow-2xl shadow-black w-full lg:h-5/6 lg:w-5/6"
+        style="background-image: url('img/aurora.jpg')"
+      >
+        <header class="text-gray-500">
+          <nav class="bg-black container flex flex-wrap items-center mx-auto px-4 py-3">
+            <button
+              class="hover:bg-gray-600 hover:text-white px-3 py-2 rounded text-gray-200 lg:hidden"
+              data-name="nav-toggler"
+              data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}'
+            >
+              <span class="block border-b-2 border-current my-1 w-6"></span
+              ><span class="block border-b-2 border-current my-1 w-6"></span
+              ><span class="block border-b-2 border-current my-1 w-6"></span>
+            </button>
+            <div
+              data-name="nav-menu"
+              class="flex-grow hidden space-y-2 w-full lg:flex lg:items-center lg:space-x-4 lg:space-y-0 lg:w-auto"
+            >
+              <div class="flex flex-col ml-auto lg:flex-row">
+                <a href="#" class="hover:text-gray-300 px-0 py-2 lg:px-4">Home</a
+                ><a href="#" class="hover:text-gray-300 px-0 py-2 lg:px-4">Gender</a
+                ><a href="#" class="hover:text-gray-300 px-0 py-2 lg:px-4">Projects</a>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <section class="py-8 text-center text-gray-500">
+          <div class="container flex items-start mx-auto px-4 relative">
+            <div class="flex justify-center w-5/12">
+              <div>
+                <img src="img/self.jpg" class="mx-auto rounded-full w-9/12" alt="..." width="400" height="400" />
+                <div class="p-5">
+                  <h3 class="font-bold text-2xl text-white">Dave Williams</h3>
+                  <h4 class="font-light mb-3 text-gray-300"><a href="/gender.html">they / them</a></h4>
+                  <div class="flex-wrap inline-flex justify-center space-x-1">
+                    <span class="pt-2"
+                      ><a
+                        href="https://basilisk.gallery/@dave"
                         class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
-                        aria-label="facebook"
+                        aria-label="mastodon"
                       >
-                        <i class="fa-brands fa-facebook fa-fw"></i
-                      ></a>
-                      <a
-                        href="#"
+                        <i class="fa-brands fa-mastodon fa-fw"></i></a></span
+                    ><span class="pt-2"
+                      ><a
+                        href="https://twitter.com/syn"
                         class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
                         aria-label="twitter"
                       >
-                        <i class="fa-brands fa-facebook fa-fw"></i
-                      ></a>
-                      <a
-                        href="#"
+                        <i class="fa-brands fa-twitter fa-fw"></i></a></span
+                    ><span class="pt-2"
+                      ><a
+                        href="https://github.com/daveio"
+                        class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
+                        aria-label="github"
+                        ><i class="fa-brands fa-github fa-fw"></i></a
+                    ></span>
+                    <span class="pt-2"
+                      ><a
+                        href="https://facebook.com/dave.io"
+                        class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
+                        aria-label="facebook"
+                        ><i class="fa-brands fa-facebook fa-fw"></i></a
+                    ></span>
+                    <span class="pt-2"
+                      ><a
+                        href="https://linkedin.com/in/dcwilliams"
                         class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
                         aria-label="linkedin"
-                        ><i class="fa-brands fa-facebook fa-fw"></i
-                      ></a>
-                    </div>
+                        ><i class="fa-brands fa-linkedin fa-fw"></i></a
+                    ></span>
+                    <span class="pt-2"
+                      ><a
+                        href="https://keybase.io/dave"
+                        class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
+                        aria-label="keybase"
+                        ><i class="fa-brands fa-keybase fa-fw"></i></a
+                    ></span>
+                    <span class="pt-2"
+                      ><a
+                        href="https://join.skype.com/invite/hjGqpCJJazAc"
+                        class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
+                        aria-label="skype"
+                        ><i class="fa-brands fa-skype fa-fw"></i></a
+                    ></span>
+                    <span class="pt-2"
+                      ><a
+                        href="https://qrz.com/db/M6LNS"
+                        class="hover:text-white py-1 px-1.5 text-white bg-blue-600 hover:bg-blue-700 rounded-full"
+                        aria-label="amateur radio"
+                        ><i class="fa-sharp fa-light fa-tower-broadcast fa-fw"></i></a
+                    ></span>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="flex justify-center text-gray-900 w-7/12">
+              <div class="text-gray-200 text-left w-auto">
+                <p class="pb-6">
+                  I&apos;m a British nerd-of-most-trades, living in London, England. I build things, I make things work,
+                  I keep them working, and I put them back together when they break.
+                </p>
+                <p class="pb-6">
+                  I tweet as <a class="font-bold" href="https://twitter.com/syn">@syn</a>, toot as
+                  <a class="font-bold" href="https://basilisk.gallery/@dave">@dave@basilisk.gallery</a>, and write at
+                  <a class="font-bold" href="https://blog.dave.io">blog.dave.io</a> about topics I consider worth a
+                  longform piece.
+                </p>
+                <p class="pb-6">
+                  You can email me using
+                  <span class="bg-gray-800 border border-dotted font-mono p-1 rounded">dave @ this domain</span>,
+                  <a href="https://keybase.io/dave" class="font-bold">chat with me using Keybase Chat</a>, or
+                  <a href="https://join.skype.com/invite/hjGqpCJJazAc" class="font-bold">give me a call via Skype</a>.
+                </p>
+                <p class="pb-6">
+                  If you want to contact me using strong encryption, I generally prefer to use
+                  <a class="font-bold" href="https://keybase.io/dave">Keybase</a> as its native cryptography is both
+                  strong and concise, and works both for email and for realtime chat.
+                </p>
+                <p class="pb-6">
+                  If you&apos;d rather use GnuPG, my key is available on
+                  <a class="font-bold" href="https://keybase.io/dave">my Keybase profile</a>, or you can fetch key ID
+                  <span class="bg-gray-800 border border-dotted font-mono p-1 rounded">0x385FD3CEF5E5C6EC</span> from
+                  <a href="https://keys.openpgp.org" class="font-bold">keys.openpgp.org</a>.
+                </p>
+                <p class="pb-6">
+                  I am non-binary, and have written
+                  <a class="font-bold" href="/gender.html">a brief primer about what that means</a>.
+                </p>
               </div>
             </div>
           </div>

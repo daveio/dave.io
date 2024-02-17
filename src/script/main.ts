@@ -18,7 +18,7 @@ import {
   faFlickr,
   faLinkedin,
   faMastodon,
-  faSkype
+  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 
 declare global {
@@ -50,9 +50,11 @@ const iconSubset = [
   faMastodon,
   faSkype
 ]
+
 iconSubset.forEach((ikon) => {
   faLibrary.add(ikon)
 })
+
 faDom.watch()
 
 // email (de)obfuscation

@@ -8,5 +8,5 @@
 /* trunk-ignore-end(stylelint/scss/at-rule-no-unknown) */
 
 div#bg {
-  background-image: url('../img/rack.jpg');
+  background: linear-gradient(90deg, #536976, #292e49);
 }
