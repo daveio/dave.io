@@ -8,7 +8,7 @@ import {
   faInfoSquare,
   faEnvelope,
   faNewspaper,
-  faBroadcastTower
+  faBroadcastTower,
 } from '@fortawesome/sharp-light-svg-icons'
 import {
   faKeybase,
@@ -48,7 +48,7 @@ const iconSubset = [
   faFlickr,
   faLinkedin,
   faMastodon,
-  faSkype
+  faSkype,
 ]
 
 iconSubset.forEach((ikon) => {

@@ -1,11 +1,7 @@
-/* trunk-ignore-begin(stylelint/scss/at-rule-no-unknown) */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
-
-/* trunk-ignore-end(stylelint/scss/at-rule-no-unknown) */
 
 div#bg {
   background: linear-gradient(90deg, #536976, #292e49);

@@ -29,40 +29,13 @@ lint:
     - oxipng@9.0.0
     - svgo@3.2.0
     - gitleaks@8.18.2
-    # - eslint@8.56.0:
-    #     packages:
-    #       - '@typescript-eslint/parser'
-    #       - ts-standard
-    #       - typescript
-    #       - eslint-config-standard-with-typescript
-    #       - eslint-config-prettier
-    # - stylelint@16.2.1:
-    #     packages:
-    #       - stylelint-config-standard
-    #       - stylelint-config-standard-scss
-    #       - postcss
-    #       - postcss-scss
-    #       - stylelint-config-tailwindcss
-    #       - stylelint-config-prettier
+
   ignore:
     - linters: [ALL]
       paths:
         - .parcel-cache
         - dist
         - node_modules
-    - linters:
-        - prettier
-      paths:
-        - '**/*.js'
-        - '**/*.jsx'
-        - '**/*.mjs'
-        - '**/*.cjs'
-        - '**/*.ts'
-        - '**/*.tsx'
-        - '**/*.mts'
-        - '**/*.cts'
-        - '**/*.css'
-        - '**/*.scss'
 actions:
   enabled:
     - trunk-announce
