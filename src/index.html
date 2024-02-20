@@ -1,126 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WNQT8CW9J"></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
-      gtag('config', 'G-5WNQT8CW9J')
-    </script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link href="css/main.css" rel="stylesheet" />
-    <title>dave.io</title>
-  </head>
+  <include src="include/head.html"> { "title": "home" } </include>
   <body>
     <div class="flex h-screen items-center justify-center" id="bg">
       <div
         class="bg-cover bg-gray-100 bg-opacity-90 border border-black border-solid h-full overflow-scroll ring-8 ring-gray-900 ring-opacity-100 shadow-2xl shadow-black w-full lg:h-5/6 lg:w-5/6"
         id="bg-inner"
       >
-        <header class="text-gray-500">
-          <nav class="bg-black container flex flex-wrap items-center mx-auto px-4 py-3">
-            <button
-              class="hover:bg-gray-600 hover:text-white px-3 py-2 rounded text-gray-200 lg:hidden"
-              id="nav-toggler"
-            >
-              <span class="block border-b-2 border-current my-1 w-6"></span
-              ><span class="block border-b-2 border-current my-1 w-6"></span
-              ><span class="block border-b-2 border-current my-1 w-6"></span>
-            </button>
-            <div
-              class="flex-grow hidden space-y-2 w-full lg:flex lg:items-center lg:space-x-4 lg:space-y-0 lg:w-auto"
-              id="nav-menu"
-            >
-              <div class="flex flex-col ml-auto lg:flex-row">
-                <a class="hover:text-gray-300 px-0 py-2 lg:px-4" href="index.html">Home</a
-                ><a class="hover:text-gray-300 px-0 py-2 lg:px-4" href="gender.html">Gender</a
-                ><a class="hover:text-gray-300 px-0 py-2 lg:px-4" href="projects.html">Projects</a>
-                <a class="hover:text-gray-300 px-0 py-2 lg:px-4" href="cv_dave-williams.pdf" rel="me">CV / Resume</a>
-              </div>
-            </div>
-          </nav>
-        </header>
+        <include src="include/nav.html"></include>
         <section class="py-8 text-center text-gray-500">
           <div class="container flex items-start mx-auto px-4 relative">
-            <div class="flex justify-center w-5/12">
-              <div>
-                <img class="mx-auto rounded-full w-9/12" src="img/self.jpg" alt="..." width="400" height="400" />
-                <div class="p-5">
-                  <h3 class="font-bold text-2xl text-white">Dave Williams</h3>
-                  <h4 class="font-light mb-3 text-gray-300"><a href="gender.html">they / them</a></h4>
-                  <div class="flex-wrap inline-flex justify-center space-x-1">
-                    <span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://basilisk.gallery/@dave"
-                        rel="me"
-                        aria-label="mastodon"
-                      >
-                        <i class="fa-brands fa-mastodon fa-fw"></i></a></span
-                    ><span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://twitter.com/syn"
-                        rel="me"
-                        aria-label="twitter"
-                      >
-                        <i class="fa-brands fa-twitter fa-fw"></i></a></span
-                    ><span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://github.com/daveio"
-                        rel="me"
-                        aria-label="github"
-                        ><i class="fa-brands fa-github fa-fw"></i></a
-                    ></span>
-                    <span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://facebook.com/dave.io"
-                        rel="me"
-                        aria-label="facebook"
-                        ><i class="fa-brands fa-facebook fa-fw"></i></a
-                    ></span>
-                    <span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://linkedin.com/in/dcwilliams"
-                        rel="me"
-                        aria-label="linkedin"
-                        ><i class="fa-brands fa-linkedin fa-fw"></i></a
-                    ></span>
-                    <span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://keybase.io/dave"
-                        rel="me"
-                        aria-label="keybase"
-                        ><i class="fa-brands fa-keybase fa-fw"></i></a
-                    ></span>
-                    <span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://join.skype.com/invite/hjGqpCJJazAc"
-                        aria-label="skype"
-                        ><i class="fa-brands fa-skype fa-fw"></i></a
-                    ></span>
-                    <span class="pt-2"
-                      ><a
-                        class="hover:text-white py-1 px-1.5 text-white bg-orange-600 hover:bg-orange-800 rounded-full"
-                        href="https://qrz.com/db/M6LNS"
-                        rel="me"
-                        aria-label="amateur radio"
-                        ><i class="fa-sharp fa-light fa-tower-broadcast fa-fw"></i></a
-                    ></span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <include src="include/ident.html"></include>
             <div class="flex justify-center text-gray-900 w-7/12">
               <div class="text-gray-200 text-left w-auto">
                 <p class="pb-6">

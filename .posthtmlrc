@@ -1,0 +1,11 @@
+{
+  "plugins": {
+    "posthtml-include": {}
+  },
+  "input": "*.html",
+  "output": "dist",
+  "skip": [],
+  "options": {
+    "sync": true
+  }
+}
