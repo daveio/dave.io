@@ -25,7 +25,7 @@
   "devDependencies": {
     "@parcel/config-default": "^2.11.0",
     "@parcel/core": "^2.11.0",
-    "@parcel/optimizer-image": "^2.11.0",
+    "@parcel/optimizer-image": "^2.12.0",
     "@parcel/optimizer-svgo": "^2.11.0",
     "@parcel/optimizer-terser": "^2.11.0",
     "@parcel/transformer-sass": "^2.11.0",
