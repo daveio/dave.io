@@ -38,7 +38,7 @@
     "autoprefixer": "^10.4.17",
     "parcel": "^2.11.0",
     "parcel-reporter-static-files-copy": "^1.5.3",
-    "postcss": "^8.4.35",
+    "postcss": "^8.4.36",
     "posthtml": "^0.16.6",
     "posthtml-include": "^2.0.1",
     "prettier": "^3.2.5",
