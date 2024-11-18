@@ -617,12 +617,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/cache@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/cache@npm:2.13.0"
+  dependencies:
+    "@parcel/fs": "npm:2.13.0"
+    "@parcel/logger": "npm:2.13.0"
+    "@parcel/utils": "npm:2.13.0"
+    lmdb: "npm:2.8.5"
+  peerDependencies:
+    "@parcel/core": ^2.13.0
+  checksum: 10c0/0d2840cc13a35f3f69d00d449846e6dd63aadeafa37ac3c1c4a33d739d70b4e96ccf95b7da90236319ac6fcefa5a71924990aa1b6abc1541591571613d0bed6c
+  languageName: node
+  linkType: hard
+
 "@parcel/codeframe@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/codeframe@npm:2.12.0"
   dependencies:
     chalk: "npm:^4.1.0"
   checksum: 10c0/23a73d8a5b6a7612ab6a5918ad52631f58d3529758730517a0ce151f0c533e5b4b1788278dd521d4863dd0e0b972afb590af69cb8523b14e809279825da549a1
+  languageName: node
+  linkType: hard
+
+"@parcel/codeframe@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/codeframe@npm:2.13.0"
+  dependencies:
+    chalk: "npm:^4.1.2"
+  checksum: 10c0/eaa62e54c9b13a9f7e0c131547d0b565c57768c4c0715ef39f5d46d7e33774487da38c2aecd6d2a2da78668c42ae294c4b8dfdc0347bd137bec3a8b11aab57dc
   languageName: node
   linkType: hard
 
@@ -676,7 +699,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@parcel/core@npm:2.12.0, @parcel/core@npm:^2.12.0":
+"@parcel/core@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/core@npm:2.12.0"
   dependencies:
@@ -709,6 +732,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/core@npm:^2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/core@npm:2.13.0"
+  dependencies:
+    "@mischnic/json-sourcemap": "npm:^0.1.0"
+    "@parcel/cache": "npm:2.13.0"
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/events": "npm:2.13.0"
+    "@parcel/feature-flags": "npm:2.13.0"
+    "@parcel/fs": "npm:2.13.0"
+    "@parcel/graph": "npm:3.3.0"
+    "@parcel/logger": "npm:2.13.0"
+    "@parcel/package-manager": "npm:2.13.0"
+    "@parcel/plugin": "npm:2.13.0"
+    "@parcel/profiler": "npm:2.13.0"
+    "@parcel/rust": "npm:2.13.0"
+    "@parcel/source-map": "npm:^2.1.1"
+    "@parcel/types": "npm:2.13.0"
+    "@parcel/utils": "npm:2.13.0"
+    "@parcel/workers": "npm:2.13.0"
+    base-x: "npm:^3.0.8"
+    browserslist: "npm:^4.6.6"
+    clone: "npm:^2.1.1"
+    dotenv: "npm:^16.4.5"
+    dotenv-expand: "npm:^11.0.6"
+    json5: "npm:^2.2.0"
+    msgpackr: "npm:^1.9.9"
+    nullthrows: "npm:^1.1.1"
+    semver: "npm:^7.5.2"
+  checksum: 10c0/af710d79ecf8914c2cd64ea6472504927a335a9d783122bf53952bebe3b694625535a03297def43a77cc47aca9e0a3d186df90977d5cd6ec1620ccc6293eded4
+  languageName: node
+  linkType: hard
+
 "@parcel/diagnostic@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/diagnostic@npm:2.12.0"
@@ -719,10 +775,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/diagnostic@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/diagnostic@npm:2.13.0"
+  dependencies:
+    "@mischnic/json-sourcemap": "npm:^0.1.0"
+    nullthrows: "npm:^1.1.1"
+  checksum: 10c0/7a1f253e28567fce21891cc7a6662c63c9d8b3cd340c54da81ebfa47b3d2fac8f246051d62349b449ac62906e499fb4726b397646bdcfb37823dc110dc9e7dd9
+  languageName: node
+  linkType: hard
+
 "@parcel/events@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/events@npm:2.12.0"
   checksum: 10c0/0f0a0b02086b81d68cf8f239414e9e09b5a6eca6dddfd22d2e922979b2d85b03e6f68bcafa2c6434c46867c908e25f2002f47f0ed5551f2674a75f4d6c5731ff
+  languageName: node
+  linkType: hard
+
+"@parcel/events@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/events@npm:2.13.0"
+  checksum: 10c0/0f0668a75c0608069595632860597fbfd80350d6d15d5cbc10fef931ef140c7728264f9cba3a97c06061800f14f9839a8a02e7a105561e1746473eeaed1d102c
+  languageName: node
+  linkType: hard
+
+"@parcel/feature-flags@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/feature-flags@npm:2.13.0"
+  checksum: 10c0/ff6c497054d26813fb5ed44598a57b55bc4ffbde3d457cdbb100639526dab592c1644b535248928bb600f755a8df51dc492b3fdf8d3006f6031760a500a40976
   languageName: node
   linkType: hard
 
@@ -741,12 +821,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/fs@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/fs@npm:2.13.0"
+  dependencies:
+    "@parcel/feature-flags": "npm:2.13.0"
+    "@parcel/rust": "npm:2.13.0"
+    "@parcel/types-internal": "npm:2.13.0"
+    "@parcel/utils": "npm:2.13.0"
+    "@parcel/watcher": "npm:^2.0.7"
+    "@parcel/workers": "npm:2.13.0"
+  peerDependencies:
+    "@parcel/core": ^2.13.0
+  checksum: 10c0/2d0b89fdc3d53be3f5fa965ddcf1f01a1f8d7fb0c8a4a47491720857f2fe9641d6a70fee361320f91d0cfd1405ece99a237e929dba6beb2d8739878eaa170372
+  languageName: node
+  linkType: hard
+
 "@parcel/graph@npm:3.2.0":
   version: 3.2.0
   resolution: "@parcel/graph@npm:3.2.0"
   dependencies:
     nullthrows: "npm:^1.1.1"
   checksum: 10c0/acb98a9c44dbabaa38e2a7b6b07aa489d75dc207ed6107ea43575d3c68ebf388a65a982d85677c7d00cd2d7bb6f8a6f75df9618a53389e9f640aa9346fb75c3b
+  languageName: node
+  linkType: hard
+
+"@parcel/graph@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@parcel/graph@npm:3.3.0"
+  dependencies:
+    "@parcel/feature-flags": "npm:2.13.0"
+    nullthrows: "npm:^1.1.1"
+  checksum: 10c0/5be8648950efceb192baf62929d9cdf34f4b62559fac1405d6cc5db78f723e1b08ea36a4f3dfc16f172722061fe82d6c4ed3267a70ae241b5e70338c4a6d2b7a
   languageName: node
   linkType: hard
 
@@ -760,12 +866,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/logger@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/logger@npm:2.13.0"
+  dependencies:
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/events": "npm:2.13.0"
+  checksum: 10c0/1cd90226b4bd12f60b7708308e56c1058df84fc58a1947d3b669ce61b6d904120ca7630fd7fc5108a8358c66d1e13b9a8f6f56e99cf3120414a58ba0e0f8ee9a
+  languageName: node
+  linkType: hard
+
 "@parcel/markdown-ansi@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/markdown-ansi@npm:2.12.0"
   dependencies:
     chalk: "npm:^4.1.0"
   checksum: 10c0/0c203c70ab1eb12f4976c32b086b2abf5dc841b42310610e70e1e713fe915acfd0942b56a78456811a9ee150226bb44052910a3f98ea56289aafa36b6ce89e27
+  languageName: node
+  linkType: hard
+
+"@parcel/markdown-ansi@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/markdown-ansi@npm:2.13.0"
+  dependencies:
+    chalk: "npm:^4.1.2"
+  checksum: 10c0/cf76ab23b9f1b7733fe464a1ec143fea9466361563a6eb412117a9e9b5d03d8b8ae07ce93d642b162ffd9475fe4465330ff7996cc5a641e0b42747588d0ef240
   languageName: node
   linkType: hard
 
@@ -792,6 +917,21 @@ __metadata:
     nullthrows: "npm:^1.1.1"
     semver: "npm:^7.5.2"
   checksum: 10c0/9a2731763514c0a54da9710e1131b5960b928900cbc33faf67d07a892cf9ed9f1b11ed2653e574e8363c4527d16e008365917b7b09eb3b9ee727fd244a5f51ee
+  languageName: node
+  linkType: hard
+
+"@parcel/node-resolver-core@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@parcel/node-resolver-core@npm:3.4.0"
+  dependencies:
+    "@mischnic/json-sourcemap": "npm:^0.1.0"
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/fs": "npm:2.13.0"
+    "@parcel/rust": "npm:2.13.0"
+    "@parcel/utils": "npm:2.13.0"
+    nullthrows: "npm:^1.1.1"
+    semver: "npm:^7.5.2"
+  checksum: 10c0/74eb45d32410378642949bc745b3d02dd36e440fbc6d5f935d641c4d121bbb2f3a4916df69145491e6d0a868adaab33958e5bb503e605a065bcee7de270a8416
   languageName: node
   linkType: hard
 
@@ -897,6 +1037,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/package-manager@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/package-manager@npm:2.13.0"
+  dependencies:
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/fs": "npm:2.13.0"
+    "@parcel/logger": "npm:2.13.0"
+    "@parcel/node-resolver-core": "npm:3.4.0"
+    "@parcel/types": "npm:2.13.0"
+    "@parcel/utils": "npm:2.13.0"
+    "@parcel/workers": "npm:2.13.0"
+    "@swc/core": "npm:^1.7.26"
+    semver: "npm:^7.5.2"
+  peerDependencies:
+    "@parcel/core": ^2.13.0
+  checksum: 10c0/a0aa1b236b220e08462b2f46b1b71900e332a704bb4b255ba1c4f05bb81b271eddaad94faad8616946dbb27a72d455cc8e8170cf75c373ebfeeba7da926097e1
+  languageName: node
+  linkType: hard
+
 "@parcel/packager-css@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/packager-css@npm:2.12.0"
@@ -979,6 +1138,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/plugin@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/plugin@npm:2.13.0"
+  dependencies:
+    "@parcel/types": "npm:2.13.0"
+  checksum: 10c0/fb205b0462807886fd1a345f73182d258f3168f6f7056b9063ffec0c028a096323fa544886cf5ef7579be9448cb6415ed36ec93170b49dd95c78f5ea9bad8275
+  languageName: node
+  linkType: hard
+
 "@parcel/profiler@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/profiler@npm:2.12.0"
@@ -987,6 +1155,18 @@ __metadata:
     "@parcel/events": "npm:2.12.0"
     chrome-trace-event: "npm:^1.0.2"
   checksum: 10c0/3caa9014da88f7435c43396fd1bb413c35134801699943717079a92fcd3ab0a0974c98b98473c5bc1ef434ce8203483fb96af642c1d64e20266625499ca4b4fe
+  languageName: node
+  linkType: hard
+
+"@parcel/profiler@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/profiler@npm:2.13.0"
+  dependencies:
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/events": "npm:2.13.0"
+    "@parcel/types-internal": "npm:2.13.0"
+    chrome-trace-event: "npm:^1.0.2"
+  checksum: 10c0/7266fa75e14da0946d59b8229d7d3a0008f1c44f3c3a1e0557713560f80c4a95327c868ceb4372e0547cfb766b7e0668eb2fc147cce6649e356a20f372500ff3
   languageName: node
   linkType: hard
 
@@ -1084,6 +1264,13 @@ __metadata:
   version: 2.12.0
   resolution: "@parcel/rust@npm:2.12.0"
   checksum: 10c0/38d8e5c69b31b3f7eb431f479c250f7a4e37f7814ce0aa16d42c300fffa25659da0ea8ca8e22534fa2b935dc8559507829d0cdebb588756aa4c3619565dcd3e3
+  languageName: node
+  linkType: hard
+
+"@parcel/rust@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/rust@npm:2.13.0"
+  checksum: 10c0/389caeacef99d9986dc9f0372a212d49f8b78f99eeb0db1f2d7accd3a73543f9e1dad27d497dd0cf671eed80421943b65ac90d9f557196da51c9d8c4af62f7b9
   languageName: node
   linkType: hard
 
@@ -1291,6 +1478,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/types-internal@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/types-internal@npm:2.13.0"
+  dependencies:
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/feature-flags": "npm:2.13.0"
+    "@parcel/source-map": "npm:^2.1.1"
+    utility-types: "npm:^3.10.0"
+  checksum: 10c0/8d6fab8dd8c2e534fbf7ef1299f830084ab62bdce1bbc67e86c39b8926335b32a5a390df92252faa96acbe97bcef41404899db3fd44099bda485359c16971d47
+  languageName: node
+  linkType: hard
+
 "@parcel/types@npm:2.12.0":
   version: 2.12.0
   resolution: "@parcel/types@npm:2.12.0"
@@ -1303,6 +1502,16 @@ __metadata:
     "@parcel/workers": "npm:2.12.0"
     utility-types: "npm:^3.10.0"
   checksum: 10c0/a8aa61ad7cc8218a41fe27c206031b30c55eab59cd4affdfac7d15ddcfb80a1969c22086760b7d4fbdd63016dbfe3278d462e04b9c12e474780fe154caf08150
+  languageName: node
+  linkType: hard
+
+"@parcel/types@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/types@npm:2.13.0"
+  dependencies:
+    "@parcel/types-internal": "npm:2.13.0"
+    "@parcel/workers": "npm:2.13.0"
+  checksum: 10c0/f9aa1be70403fae01bd2cf1b06e9125491189ac845771e7cda66f8b68cab79a8235cf730205bccff636d03bd2e68faa708bbe283fa573b01159abf9e1f250d6b
   languageName: node
   linkType: hard
 
@@ -1319,6 +1528,22 @@ __metadata:
     chalk: "npm:^4.1.0"
     nullthrows: "npm:^1.1.1"
   checksum: 10c0/888e2352d056ceff4e81d0cf4ae4eb8f322b0a8c4eb9e6f6aa5f916adc3f27c90369d5580b4f316029bf5160294a607795181a6bb368741524c177a14b2aa7c7
+  languageName: node
+  linkType: hard
+
+"@parcel/utils@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/utils@npm:2.13.0"
+  dependencies:
+    "@parcel/codeframe": "npm:2.13.0"
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/logger": "npm:2.13.0"
+    "@parcel/markdown-ansi": "npm:2.13.0"
+    "@parcel/rust": "npm:2.13.0"
+    "@parcel/source-map": "npm:^2.1.1"
+    chalk: "npm:^4.1.2"
+    nullthrows: "npm:^1.1.1"
+  checksum: 10c0/3fae0f3b2cad7bcc759c377cf00850ff61f528f96169f199b644ff3ec5c4361e2ba86766497be432fe10af4b00877d5cb5201a81871c5da42735ee3afd057993
   languageName: node
   linkType: hard
 
@@ -1472,6 +1697,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/workers@npm:2.13.0":
+  version: 2.13.0
+  resolution: "@parcel/workers@npm:2.13.0"
+  dependencies:
+    "@parcel/diagnostic": "npm:2.13.0"
+    "@parcel/logger": "npm:2.13.0"
+    "@parcel/profiler": "npm:2.13.0"
+    "@parcel/types-internal": "npm:2.13.0"
+    "@parcel/utils": "npm:2.13.0"
+    nullthrows: "npm:^1.1.1"
+  peerDependencies:
+    "@parcel/core": ^2.13.0
+  checksum: 10c0/c93c14fc249cf191a0453fbad83fb56fe3360c39376b698e8e129af333e4d75115414573a27062da50ab11b02b3cc30f2e299069dc4292b6aa11ec0e6c455440
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -1486,9 +1727,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-darwin-arm64@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-darwin-arm64@npm:1.9.2"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@swc/core-darwin-x64@npm:1.4.17":
   version: 1.4.17
   resolution: "@swc/core-darwin-x64@npm:1.4.17"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-x64@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-darwin-x64@npm:1.9.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -1500,9 +1755,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-linux-arm-gnueabihf@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.9.2"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
 "@swc/core-linux-arm64-gnu@npm:1.4.17":
   version: 1.4.17
   resolution: "@swc/core-linux-arm64-gnu@npm:1.4.17"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-gnu@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.9.2"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
@@ -1514,9 +1783,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-linux-arm64-musl@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-linux-arm64-musl@npm:1.9.2"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
 "@swc/core-linux-x64-gnu@npm:1.4.17":
   version: 1.4.17
   resolution: "@swc/core-linux-x64-gnu@npm:1.4.17"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-gnu@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-linux-x64-gnu@npm:1.9.2"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -1528,9 +1811,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-linux-x64-musl@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-linux-x64-musl@npm:1.9.2"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
 "@swc/core-win32-arm64-msvc@npm:1.4.17":
   version: 1.4.17
   resolution: "@swc/core-win32-arm64-msvc@npm:1.4.17"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-arm64-msvc@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.9.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -1542,9 +1839,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-win32-ia32-msvc@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.9.2"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
 "@swc/core-win32-x64-msvc@npm:1.4.17":
   version: 1.4.17
   resolution: "@swc/core-win32-x64-msvc@npm:1.4.17"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-x64-msvc@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@swc/core-win32-x64-msvc@npm:1.9.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1595,6 +1906,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core@npm:^1.7.26":
+  version: 1.9.2
+  resolution: "@swc/core@npm:1.9.2"
+  dependencies:
+    "@swc/core-darwin-arm64": "npm:1.9.2"
+    "@swc/core-darwin-x64": "npm:1.9.2"
+    "@swc/core-linux-arm-gnueabihf": "npm:1.9.2"
+    "@swc/core-linux-arm64-gnu": "npm:1.9.2"
+    "@swc/core-linux-arm64-musl": "npm:1.9.2"
+    "@swc/core-linux-x64-gnu": "npm:1.9.2"
+    "@swc/core-linux-x64-musl": "npm:1.9.2"
+    "@swc/core-win32-arm64-msvc": "npm:1.9.2"
+    "@swc/core-win32-ia32-msvc": "npm:1.9.2"
+    "@swc/core-win32-x64-msvc": "npm:1.9.2"
+    "@swc/counter": "npm:^0.1.3"
+    "@swc/types": "npm:^0.1.15"
+  peerDependencies:
+    "@swc/helpers": "*"
+  dependenciesMeta:
+    "@swc/core-darwin-arm64":
+      optional: true
+    "@swc/core-darwin-x64":
+      optional: true
+    "@swc/core-linux-arm-gnueabihf":
+      optional: true
+    "@swc/core-linux-arm64-gnu":
+      optional: true
+    "@swc/core-linux-arm64-musl":
+      optional: true
+    "@swc/core-linux-x64-gnu":
+      optional: true
+    "@swc/core-linux-x64-musl":
+      optional: true
+    "@swc/core-win32-arm64-msvc":
+      optional: true
+    "@swc/core-win32-ia32-msvc":
+      optional: true
+    "@swc/core-win32-x64-msvc":
+      optional: true
+  peerDependenciesMeta:
+    "@swc/helpers":
+      optional: true
+  checksum: 10c0/697e601fa1246367ca67e87e87c45f6341373ae98d8d24c9586c4069660c73f8675bf94b86cf218308395eda8e355ae076fc8c9c8f7aaa50898c228db38b637d
+  languageName: node
+  linkType: hard
+
 "@swc/counter@npm:^0.1.2, @swc/counter@npm:^0.1.3":
   version: 0.1.3
   resolution: "@swc/counter@npm:0.1.3"
@@ -1608,6 +1965,15 @@ __metadata:
   dependencies:
     tslib: "npm:^2.4.0"
   checksum: 10c0/db7d82cf1301d01a92777795abe6846fd0a0af15bf52c37f1f2945cdafd96ebc612276820fc4c04e0b875b7109b5f4087e796afe7ddba36c1137d895144db2e2
+  languageName: node
+  linkType: hard
+
+"@swc/types@npm:^0.1.15":
+  version: 0.1.15
+  resolution: "@swc/types@npm:0.1.15"
+  dependencies:
+    "@swc/counter": "npm:^0.1.3"
+  checksum: 10c0/82bcfa64e53c6c93ae162fe9e491e5f300227fad6f110e32d9718e5a0e29586bc79c516234f6eccbe5ccd7ed72b514a21f03196a54408cf1b7b47c072fad44f0
   languageName: node
   linkType: hard
 
@@ -2380,7 +2746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -2684,7 +3050,7 @@ __metadata:
     "@fortawesome/free-brands-svg-icons": "npm:^6.5.2"
     "@fortawesome/sharp-light-svg-icons": "npm:^6.5.2"
     "@parcel/config-default": "npm:^2.12.0"
-    "@parcel/core": "npm:^2.12.0"
+    "@parcel/core": "npm:^2.13.0"
     "@parcel/optimizer-image": "npm:^2.12.0"
     "@parcel/optimizer-svgo": "npm:^2.12.0"
     "@parcel/optimizer-terser": "npm:^2.12.0"
@@ -2910,10 +3276,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv-expand@npm:^11.0.6":
+  version: 11.0.7
+  resolution: "dotenv-expand@npm:11.0.7"
+  dependencies:
+    dotenv: "npm:^16.4.5"
+  checksum: 10c0/d80b8a7be085edf351270b96ac0e794bc3ddd7f36157912939577cb4d33ba6492ebee349d59798b71b90e36f498d24a2a564fb4aa00073b2ef4c2a3a49c467b1
+  languageName: node
+  linkType: hard
+
 "dotenv-expand@npm:^5.1.0":
   version: 5.1.0
   resolution: "dotenv-expand@npm:5.1.0"
   checksum: 10c0/24ac633de853ef474d0421cc639328b7134109c8dc2baaa5e3afb7495af5e9237136d7e6971e55668e4dce915487eb140967cdd2b3e99aa439e0f6bf8b56faeb
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.4.5":
+  version: 16.4.5
+  resolution: "dotenv@npm:16.4.5"
+  checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
   languageName: node
   linkType: hard
 
