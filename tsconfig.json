@@ -9,10 +9,18 @@
     }
   ],
   "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@/*": ["./src/*"],
-      "~/*": ["./src/*"],
-      "~~/*": ["./*"],
+      "@/*": [
+        "./src/*"
+      ],
+      "~/*": [
+        "./src/*"
+      ],
+      "~~/*": [
+        "./*"
+      ],
     },
   }
 }
