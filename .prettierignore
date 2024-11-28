@@ -1,5 +1,0 @@
-# Ignore artifacts
-dist
-
-# Ignore libraries
-node_modules

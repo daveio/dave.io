@@ -1,72 +1,72 @@
 {
-  "name": "dave.io",
-  "packageManager": "yarn@4.5.3",
-  "private": true,
-  "author": "Dave Williams <dave@dave.io>",
-  "browserslist": "> 1%, last 2 versions, not dead",
-  "description": "dave.io codebase",
-  "license": "All Rights Reserved",
-  "repository": "https://github.com/daveio/dave.io",
-  "scripts": {
-    "build": "rm -rf dist || mkdir dist && yarn parcel build src/index.html --dist-dir dist"
+  "name": "pg-nuxt-tailwindcss",
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://pg-nuxt-tailwindcss.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinegrow/pg-nuxt-tailwindcss.git"
   },
-  "staticFiles": [
-    {
-      "distPath": "dist",
-      "staticOutPath": ".",
-      "staticPath": "src/_static"
-    },
-    {
-      "distPath": "dist",
-      "staticOutPath": ".well-known",
-      "staticPath": "src/_well-known"
-    },
-    {
-      "distPath": "dist",
-      "staticOutPath": "care",
-      "staticPath": "src/care"
-    }
-  ],
-  "devDependencies": {
-    "@parcel/config-default": "^2.13.2",
-    "@parcel/core": "^2.13.2",
-    "@parcel/optimizer-image": "^2.13.2",
-    "@parcel/optimizer-svgo": "^2.13.2",
-    "@parcel/optimizer-terser": "^2.13.2",
-    "@parcel/transformer-sass": "^2.13.2",
-    "@parcel/transformer-typescript-tsc": "^2.13.2",
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/container-queries": "^0.1.1",
-    "@tailwindcss/forms": "^0.5.9",
-    "@tailwindcss/typography": "^0.5.15",
-    "@types/jquery": "^3.5.32",
-    "autoprefixer": "^10.4.20",
-    "parcel": "^2.13.2",
-    "parcel-reporter-static-files-copy": "^1.5.3",
-    "postcss": "^8.4.49",
-    "posthtml": "0.16.6",
-    "posthtml-include": "^2.0.1",
-    "prettier": "^3.4.1",
-    "prettier-plugin-css-order": "^2.1.2",
-    "prettier-plugin-import-sort": "^0.0.7",
-    "prettier-plugin-jsdoc": "^1.3.0",
-    "prettier-plugin-organize-attributes": "^1.0.0",
-    "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier-plugin-sort-imports": "^1.8.6",
-    "prettier-plugin-style-order": "^0.2.2",
-    "prettier-plugin-tailwindcss": "^0.6.9",
-    "sharp": "^0.33.5",
-    "tailwindcss": "^3.4.15",
-    "ts-standard": "^12.0.2",
-    "typescript": "5.7.2"
+  "scripts": {
+    "dev": "nuxt dev",
+    "now": "npm run build && npm run preview",
+    "lighthouse": "npx unlighthouse --no-cache --site https://pg-nuxt-tailwindcss.netlify.app",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "analyze": "nuxt analyze",
+    "vue-devtools": "vue-devtools",
+    "lint": "npm run lint:fix && npm run format",
+    "lint:fix": "eslint --fix ./",
+    "format": "prettier --write \"**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,md,mdx,json}\" !public --ignore-path .gitignore"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "^6.7.1",
-    "@fortawesome/fontawesome-pro": "^6.7.1",
-    "@fortawesome/fontawesome-svg-core": "^6.7.1",
-    "@fortawesome/free-brands-svg-icons": "6.7.1",
-    "@fortawesome/sharp-light-svg-icons": "^6.7.1",
-    "@fortawesome/sharp-regular-svg-icons": "^6.7.1",
-    "@fortawesome/sharp-solid-svg-icons": "^6.7.1"
-  }
+    "@pinia/nuxt": "^0.5.4",
+    "@vee-validate/nuxt": "^4.13.2",
+    "@vueuse/core": "^11.0.3",
+    "lite-youtube-embed": "^0.3.3",
+    "pinia": "^2.2.2"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.242",
+    "@nuxt/content": "^2.13.2",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/icon": "^1.5.0",
+    "@nuxt/image": "^1.8.0",
+    "@nuxtjs/critters": "^0.7.2",
+    "@nuxtjs/fontaine": "^0.4.3",
+    "@nuxtjs/html-validator": "^1.8.2",
+    "@nuxtjs/seo": "^2.0.0-rc.19",
+    "@pinegrow/nuxt-module": "^3.0.60",
+    "@pinegrow/tailwindcss-plugin": "^3.0.29",
+    "@resvg/resvg-js": "^2.5.0",
+    "@tailwindcss/forms": "^0.5.8",
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^22.5.1",
+    "@unocss/nuxt": "^0.62.3",
+    "@unocss/preset-icons": "^0.62.3",
+    "@vue/devtools": "^6.6.3",
+    "@vueuse/nuxt": "^11.0.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "npm-run-all": "^4.1.5",
+    "nuxt": "^3.13.0",
+    "nuxt-icon": "^0.6.10",
+    "postcss": "^8.4.41",
+    "prettier": "^3.3.3",
+    "rehype-external-links": "^3.0.0",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "nuxi": "3.8.4"
+    }
+  },
+  "overrides": {
+    "nuxi": "3.8.4"
+  },
+  "web-types": "web-types.json"
 }
