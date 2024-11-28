@@ -3,4 +3,4 @@ command = "npm run generate"
 publish = "dist"
 
 [build.environment]
-NODE_VERSION = "20.14.0"
+NODE_VERSION = "23.3.0"

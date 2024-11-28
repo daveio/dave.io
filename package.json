@@ -1,11 +1,12 @@
 {
-  "name": "pg-nuxt-tailwindcss",
-  "version": "0.0.0",
+  "name": "dave.io",
+  "version": "0.1.0",
+  "private": true,
   "type": "module",
-  "homepage": "https://pg-nuxt-tailwindcss.netlify.app",
+  "homepage": "https://dave.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinegrow/pg-nuxt-tailwindcss.git"
+    "url": "https://github.com/daveio/dave.io.git"
   },
   "scripts": {
     "dev": "nuxt dev",
@@ -22,51 +23,45 @@
     "format": "prettier --write \"**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,md,mdx,json}\" !public --ignore-path .gitignore"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.4",
-    "@vee-validate/nuxt": "^4.13.2",
-    "@vueuse/core": "^11.0.3",
+    "@pinia/nuxt": "^0.8.0",
+    "@vee-validate/nuxt": "^4.14.7",
+    "@vueuse/core": "^12.0.0",
     "lite-youtube-embed": "^0.3.3",
-    "pinia": "^2.2.2"
+    "pinia": "^2.2.8"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.242",
-    "@nuxt/content": "^2.13.2",
-    "@nuxt/eslint": "^0.3.13",
-    "@nuxt/icon": "^1.5.0",
-    "@nuxt/image": "^1.8.0",
-    "@nuxtjs/critters": "^0.7.2",
-    "@nuxtjs/fontaine": "^0.4.3",
+    "@iconify/json": "^2.2.277",
+    "@nuxt/content": "^2.13.4",
+    "@nuxt/eslint": "^0.7.2",
+    "@nuxt/icon": "^1.8.2",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/critters": "^0.8.0",
+    "@nuxtjs/fontaine": "^0.4.4",
     "@nuxtjs/html-validator": "^1.8.2",
-    "@nuxtjs/seo": "^2.0.0-rc.19",
-    "@pinegrow/nuxt-module": "^3.0.60",
-    "@pinegrow/tailwindcss-plugin": "^3.0.29",
-    "@resvg/resvg-js": "^2.5.0",
-    "@tailwindcss/forms": "^0.5.8",
+    "@nuxtjs/seo": "^2.0.2",
+    "@pinegrow/nuxt-module": "^3.0.62",
+    "@pinegrow/tailwindcss-plugin": "^3.0.33",
+    "@resvg/resvg-js": "^2.6.2",
+    "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/typography": "^0.5.15",
-    "@types/node": "^22.5.1",
-    "@unocss/nuxt": "^0.62.3",
-    "@unocss/preset-icons": "^0.62.3",
-    "@vue/devtools": "^6.6.3",
-    "@vueuse/nuxt": "^11.0.3",
+    "@types/node": "^22.10.1",
+    "@unocss/nuxt": "^0.64.1",
+    "@unocss/preset-icons": "^0.64.1",
+    "@vue/devtools": "^7.6.7",
+    "@vueuse/nuxt": "^12.0.0",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.9.1",
+    "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all": "^4.1.5",
-    "nuxt": "^3.13.0",
-    "nuxt-icon": "^0.6.10",
-    "postcss": "^8.4.41",
-    "prettier": "^3.3.3",
+    "nuxi": "^3.16.0",
+    "nuxt": "^3.14.1592",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.1",
     "rehype-external-links": "^3.0.0",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.2",
+    "vue": "^3.5.13"
   },
-  "pnpm": {
-    "overrides": {
-      "nuxi": "3.8.4"
-    }
-  },
-  "overrides": {
-    "nuxi": "3.8.4"
-  },
-  "web-types": "web-types.json"
+  "web-types": "web-types.json",
+  "packageManager": "yarn@4.5.3"
 }
