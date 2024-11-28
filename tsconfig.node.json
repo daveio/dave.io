@@ -8,6 +8,13 @@
     "playwright.config.*"
   ],
   "compilerOptions": {
+    "target": "ES6",
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ESNext",
+      "ES6",
+      "DOM"
+    ],
     "composite": true,
     "noEmit": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
