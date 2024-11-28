@@ -6,7 +6,7 @@ command = "bun run build"
 publish = "dist"
 
 [build.environment]
-NODE_VERSION = "23.3.0"
+NODE_VERSION = "22.11.0"
 
 [dev]
 command = "bun run dev"
