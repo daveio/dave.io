@@ -29,6 +29,8 @@ coverage
 
 *.tsbuildinfo
 
+.yarn
+
 # Vue Designer
 
 # Pinegrow temp folders
