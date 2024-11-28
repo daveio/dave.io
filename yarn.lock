@@ -1140,7 +1140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/collections@npm:^1.0.484":
+"@iconify/collections@npm:^1.0.425, @iconify/collections@npm:^1.0.484":
   version: 1.0.488
   resolution: "@iconify/collections@npm:1.0.488"
   dependencies:
@@ -1166,7 +1166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/utils@npm:^2.1.33":
+"@iconify/utils@npm:^2.1.23, @iconify/utils@npm:^2.1.33":
   version: 2.1.33
   resolution: "@iconify/utils@npm:2.1.33"
   dependencies:
@@ -1178,6 +1178,17 @@ __metadata:
     local-pkg: "npm:^0.5.0"
     mlly: "npm:^1.7.1"
   checksum: 10c0/86faf1abee78ba75cbb7d8cdd454f7a8da11d46913a8108c4c1f49243870ef787a2ef00e574e1cfff0f70e1f7bbe4ced2ffc7436baf95bfd66e52802e187bc13
+  languageName: node
+  linkType: hard
+
+"@iconify/vue@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "@iconify/vue@npm:4.1.2"
+  dependencies:
+    "@iconify/types": "npm:^2.0.0"
+  peerDependencies:
+    vue: ">=3"
+  checksum: 10c0/53ef92a1f02230fe3a4c1d178fff29f14c3392707e74ccf8611cdc1c9f0193d5c26c4cd95ea05e358baf4842f585fad1b809601319e0e2ce5200586f94ba8f70
   languageName: node
   linkType: hard
 
@@ -1451,7 +1462,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/devtools-kit@npm:1.6.1, @nuxt/devtools-kit@npm:^1.6.0, @nuxt/devtools-kit@npm:^1.6.1":
+"@nuxt/devtools-kit@npm:1.6.1, @nuxt/devtools-kit@npm:^1.3.1, @nuxt/devtools-kit@npm:^1.6.0, @nuxt/devtools-kit@npm:^1.6.1":
   version: 1.6.1
   resolution: "@nuxt/devtools-kit@npm:1.6.1"
   dependencies:
@@ -5461,6 +5472,7 @@ __metadata:
     npm-run-all: "npm:^4.1.5"
     nuxi: "npm:^3.16.0"
     nuxt: "npm:^3.14.1592"
+    nuxt-icon: "npm:^1.0.0-beta.7"
     pinia: "npm:^2.2.8"
     postcss: "npm:^8.4.49"
     prettier: "npm:^3.4.1"
@@ -10502,6 +10514,24 @@ __metadata:
     nuxt: bin/nuxi.mjs
     nuxt-cli: bin/nuxi.mjs
   checksum: 10c0/fa5d78f06f10ab55677f0089347c806108fd04ff05612c874951d174adfbcb3c07c7c079384c356975f60ce27851bdb4fb2e27de019f34c3444333841f41717a
+  languageName: node
+  linkType: hard
+
+"nuxt-icon@npm:^1.0.0-beta.7":
+  version: 1.0.0-beta.7
+  resolution: "nuxt-icon@npm:1.0.0-beta.7"
+  dependencies:
+    "@iconify/collections": "npm:^1.0.425"
+    "@iconify/types": "npm:^2.0.0"
+    "@iconify/utils": "npm:^2.1.23"
+    "@iconify/vue": "npm:^4.1.2"
+    "@nuxt/devtools-kit": "npm:^1.3.1"
+    "@nuxt/kit": "npm:^3.11.2"
+    consola: "npm:^3.2.3"
+    fast-glob: "npm:^3.3.2"
+    local-pkg: "npm:^0.5.0"
+    pathe: "npm:^1.1.2"
+  checksum: 10c0/42f268744b515c5cee03ca537f5f11a27c5b468c4c61863aaf652bc0ddbc57079ce37861fcb4104bb06dac9a763138a23f5bf71d082c65eb92e565553b2f0995
   languageName: node
   linkType: hard
 
