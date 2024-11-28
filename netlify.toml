@@ -11,6 +11,7 @@ NODE_VERSION = "22.11.0"
 [dev]
 command = "bun run dev"
 port = 14131
+targetPort = 5173
 
 # # Settings for the [build] key are global and are applied to
 # # all deploy contexts unless overridden by a context-specific setting.
