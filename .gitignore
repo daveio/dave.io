@@ -31,6 +31,8 @@ coverage
 
 .yarn
 
+.netlify
+
 # Vue Designer
 
 # Pinegrow temp folders
