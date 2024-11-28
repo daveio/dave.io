@@ -1,8 +1,6 @@
 {
   "recommendations": [
     "Vue.volar",
-    "vitest.explorer",
-    "browserstackcom.nightwatch",
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode"
