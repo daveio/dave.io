@@ -6,9 +6,9 @@ export default {
   },
   plugins: [
     require('@pinegrow/tailwindcss-plugin').default({
-      colors: pg_colors, // primary, secondary etc
-      fonts: pg_fonts,
-      backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
+      // colors: pg_colors, // primary, secondary etc
+      // fonts: pg_fonts,
+      // backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
     }),
   ],
   get content() {
