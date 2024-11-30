@@ -1,0 +1,15 @@
+{
+  "compatibility_date": "2024-11-30",
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "e5cc179ce0774db2b05c7015f1e1c1d5"
+    }
+  ],
+  "name": "dave-io",
+  "pages_build_output_dir": "dist",
+  "placement": {
+    "mode": "smart"
+  },
+  "vars": {}
+}
