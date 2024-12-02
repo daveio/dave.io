@@ -68,9 +68,9 @@ mode = "smart"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#kv-namespaces
-[[kv_namespaces]]
-binding = "KV"
-id = "e5cc179ce0774db2b05c7015f1e1c1d5"
+# [[kv_namespaces]]
+# binding = "KV"
+# id = "e5cc179ce0774db2b05c7015f1e1c1d5"
 
 # Bind an mTLS certificate. Use to present a client certificate when communicating with another service.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#mtls-certificates
