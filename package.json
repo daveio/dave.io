@@ -15,7 +15,7 @@
     "lint:eslint": "eslint . --fix",
     "lint": "run-s lint:*",
     "format": "prettier --write src/",
-    "deploy": "bun run build && wrangler pages deploy ./dist"
+    "deploy": "bun run build && wrangler pages deploy ./dist",
     "switch-branch": "rm -rf dist node_modules bun.lockb .trunk; git checkout main; bun install"
   },
   "dependencies": {
