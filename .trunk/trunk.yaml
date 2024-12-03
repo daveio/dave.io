@@ -14,8 +14,15 @@ runtimes:
   enabled:
     - node@18.12.1
     - python@3.10.8
+
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
+  ignore:
+    - linters:
+        - ALL
+      paths:
+        - themes/pg-tailwindcss/tokens.cjs
+        - themes/pg-tailwindcss/tokens.mjs
   disabled:
     - svgo
   enabled:
