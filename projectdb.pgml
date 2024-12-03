@@ -16,7 +16,7 @@
                 <dmcolor key="color3" color="rgb(251,181,67)" shade-50="#fef5ed" shade-100="#ffe9cd" shade-200="#ffdcad" shade-300="#ffcf8b" shade-400="#ffc268" shade-500="rgb(251,181,67)" shade-600="#e0a23c" shade-700="#c78f35" shade-800="#ad7d2e" shade-900="#946b28"/>
                 <dmcolor key="color4" color="rgb(129,102,67)" shade-50="#f0eeed" shade-100="#dad1c8" shade-200="#c4b5a5" shade-300="#ae9a83" shade-400="#988062" shade-500="rgb(129,102,67)" shade-600="#735b3c" shade-700="#665135" shade-800="#59462e" shade-900="#4c3c28"/>
             </dmdesignskill>
-            <dmdesignskill skill="fonts" family_1="neo-sans" family_2="dejanire-text" name_3="header" h1_3 h2_3 h3_3 h4_3 h5_3 h6_3 family_3="rift" name_4="mono" family_4="essential-pragmatapro"></dmdesignskill>
+            <dmdesignskill skill="fonts" family_1="neo-sans" family_2="dejanire-text" name_3="header" h1_3 h2_3 h3_3 h4_3 h5_3 h6_3 family_3="rift" name_4="mono" family_4="essential-pragmatapro" name_5="footer" family_5="korolev-condensed"></dmdesignskill>
             <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="file:///Users/dave/src/github.com/daveio/dave.io/src/assets/bg.jpg" selector="html"></dmdesignskill>
         </dmdesign>
     </dmdesigns>

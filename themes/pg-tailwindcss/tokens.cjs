@@ -145,6 +145,8 @@ header: ["'rift', sans-serif",
 ],
 mono: ["'essential-pragmatapro', sans-serif",
 ],
+footer: ["'korolev-condensed', sans-serif",
+],
 }   
 
 const pg_font_urls = ['https://use.typekit.net/ecm5qze.css',
