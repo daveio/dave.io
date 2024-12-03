@@ -32,7 +32,7 @@ import BaseIcon from '@/components/BaseIcon.vue'
         <h2>All junk copyright literally nobody.</h2>
         <h2>
           Feel free to yoink any of <a href="https://github.com/daveio/dave.io">the code</a> if it
-          helps you.
+          helps you. It's MIT licenced.
         </h2>
         <h2>
           Just do me a favour and
