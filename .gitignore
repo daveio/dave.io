@@ -36,7 +36,10 @@ tests_output/
 .wrangler
 .dev.vars
 
-# Pinegrow temp folders
+# Vue Designer
+pinegrow.json
+
+# Vue Designer temp folders
 _pg*
 
 # # optional

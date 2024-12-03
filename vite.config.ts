@@ -16,7 +16,7 @@ export default defineConfig({
   plugins: [
     liveDesigner({
       tailwindcss: {
-        configPath: 'tailwind.config.js',
+        configPath: 'tailwind.config.ts',
         cssPath: '@/assets/css/tailwind.css',
         restartOnConfigUpdate: true,
         restartOnThemeUpdate: true,
