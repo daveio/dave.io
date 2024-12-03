@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import BaseIcon from '@/components/BaseIcon.vue'
 </script>
 <template>
     <header class="pt-3 flex flex-row space-x-5">
@@ -9,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </header>
     <main class="flex justify-center pt-6">
         <div class="size-full min-h-full ml-6 mr-9 bg-black">
+            <BaseIcon name="i-material-symbols-10k"/>
             <RouterView/>
         </div>
     </main>
@@ -22,8 +24,7 @@ import { RouterLink, RouterView } from 'vue-router'
       make? </h2>
     </footer>
 </template>
-<style scoped>
-/* header {
+<style scoped>/* header {
   line-height: 1.5;
   max-height: 100vh;
 }
@@ -83,5 +84,4 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-} */
-</style>
+} */</style>
