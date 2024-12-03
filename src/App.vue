@@ -17,7 +17,6 @@ import { RouterLink, RouterView } from 'vue-router'
         <h2>
       Feel free to yoink any of <a href="https://github.com/daveio/dave.io">the code</a> if it helps
       you. </h2>
-        <IconInclusion name="i-mdi-home"/>
         <h2>
       Just do me a favour and <a href="https://github.com/daveio/dave.io/issues/new">submit a ticket</a> telling me what you
       make? </h2>

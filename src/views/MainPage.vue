@@ -4,7 +4,7 @@ import CounterButton from '@/components/CounterButton.vue'
 <template>
     <h1>About</h1>
     <p>Content</p>
-    <p><BaseIcon name="i-mdi-home"/></p>
+    <p></p>
     <CounterButton/>
 </template>
 <style lang="css" scoped></style>
