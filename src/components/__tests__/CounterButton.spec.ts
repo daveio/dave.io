@@ -1,11 +1,11 @@
 import { describe, it, expect } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import MainPage from '../MainPage.vue'
+import CounterButton from '../CounterButton.vue'
 
-describe('Main Page', () => {
+describe('Counter Button', () => {
   it('renders properly', () => {
-    const wrapper = mount(MainPage, { props: { msg: 'Hello Vitest' } })
+    const wrapper = mount(CounterButton, { props: { msg: 'Hello Vitest' } })
     expect(wrapper.text()).toContain('Hello Vitest')
   })
 })
