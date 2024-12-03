@@ -9,6 +9,16 @@ const router = createRouter({
       name: 'home',
       component: MainPage,
     },
+    {
+      path: '/gender',
+      name: 'gender',
+      component: () => import('../views/GenderPage.vue'),
+    },
+    {
+      path: '/cv',
+      name: 'cv',
+      component: () => import('../views/CvPage.vue'),
+    },
     // {
     //   // path: '/about',
     //   // name: 'about',

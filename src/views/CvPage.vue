@@ -3,7 +3,7 @@ import CounterButton from '@/components/CounterButton.vue'
 </script>
 
 <template>
-  <h1>About</h1>
+  <h1>CV / Resumé</h1>
   <p>Content</p>
   <CounterButton />
 </template>

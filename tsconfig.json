@@ -15,6 +15,13 @@
     }
   ],
   "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "composite": true,
+    "noEmit": true,
+    "moduleResolution": "Bundler",
+    "forceConsistentCasingInFileNames": true,
     "types": ["@cloudflare/workers-types/2023-07-01"]
   }
 }
