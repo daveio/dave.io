@@ -9,6 +9,7 @@ import nightwatchPlugin from 'vite-plugin-nightwatch'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
 import { liveDesigner } from '@pinegrow/vite-plugin'
+import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https:/ / vite.dev / config /
 export default defineConfig({
@@ -21,6 +22,11 @@ export default defineConfig({
         restartOnThemeUpdate: true,
         // themePath: false, // disable Design Panel
       },
+    }),
+    VueDevTools({
+      // For details, refer to https://devtools-next.vuejs.org/guide/vite-plugin#options
+      // appendTo: 'main.ts' // specify entry/plugin (if required)
+      //...
     }),
     Unocss({
       presets: [
