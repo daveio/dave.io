@@ -9,10 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <h1><RouterLink to="/cv">cv / resumé</RouterLink></h1>
   </header>
   <main class="flex justify-center pt-6">
-    <div class="size-full ml-6 mr-9 min-h-96 bg-black">
+    <div class="size-full min-h-full ml-6 mr-9 bg-black">
       <RouterView />
-      <p class="min-h-full">boop</p>
-      <p>barf</p>
     </div>
   </main>
   <footer class="mt-auto pb-3">
