@@ -6,7 +6,9 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import nightwatchPlugin from 'vite-plugin-nightwatch'
-import liveDesigner from '@pinegrow/vite-plugin'
+import Unocss from 'unocss/vite'
+import presetIcons from '@unocss/preset-icons'
+import { liveDesigner } from '@pinegrow/vite-plugin'
 
 // https:/ / vite.dev / config /
 export default defineConfig({
@@ -18,6 +20,19 @@ export default defineConfig({
         restartOnConfigUpdate: true,
         restartOnThemeUpdate: true,
         // themePath: false, // disable Design Panel
+      },
+    }),
+    Unocss({
+      presets: [
+        presetIcons({
+          prefix: 'i-', // default prefix, do not change
+        }),
+      ],
+      content: {
+        pipeline: {
+          /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+          include: ['./src/**/*'],
+        },
       },
     }),
     vue(),
