@@ -10,12 +10,13 @@ export default {
     ]
     return process.env.NODE_ENV === 'production'
       ? _content
-      : [..._content, './_pginfo/**/*.{html,js}'] // used by Vue Designer Desginer for live-designing during development
+      : [..._content, './_pginfo/**/*.{html,js}'] // used by Vue Designer
   },
   theme: {
     extend: {},
   },
   plugins: [
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
     require('@pinegrow/tailwindcss-plugin').default({
       colors: pg_colors, // primary, secondary etc
       fonts: pg_fonts,

@@ -28,7 +28,6 @@ lint:
   enabled:
     # - svgo@3.3.2
     - checkov@3.2.322
-    - eslint@9.15.0
     - git-diff-check
     - markdownlint@0.43.0
     - prettier@3.4.1
