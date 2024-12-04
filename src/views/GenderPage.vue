@@ -1,11 +1,9 @@
 <script lang="ts" setup>
-import CounterButton from '@/components/CounterButton.vue'
+import GenderText from '@/components/GenderText.vue'
 </script>
 
 <template>
-  <h1>Gender</h1>
-  <p>Content</p>
-  <CounterButton />
+  <GenderText />
 </template>
 
 <style lang="css" scoped></style>

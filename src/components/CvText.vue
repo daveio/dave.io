@@ -4,7 +4,7 @@ import CounterButton from '@/components/CounterButton.vue'
 
 <template>
   <div>
-    <h1>About</h1>
+    <h1>CV</h1>
     <p>Content</p>
     <p></p>
     <CounterButton />

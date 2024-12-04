@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import NavItem from '@/components/NavItem.vue'
 import FooterContent from '@/components/FooterContent.vue'
+import AboutPicture from '@/components/AboutPicture.vue'
 </script>
 <template>
   <div class="text-white flex flex-col h-screen justify-between">
@@ -12,8 +13,13 @@ import FooterContent from '@/components/FooterContent.vue'
         <NavItem iconName="i-mdi-account-box" linkText="cv / resumé" linkTarget="/cv" />
       </header>
       <div class="flex flex-row justify-center">
-        <main class="mb-auto mt-5 bg-red-500 flex flex-row justify-center space-x-10 w-3/5">
-          <RouterView />
+        <main class="mb-auto mt-5 bg-red-500 w-3/5 flex flex-row justify-center space-x-10">
+          <div>
+            <AboutPicture />
+          </div>
+          <div>
+            <RouterView />
+          </div>
         </main>
       </div>
     </div>
