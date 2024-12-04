@@ -5,18 +5,32 @@ import BaseIcon from '@/components/BaseIcon.vue'
   <div>
     <img src="@/assets/self.jpg" alt="Dave Williams" class="w-[300px] rounded-2xl" />
     <p class="text-4xl text-center pt-3 font-header">Dave Williams</p>
+    <p class="text-center pt-1 font-header">they / them</p>
     <div class="pt-3 text-center">
-      <span class="pr-2">
-        <BaseIcon link="https://basilisk.gallery/@dave" name="i-fa6-brands-mastodon" /> </span
-      ><span class="pr-2">
-        <BaseIcon link="https://bsky.app/profile/dave.io" name="i-ph-butterfly-fill" /> </span
-      ><span class="pr-2"> <BaseIcon name="i-heroicons-at-symbol-20-solid" /> </span
-      ><span class="pr-2"> <BaseIcon name="i-fa6-brands-square-tumblr" /> </span
-      ><span class="pr-2"> <BaseIcon name="i-fa6-brands-twitter" /> </span
-      ><span class="pr-2"> <BaseIcon name="i-fa6-brands-facebook-f" /> </span
-      ><span>
-        <BaseIcon name="i-fa6-brands-github" />
-      </span>
+      <div class="pr-2 inline">
+        <BaseIcon link="https://basilisk.gallery/@dave" name="i-fa6-brands-mastodon" />
+      </div>
+      <div class="inline">
+        <BaseIcon link="https://go.dave.io/bsky" name="i-ph-butterfly-fill" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/threads" name="i-heroicons-at-symbol-20-solid" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/tumblr" name="i-fa6-brands-square-tumblr" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/x" name="i-fa6-brands-square-x-twitter" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/facebook" name="i-fa6-brands-facebook" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/github" name="i-fa6-brands-github" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/linkedin" name="i-fa6-brands-linkedin" />
+      </div>
     </div>
   </div>
 </template>
