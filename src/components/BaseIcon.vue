@@ -18,6 +18,10 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  link: {
+    type: String,
+    default: '',
+  },
 })
 
 const addUnit = (val: any) => {
@@ -41,7 +45,10 @@ const iconStyle = computed(() => {
 </script>
 
 <template>
-  <component :is="tag" :class="name" :style="iconStyle"> </component>
+  <a v-if="link" :href="link"
+    ><component :is="tag" :class="name" :style="iconStyle"> </component
+  ></a>
+  <component v-else :is="tag" :class="name" :style="iconStyle"> </component>
 </template>
 
 <style lang="css" scoped></style>
