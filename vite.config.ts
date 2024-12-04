@@ -3,9 +3,9 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-// import vueJsx from '@vitejs/plugin-vue-jsx'
-// import vueDevTools from 'vite-plugin-vue-devtools'
-// import nightwatchPlugin from 'vite-plugin-nightwatch'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+import vueDevTools from 'vite-plugin-vue-devtools'
+import nightwatchPlugin from 'vite-plugin-nightwatch'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
 import { liveDesigner } from '@pinegrow/vite-plugin'
@@ -35,9 +35,9 @@ export default defineConfig({
       },
     }),
     vue(),
-    // vueJsx(),
-    // vueDevTools(),
-    // nightwatchPlugin(),
+    vueJsx(),
+    vueDevTools(),
+    nightwatchPlugin(),
   ],
   resolve: {
     alias: {

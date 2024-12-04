@@ -1,10 +1,15 @@
 <script lang="ts" setup>
-import CounterButton from '@/components/CounterButton.vue'
+import AboutPicture from '@/components/AboutPicture.vue'
+import AboutText from '@/components/AboutText.vue'
 </script>
+
 <template>
-  <h1>About</h1>
-  <p>Content</p>
-  <p></p>
-  <CounterButton />
+  <div>
+    <AboutPicture />
+  </div>
+  <div>
+    <AboutText />
+  </div>
 </template>
+
 <style lang="css" scoped></style>

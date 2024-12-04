@@ -2,7 +2,9 @@
 import { ref } from 'vue'
 const count = ref(0)
 </script>
-<template lang="html">
+
+<template>
   <button @click="count++">You clicked me {{ count }} times.</button>
 </template>
+
 <style lang="css" scoped></style>
