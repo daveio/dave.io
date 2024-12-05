@@ -4,8 +4,8 @@ import BaseIcon from '@/components/BaseIcon.vue'
 <template>
   <div class="w-[200px]">
     <img src="@/assets/self-2.jpg" alt="Dave Williams" class="rounded-2xl" />
-    <p class="text-4xl text-center pt-3 font-header">Dave Williams</p>
-    <p class="text-center pt-1 font-header">they / them</p>
+    <p class="text-4xl text-center font-header">Dave Williams</p>
+    <p class="text-center font-header">they / them</p>
     <div class="pt-3 text-center">
       <div class="pr-2 inline">
         <BaseIcon link="https://basilisk.gallery/@dave" name="i-fa6-brands-mastodon" />
@@ -19,10 +19,10 @@ import BaseIcon from '@/components/BaseIcon.vue'
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/tumblr" name="i-fa6-brands-square-tumblr" />
       </div>
-      <div class="pl-2 inline">
+      <br />
+      <div class="inline">
         <BaseIcon link="https://go.dave.io/x" name="i-fa6-brands-square-x-twitter" />
       </div>
-      <br />
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/facebook" name="i-fa6-brands-facebook" />
       </div>
@@ -32,17 +32,29 @@ import BaseIcon from '@/components/BaseIcon.vue'
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/linkedin" name="i-fa6-brands-linkedin" />
       </div>
-      <div class="pl-2 inline">
+      <br />
+      <div class="inline">
         <BaseIcon link="https://go.dave.io/keybase" name="i-fa6-brands-keybase" />
       </div>
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/skype" name="i-fa6-brands-skype" />
       </div>
-      <br />
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/soundcloud" name="i-fa6-brands-soundcloud" />
+      </div>
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/radio" name="i-lucide-radio-tower" />
+      </div>
+      <div class="pt-5 text-sm text-left">
+        <p>Links currently broken. Will be fixed in the next few days.</p>
+        <p>In the meantime see <a href="https://bit.ly/m/daveio">bit.ly</a>.</p>
       </div>
     </div>
   </div>
 </template>
-<style lang="css" scoped></style>
+
+<style lang="css" scoped>
+p {
+  padding-top: 0.5em;
+}
+</style>
