@@ -8,7 +8,7 @@ import BaseIcon from './BaseIcon.vue'
     <p class="text-center font-header">they / them</p>
     <div class="pt-3 text-center">
       <div class="pr-2 inline">
-        <BaseIcon link="https://basilisk.gallery/@dave" name="i-fa6-brands-mastodon" />
+        <BaseIcon link="https://go.dave.io/mastodon" name="i-fa6-brands-mastodon" />
       </div>
       <div class="inline">
         <BaseIcon link="https://go.dave.io/bsky" name="i-ph-butterfly-fill" />

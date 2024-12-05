@@ -7,28 +7,28 @@
       things work, I keep them working, and I put them back together when they break.
     </p>
     <p>
-      I tweet as <a rel="me" href="https://twitter.com/syn">@syn</a>, toot as
-      <a rel="me" href="https://basilisk.gallery/@dave">@dave@basilisk.gallery</a>, and write at
-      <a rel="me" href="https://blog.dave.io">blog.dave.io</a> about topics I
+      I tweet as <a rel="me" href="https://go.dave.io/x">@syn</a>, toot as
+      <a rel="me" href="https://go.dave.io/mastodon">@dave@basilisk.gallery</a>, and write at
+      <a rel="me" href="https://go.dave.io/blog">blog.dave.io</a> about topics I
       consider worth a longform piece.
     </p>
     <p>
       You can email me using
       <span class="bg-gray-800 border border-dotted font-mono p-1 rounded">dave @ this domain</span>,
-      <a rel="me" href="https://keybase.io/dave">chat with me using Keybase Chat</a>, or
-      <a href="https://join.skype.com/invite/hjGqpCJJazAc">give me a call via Skype</a>.
+      <a rel="me" href="https://go.dave.io/keybase">chat with me using Keybase Chat</a>, or
+      <a href="https://go.dave.io/skype">give me a call via Skype</a>.
     </p>
     <p>
       If you want to contact me using strong encryption, I generally prefer to use
-      <a rel="me" href="https://keybase.io/dave">Keybase</a> as its native
+      <a rel="me" href="https://go.dave.io/keybase">Keybase</a> as its native
       cryptography is both strong and concise, and works both for email and for realtime chat.
     </p>
     <p>
       If you&apos;d rather use GnuPG, my key is available on
-      <a rel="me" href="https://keybase.io/dave">my Keybase profile</a>, or you
+      <a rel="me" href="https://go.dave.io/keybase">my Keybase profile</a>, or you
       can fetch key ID
       <span class="bg-gray-800 border border-dotted font-mono p-1 rounded">0x385FD3CEF5E5C6EC</span>
-      from <a href="https://keys.openpgp.org">keys.openpgp.org</a>.
+      from <a href="https://go.dave.io/keyserver">keys.openpgp.org</a>.
     </p>
     <p>
       I am <RouterLink to="/gender">non-binary</RouterLink>, and have written
