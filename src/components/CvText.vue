@@ -1,6 +1,4 @@
-<script lang="ts" setup>
-import CounterButton from '@/components/CounterButton.vue'
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div>

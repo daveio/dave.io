@@ -23,6 +23,8 @@ lint:
       paths:
         - themes/pg-tailwindcss/tokens.cjs
         - themes/pg-tailwindcss/tokens.mjs
+        - public/care/assets/js/popper.min.js
+        - public/care/bootstrap/js/bootstrap.min.js
   disabled:
     - svgo
   enabled:
