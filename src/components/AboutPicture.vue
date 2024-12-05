@@ -2,8 +2,8 @@
 import BaseIcon from '@/components/BaseIcon.vue'
 </script>
 <template>
-  <div>
-    <img src="@/assets/self.jpg" alt="Dave Williams" class="w-[300px] rounded-2xl" />
+  <div class="w-[200px]">
+    <img src="@/assets/self.jpg" alt="Dave Williams" class="rounded-2xl" />
     <p class="text-4xl text-center pt-3 font-header">Dave Williams</p>
     <p class="text-center pt-1 font-header">they / them</p>
     <div class="pt-3 text-center">
@@ -22,6 +22,7 @@ import BaseIcon from '@/components/BaseIcon.vue'
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/x" name="i-fa6-brands-square-x-twitter" />
       </div>
+      <br />
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/facebook" name="i-fa6-brands-facebook" />
       </div>
@@ -30,6 +31,12 @@ import BaseIcon from '@/components/BaseIcon.vue'
       </div>
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/linkedin" name="i-fa6-brands-linkedin" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/keybase" name="i-fa6-brands-keybase" />
+      </div>
+      <div class="pl-2 inline">
+        <BaseIcon link="https://go.dave.io/skype" name="i-fa6-brands-skype" />
       </div>
     </div>
   </div>
