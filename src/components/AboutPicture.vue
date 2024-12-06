@@ -45,10 +45,6 @@ import BaseIcon from './BaseIcon.vue'
       <div class="pl-2 inline">
         <BaseIcon link="https://go.dave.io/radio" name="i-lucide-radio-tower" />
       </div>
-      <div class="pt-5 text-sm text-left">
-        <p>Links currently broken. Will be fixed in the next few days.</p>
-        <p>In the meantime see <a href="https://bit.ly/m/daveio">bit.ly</a>.</p>
-      </div>
     </div>
   </div>
 </template>
