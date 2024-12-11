@@ -10,14 +10,13 @@
 	"scripts": {
 		"build": "run-p type-check \"build-only {@}\" --",
 		"build-only": "vite build",
-		"deploy": "bun run build && wrangler pages deploy ./dist",
+		"deploy": "pnpm run build && wrangler pages deploy ./dist",
 		"dev": "vite",
 		"format": "prettier --write src/",
 		"lint": "run-s lint:*",
 		"lint:eslint": "eslint . --fix",
 		"lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
-		"preview": "bun run build && wrangler pages dev ./dist",
-		"switch-branch": "rm -rf dist node_modules bun.lockb .trunk; git checkout main; bun install",
+		"preview": "pnpm run build && wrangler pages dev ./dist",
 		"test:e2e": "nightwatch tests/e2e/*",
 		"test:unit": "vitest",
 		"type-check": "vue-tsc --build --force"
@@ -69,10 +68,10 @@
 		"vue-tsc": "^2.1.10",
 		"wrangler": "^3.93.0"
 	},
-	"packageManager": "bun@1.1.38",
+	"packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c",
 	"engines": {
-		"bun": "~1.1.38",
-		"node": ">= 18"
+		"node": "~22.12.0",
+		"pnpm": "~9.15.0"
 	},
 	"trustedDependencies": [
 		"@nightwatch/nightwatch-inspector",
