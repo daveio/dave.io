@@ -53,7 +53,7 @@
 		"jsdom": "^25.0.1",
 		"nightwatch": "^3.9.0",
 		"npm-run-all2": "^7.0.1",
-		"oxlint": "^0.14.1",
+		"oxlint": "^0.15.0",
 		"postcss": "^8.4.49",
 		"prettier": "^3.4.2",
 		"stylelint-config-standard": "^36.0.1",
