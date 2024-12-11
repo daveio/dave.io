@@ -48,7 +48,7 @@
 		"autoprefixer": "^10.4.20",
 		"chromedriver": "^131.0.2",
 		"eslint": "^9.16.0",
-		"eslint-plugin-oxlint": "^0.14.1",
+		"eslint-plugin-oxlint": "^0.15.0",
 		"eslint-plugin-vue": "^9.32.0",
 		"geckodriver": "^5.0.0",
 		"jsdom": "^25.0.1",
