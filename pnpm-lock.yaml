@@ -34,8 +34,8 @@ importers:
         specifier: ^3.0.35
         version: 3.0.35(tailwindcss@3.4.16(ts-node@10.9.2(@types/node@22.10.2)(typescript@5.6.3)))
       '@pinegrow/vite-plugin':
-        specifier: ^3.0.66
-        version: 3.0.67
+        specifier: ^3.0.68
+        version: 3.0.68
       '@tsconfig/node22':
         specifier: ^22.0.0
         version: 22.0.0
@@ -1350,8 +1350,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3'
 
-  '@pinegrow/vite-plugin@3.0.67':
-    resolution: {integrity: sha512-ZzR/033VMgWbZSHVpqrgPM3AcFiC20oIhTrTnEfuyaHz5LJAr/Puz6swsc8CSLkLddxG/gcZCjICfQZuHNexQg==}
+  '@pinegrow/vite-plugin@3.0.68':
+    resolution: {integrity: sha512-Z9B0jGvvAUe8s1Pycf1nWTcxmV8WbcxZySdAoN0XkCrd9tq1KFzzchPIYjckwjiZmZUwo/vg5HZK6KBa+Soy+g==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -5831,7 +5831,7 @@ snapshots:
       sucrase: 3.35.0
       tailwindcss: 3.4.16(ts-node@10.9.2(@types/node@22.10.2)(typescript@5.6.3))
 
-  '@pinegrow/vite-plugin@3.0.67':
+  '@pinegrow/vite-plugin@3.0.68':
     dependencies:
       '@vue/compiler-sfc': 3.5.13
       magic-string: 0.27.0
