@@ -1,4 +1,4 @@
-describe("My First Test", () => {
+describe("Basics", () => {
 	before((browser) => {
 		browser.init();
 	});
