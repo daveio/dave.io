@@ -7,13 +7,13 @@ cli:
 plugins:
   sources:
     - id: trunk
-      ref: v1.6.5
+      ref: v1.6.6
       uri: https://github.com/trunk-io/plugins
 # Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
 runtimes:
   enabled:
     - go@1.21.0
-    - node@18.12.1
+    - node@18.20.5
     - python@3.10.8
 
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
@@ -24,8 +24,8 @@ lint:
     - prettier
   enabled:
     - biome@1.9.4
-    - checkov@3.2.332
-    - circleci@0.1.30995
+    - checkov@3.2.343
+    - circleci@0.1.31151
     - codespell@2.3.0
     - djlint@1.36.3
     - dotenv-linter@3.3.0
@@ -35,23 +35,23 @@ lint:
     - hadolint@2.12.1-beta
     - kube-linter@0.6.4
     - markdown-link-check@3.13.6
-    - markdownlint-cli2@0.15.0
+    - markdownlint-cli2@0.16.0
     - markdownlint@0.43.0
     - nancy@1.0.46
-    - osv-scanner@1.9.1
+    - osv-scanner@1.9.2
     - oxipng@9.1.3
     - pre-commit-hooks@5.0.0
     - rome@12.1.3
-    - semgrep@1.99.0
+    - semgrep@1.101.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@2.12.0
-    - stylelint@16.11.0
+    - stylelint@16.12.0
     - svgo@3.3.2
     - taplo@0.9.3
-    - trivy@0.56.2
-    - trufflehog-git@3.85.0
-    - trufflehog@3.85.0
+    - trivy@0.58.0
+    - trufflehog-git@3.87.2
+    - trufflehog@3.87.2
     - yamllint@1.35.1
     - actionlint@1.7.4
   ignore:
