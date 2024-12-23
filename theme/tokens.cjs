@@ -1,6 +1,4 @@
 /* Pinegrow generated Design Panel Begin */
-/* eslint-disable */
-/* prettier-disable */
 /* @ts-nocheck */
 
 const pg_colors = {gray: {'50': '#f9fafb',
@@ -147,18 +145,18 @@ mono: ["'essential-pragmatapro', sans-serif",
 ],
 footer: ["'korolev-condensed', sans-serif",
 ],
-}   
+}
 
 const pg_font_urls = ['https://use.typekit.net/ecm5qze.css',
 ]
 
 const pg_backgrounds = {'design-image': "url('file:///Users/dave/src/github.com/daveio/dave.io/src/assets/bg.jpg')",
-}    
+}
 
 const pg_background_urls = {'design-image': 'file:///Users/dave/src/github.com/daveio/dave.io/src/assets/bg.jpg',
 }
 
-                
+
 module.exports = {
   pg_colors,
   pg_fonts,

@@ -16,7 +16,6 @@ export default {
 		extend: {},
 	},
 	plugins: [
-		// eslint-disable-next-line @typescript-eslint/no-require-imports
 		require("@pinegrow/tailwindcss-plugin").default({
 			colors: pg_colors, // primary, secondary etc
 			fonts: pg_fonts,

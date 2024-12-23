@@ -16,10 +16,8 @@
 		"build-only": "vite build",
 		"deploy": "pnpm run build && wrangler pages deploy ./dist",
 		"dev": "vite",
-		"format": "prettier --write src/",
-		"lint": "run-s lint:*",
-		"lint:eslint": "eslint . --fix",
-		"lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
+		"format": "trunk fmt -a",
+		"lint": "trunk check -a",
 		"preview": "pnpm run build && wrangler pages dev ./dist",
 		"test:e2e": "nightwatch tests/e2e/*",
 		"test:unit": "vitest",
@@ -33,7 +31,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20241218.0",
-		"@iconify/json": "2.2.286",
+		"@iconify/json": "2.2.288",
 		"@nightwatch/vue": "3.1.2",
 		"@pinegrow/tailwindcss-plugin": "3.0.35",
 		"@pinegrow/vite-plugin": "3.0.68",
@@ -43,16 +41,10 @@
 		"@unocss/preset-icons": "0.65.2",
 		"@vitejs/plugin-vue": "5.2.1",
 		"@vitejs/plugin-vue-jsx": "4.1.1",
-		"@vitest/eslint-plugin": "1.1.20",
-		"@vue/eslint-config-prettier": "10.1.0",
-		"@vue/eslint-config-typescript": "14.1.4",
 		"@vue/test-utils": "2.4.6",
 		"@vue/tsconfig": "0.7.0",
 		"autoprefixer": "10.4.20",
 		"chromedriver": "131.0.4",
-		"eslint": "9.17.0",
-		"eslint-plugin-oxlint": "0.15.2",
-		"eslint-plugin-vue": "9.32.0",
 		"geckodriver": "5.0.0",
 		"jsdom": "25.0.1",
 		"nightwatch": "3.9.0",
@@ -73,7 +65,7 @@
 	},
 	"packageManager": "pnpm@9.15.1",
 	"engines": {
-		"node": "~20.5.1",
+		"node": "~23.5.0",
 		"pnpm": "~9.15.1"
 	}
 }
