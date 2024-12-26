@@ -31,7 +31,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20241218.0",
-		"@iconify/json": "2.2.288",
+		"@iconify/json": "2.2.289",
 		"@nightwatch/vue": "3.1.2",
 		"@pinegrow/tailwindcss-plugin": "3.0.35",
 		"@pinegrow/vite-plugin": "3.0.68",
