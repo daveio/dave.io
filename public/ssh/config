@@ -1,0 +1,138 @@
+Host *
+  User dave
+  Compression yes
+
+Host surface
+  HostName dave-surface.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::9901:286b
+  HostName 100.101.40.103
+  Port 212
+
+Host nas
+  HostName nas-7t54.manticore-minor.ts.net
+  HostName 100.80.254.9
+  HostName fd7a:115c:a1e0::1301:fe09
+  Port 212
+
+Host kosh
+  HostName kosh.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::2501:261d
+  HostName 100.68.38.29
+  Port 212
+
+Host basilisk
+  # HostName 161.35.35.39
+  # HostName 2a03:b0c0:1:d0::10bd:6001
+  HostName basilisk.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::1501:532
+  HostName 100.87.5.50
+  Port 212
+  LocalForward 9443 localhost:9443
+
+Host officetv
+  HostName dave-officetv.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::cd01:4936
+  HostName 100.94.73.54
+  Port 212
+
+Host mog-barometer
+  HostName mog-barometer.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::e01:73b
+  HostName 100.96.7.59
+  Port 212
+
+Host nas-16c
+  HostName nas-16c.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0:ab12:4843:cd96:625e:b23
+  HostName 100.94.11.35
+  Port 212
+
+Host nas-7t54
+  HostName nas-7t54.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::1301:fe09
+  HostName 100.80.254.9
+  Port 212
+
+Host pi5
+  HostName pi5.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::216b:e53c
+  HostName 100.107.229.60
+  Port 212
+
+Host cbp
+  HostName dave-cbp.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::e101:cf79
+  HostName 100.102.207.118
+  Port 212
+
+Host i5mbp
+  HostName dave-i5mbp.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::9a01:f580
+  HostName 100.88.245.127
+  Port 212
+
+Host i9mbp
+  HostName dave-i9mbp.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::ab01:2850
+  HostName 100.76.40.79
+  Port 212
+
+Host ipad
+  HostName dave-ipad.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::ac98:d509
+  HostName 100.88.213.9
+  Port 212
+
+Host ipad10
+  HostName dave-ipad10.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::74f9:2b37
+  HostName 100.121.43.55
+  Port 212
+
+Host iphone
+  HostName dave-iphone.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::c1e6:6818
+  HostName 100.102.104.24
+  Port 212
+
+Host mba
+  HostName dave-mba.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::999c:772b
+  HostName 100.92.119.43
+  Port 212
+
+Host mba-docker-desktop
+  HostName dave-mba-docker-desktop.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::219f:326
+  HostName 100.95.3.38
+  Port 212
+
+Host mba-ubuvm
+  HostName dave-mba-ubuvm.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::fb01:d65f
+  HostName 100.66.214.95
+  Port 212
+
+Host mba-winvm
+  HostName dave-mba-winvm.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::6d01:386e
+  HostName 100.115.56.110
+  Port 212
+
+Host shadow
+  HostName dave-shadow.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::409a:6245
+  HostName 100.90.98.69
+  Port 212
+
+Host surface
+  HostName dave-surface.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::8a01:8027
+  HostName 100.125.128.39
+  Port 212
+
+Host office-chromecast
+  HostName office-chromecast.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::da01:1153
+  HostName 100.95.17.83
+  Port 212
