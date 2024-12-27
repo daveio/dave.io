@@ -10,7 +10,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDKWHvw2OVnJjZrBDD27ADl6+gp4BPXi9fVVy9AsHb9
 # devices
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDFvpjnAvmUGaVgiT5StHm3pV+Aw1/Mk80uUo7bkUq1A dave+surface@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEZAI5jhPKdwGtko7+8dJ6sipbNRBW3nOLmlmeVi9LGh dave+kosh@dave.io
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJcn/BHJQIXRC2yz57c7KJqX3CjWNqj2D/D08yO6tU3z dave+nas@dave.io
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN/rQvUtk+ZoqHcd2NuvIIAnMF4RwCQV2l9wUojloiMJ dave+nas@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK9xs4nuxGfzgDpAv9iwdjQoJbC1P+H6iLFb9+QPUvmx dave+cbp@dave.io
 
 # services
