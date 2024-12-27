@@ -1,6 +1,7 @@
 Host *
   User dave
   Compression yes
+  Port 22
 
 Host surface
   HostName dave-surface.manticore-minor.ts.net
