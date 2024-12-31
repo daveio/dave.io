@@ -63,7 +63,7 @@
 		"vue-tsc": "2.1.10",
 		"wrangler": "3.99.0"
 	},
-	"packageManager": "pnpm@9.15.1",
+	"packageManager": "pnpm@9.15.2",
 	"engines": {
 		"node": "~23.5.0",
 		"pnpm": "~9.15.1"
