@@ -47,7 +47,7 @@
 		"chromedriver": "131.0.4",
 		"geckodriver": "5.0.0",
 		"jsdom": "25.0.1",
-		"nightwatch": "3.9.0",
+		"nightwatch": "3.10.0",
 		"npm-run-all2": "7.0.2",
 		"oxlint": "0.15.4",
 		"postcss": "8.4.49",
