@@ -14,11 +14,6 @@ const router = createRouter({
 			name: "gender",
 			component: () => import("../views/GenderPage.vue"),
 		},
-		{
-			path: "/cv",
-			name: "cv",
-			component: () => import("../views/CvPage.vue"),
-		},
 	],
 });
 
