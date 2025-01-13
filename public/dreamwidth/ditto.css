@@ -21,7 +21,7 @@ body {
   color: #33343f;
   background: #c9dbef;
   font:
-    100% Oxygen,
+    100%
     sans-serif;
 }
 
@@ -125,7 +125,7 @@ summary::after {
 
 #secondary {
   font:
-    bold 100% Oxygen,
+    bold 100%
     sans-serif;
 }
 
@@ -252,7 +252,7 @@ span.access-filter {
   color: #345372;
   text-transform: lowercase;
   font:
-    0.7rem/1.5 Oxygen,
+    0.7rem/1.5
     sans-serif;
 }
 
@@ -262,22 +262,22 @@ span.access-filter {
 
 .metadata-item-mood {
   padding: 0 0 0 20px;
-  background: url("metadata-mood.png") no-repeat;
+  background: url("https://dave.io/dreamwidth/metadata-mood.png") no-repeat;
 }
 
 .metadata-item-location {
   padding: 0 0 0 20px;
-  background: url("metadata-location.png") no-repeat;
+  background: url("https://dave.io/dreamwidth/metadata-location.png") no-repeat;
 }
 
 .metadata-item-music {
   padding: 0 0 0 20px;
-  background: url("metadata-music.png") no-repeat;
+  background: url("https://dave.io/dreamwidth/metadata-music.png") no-repeat;
 }
 
 .tag ul {
   padding: 0 0 0 20px;
-  background: url("tag.png") no-repeat;
+  background: url("https://dave.io/dreamwidth/tag.png") no-repeat;
 }
 
 /* .tag li {
@@ -328,7 +328,7 @@ li.page-back {
   padding: 0;
   text-transform: lowercase;
   font:
-    bold 0.8rem Oxygen,
+    bold 0.8rem
     sans-serif;
 }
 
@@ -384,7 +384,7 @@ span.poster-ip {
 .comment .footer label {
   text-transform: lowercase;
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -396,7 +396,7 @@ span.poster-ip {
 ul.comment-interaction-links {
   text-transform: lowercase;
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -422,7 +422,7 @@ ul.comment-interaction-links {
   color: #345372;
   text-transform: lowercase;
   font:
-    bold 0.9rem Oxygen,
+    bold 0.9rem
     sans-serif;
 }
 
@@ -431,7 +431,7 @@ ul.ljtaglist {
   margin: 0.5em 0;
   list-style-position: inside;
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -460,7 +460,7 @@ ul.ljtaglist {
   text-align: right;
   text-transform: lowercase;
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -469,7 +469,7 @@ ul.ljtaglist {
   text-align: right;
   text-transform: lowercase;
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -574,7 +574,7 @@ td.day span.label {
   text-align: right;
   text-transform: lowercase;
   font:
-    1em Oxygen,
+    1em
     sans-serif;
 }
 
@@ -601,7 +601,7 @@ td.day span.label {
 
 .month dl h3 {
   font:
-    bold 0.8rem Oxygen,
+    bold 0.8rem
     sans-serif;
 }
 
@@ -611,13 +611,13 @@ td.day span.label {
   text-align: right;
   text-transform: lowercase;
   font:
-    1rem bold Oxygen,
+    1rem bold
     sans-serif;
 }
 
 .month .overview-commentcount {
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -628,7 +628,7 @@ td.day span.label {
   background: none;
   text-transform: lowercase;
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -636,7 +636,7 @@ li.month-forward,
 li.month-back {
   padding: 0;
   font:
-    0.8rem Oxygen,
+    0.8rem
     sans-serif;
 }
 
@@ -655,14 +655,14 @@ li.month-back {
   color: #f7f7f7;
   text-transform: lowercase;
   font:
-    bold 11px/0 Oxygen,
+    bold 11px/0
     sans-serif;
 }
 
 #lj_controlstrip > div {
   text-transform: lowercase;
   font:
-    bold 11px Oxygen,
+    bold 11px
     sans-serif;
 }
 
@@ -712,7 +712,7 @@ img[src*="user.png"] {
   height: 0;
   padding: 16px 0 0 18px !important;
   margin: 0 auto;
-  background: transparent url("user.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/user.png") no-repeat !important;
   vertical-align: middle;
 }
 
@@ -721,7 +721,7 @@ img[src*="community.png"] {
   height: 0;
   padding: 16px 0 0 18px !important;
   margin: 0 auto;
-  background: transparent url("community.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/community.png") no-repeat !important;
   vertical-align: middle;
 }
 
@@ -730,7 +730,7 @@ img[src*="collapse.svg"] {
   height: 0;
   padding: 16px 0 0 8px !important;
   margin: 0 auto;
-  background: transparent url("collapse.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/collapse.png") no-repeat !important;
   vertical-align: middle !important;
 }
 
@@ -739,7 +739,7 @@ img[src*="expand.svg"] {
   height: 0;
   padding: 16px 0 0 8px !important;
   margin: 0 auto;
-  background: transparent url("expand.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/expand.png") no-repeat !important;
   vertical-align: middle !important;
 }
 
@@ -748,6 +748,6 @@ img[src*="collapse-end.svg"] {
   height: 0;
   padding: 16px 0 0 8px !important;
   margin: 0 auto;
-  background: transparent url("collapse-end.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/collapse-end.png") no-repeat !important;
   vertical-align: middle !important;
 }
