@@ -25,8 +25,8 @@ importers:
         specifier: 4.20250109.0
         version: 4.20250109.0
       '@iconify/json':
-        specifier: 2.2.294
-        version: 2.2.294
+        specifier: 2.2.295
+        version: 2.2.295
       '@nightwatch/vue':
         specifier: 3.1.2
         version: 3.1.2(@types/node@22.10.6)(vue@3.5.13(typescript@5.7.3))
@@ -1250,8 +1250,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@iconify/json@2.2.294':
-    resolution: {integrity: sha512-Vopidp3VQtscXYB6qUI8uJf15ihrzaJjwhvLnxHIMB3JYqvCKI1JHI+UMKaWkbOOJDsOg9b0rIXmRovShk8YrQ==}
+  '@iconify/json@2.2.295':
+    resolution: {integrity: sha512-VXR+Qn1G+yicPW71zxHEmNcCLVCTdqpfmwBS4Qc4ELnuXRb1a7lYLoZJKGs9MnjdWEj1VWJdKim4v9fCJin4JA==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -6210,7 +6210,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@iconify/json@2.2.294':
+  '@iconify/json@2.2.295':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
