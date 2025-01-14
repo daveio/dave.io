@@ -363,7 +363,6 @@ h4.comment-title {
 }
 
 span.poster-ip {
-  display: none; /* erase this line if you want poster ips visible */
   font-size: 0.7rem;
 }
 
