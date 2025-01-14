@@ -6,7 +6,7 @@ Original DITTO (based on tabula rasa) by luckyzukky
   https://shinemagic.dreamwidth.org
 
 Modified 2025-01-13 by Dave W
-  https://dave.io
+  https://daveio.dreamwidth.org
 
 tiny icons by yusuke kamiyamane
   https://p.yusukekamiyamane.com
@@ -21,8 +21,8 @@ body {
   color: #33343f;
   background: #c9dbef;
   font:
-    16pt
-    Oxygen, sans-serif;
+    16pt Oxygen,
+    sans-serif;
 }
 
 /* organization */
@@ -125,8 +125,8 @@ summary::after {
 
 #secondary {
   font:
-    bold 100%
-    Oxygen, sans-serif;
+    bold 100% Oxygen,
+    sans-serif;
 }
 
 #secondary > .inner:first-child {
@@ -252,8 +252,8 @@ span.access-filter {
   color: #345372;
   text-transform: lowercase;
   font:
-    0.7rem/1.5
-    Oxygen, sans-serif;
+    0.7rem/1.5 Oxygen,
+    sans-serif;
 }
 
 .metadata li {
@@ -328,8 +328,8 @@ li.page-back {
   padding: 0;
   text-transform: lowercase;
   font:
-    bold 0.8rem
-    Oxygen, sans-serif;
+    bold 0.8rem Oxygen,
+    sans-serif;
 }
 
 .noentries {
@@ -384,8 +384,8 @@ span.poster-ip {
 .comment .footer label {
   text-transform: lowercase;
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 .comment .edittime {
@@ -396,8 +396,8 @@ span.poster-ip {
 ul.comment-interaction-links {
   text-transform: lowercase;
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 .bottomcomment {
@@ -422,8 +422,8 @@ ul.comment-interaction-links {
   color: #345372;
   text-transform: lowercase;
   font:
-    bold 0.9rem
-    Oxygen, sans-serif;
+    bold 0.9rem Oxygen,
+    sans-serif;
 }
 
 ul.ljtaglist {
@@ -431,8 +431,8 @@ ul.ljtaglist {
   margin: 0.5em 0;
   list-style-position: inside;
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 /* archive page */
@@ -445,7 +445,8 @@ ul.ljtaglist {
 .year {
   font:
     0.75rem "courier new",
-    Oxygen, sans-serif;
+    Oxygen,
+    sans-serif;
 }
 
 .month {
@@ -460,8 +461,8 @@ ul.ljtaglist {
   text-align: right;
   text-transform: lowercase;
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 .month .footer {
@@ -469,8 +470,8 @@ ul.ljtaglist {
   text-align: right;
   text-transform: lowercase;
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 .month .footer a {
@@ -531,7 +532,9 @@ td.day a:visited:active {
 table.month {
   color: #345372;
   text-transform: lowercase;
-  font: 0.8rem Oxygen, sans-serif;
+  font:
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 table.month caption {
@@ -574,8 +577,8 @@ td.day span.label {
   text-align: right;
   text-transform: lowercase;
   font:
-    1em
-    Oxygen, sans-serif;
+    1em Oxygen,
+    sans-serif;
 }
 
 .navigation li {
@@ -601,8 +604,8 @@ td.day span.label {
 
 .month dl h3 {
   font:
-    bold 0.8rem
-    Oxygen, sans-serif;
+    bold 0.8rem Oxygen,
+    sans-serif;
 }
 
 .month dl dt {
@@ -611,14 +614,14 @@ td.day span.label {
   text-align: right;
   text-transform: lowercase;
   font:
-    1rem bold
-    Oxygen, sans-serif;
+    1rem bold Oxygen,
+    sans-serif;
 }
 
 .month .overview-commentcount {
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 #archive-month input[value="View"] {
@@ -628,16 +631,16 @@ td.day span.label {
   background: none;
   text-transform: lowercase;
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 li.month-forward,
 li.month-back {
   padding: 0;
   font:
-    0.8rem
-    Oxygen, sans-serif;
+    0.8rem Oxygen,
+    sans-serif;
 }
 
 #archive-month .navigation.bottomnav li {
@@ -655,15 +658,15 @@ li.month-back {
   color: #f7f7f7;
   text-transform: lowercase;
   font:
-    bold 11px/0
-    Oxygen, sans-serif;
+    bold 11px/0 Oxygen,
+    sans-serif;
 }
 
 #lj_controlstrip > div {
   text-transform: lowercase;
   font:
-    bold 11px
-    Oxygen, sans-serif;
+    bold 11px Oxygen,
+    sans-serif;
 }
 
 #lj_controlstrip_statustext {
@@ -721,7 +724,8 @@ img[src*="community.png"] {
   height: 0;
   padding: 16px 0 0 18px !important;
   margin: 0 auto;
-  background: transparent url("https://dave.io/dreamwidth/community.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/community.png")
+    no-repeat !important;
   vertical-align: middle;
 }
 
@@ -730,7 +734,8 @@ img[src*="collapse.svg"] {
   height: 0;
   padding: 16px 0 0 8px !important;
   margin: 0 auto;
-  background: transparent url("https://dave.io/dreamwidth/collapse.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/collapse.png")
+    no-repeat !important;
   vertical-align: middle !important;
 }
 
@@ -748,6 +753,7 @@ img[src*="collapse-end.svg"] {
   height: 0;
   padding: 16px 0 0 8px !important;
   margin: 0 auto;
-  background: transparent url("https://dave.io/dreamwidth/collapse-end.png") no-repeat !important;
+  background: transparent url("https://dave.io/dreamwidth/collapse-end.png")
+    no-repeat !important;
   vertical-align: middle !important;
 }
