@@ -73,8 +73,8 @@ importers:
         specifier: 26.0.0
         version: 26.0.0
       nightwatch:
-        specifier: 3.10.2
-        version: 3.10.2(chromedriver@131.0.5)(geckodriver@5.0.0(bare-buffer@3.0.1))
+        specifier: 3.11.0
+        version: 3.11.0(chromedriver@131.0.5)(geckodriver@5.0.0(bare-buffer@3.0.1))
       npm-run-all2:
         specifier: 7.0.2
         version: 7.0.2
@@ -3804,8 +3804,8 @@ packages:
   nightwatch-axe-verbose@2.3.1:
     resolution: {integrity: sha512-C6N95bwPHsRnv04eVIwJ6w5m6X1+Pddvo6nzpzOHQlO0j+pYRVU7zaQmFUJ0L4cqeUxReNEXyTUg/R9WWfHk7w==}
 
-  nightwatch@3.10.2:
-    resolution: {integrity: sha512-4mtiHau8tpuLYKK6sStUfgGTJnSZkwv0CS/frsSjOMwPqJyMrCsmRq6x6LSXZuZhCuBYR8C+3CA/3i3ocE2U2Q==}
+  nightwatch@3.11.0:
+    resolution: {integrity: sha512-97YQRsWZTr48lw1MysYbynUtJqn5LMoDT5o2jShR3H3iQHfg7OyKuYsetCifBgU3/eya67UmfCi2OkTZf66u/w==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -7804,7 +7804,7 @@ snapshots:
 
   deep-eql@4.0.1:
     dependencies:
-      type-detect: 4.0.8
+      type-detect: 4.1.0
 
   deep-eql@5.0.2: {}
 
@@ -8452,7 +8452,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.0.1
+      minimatch: 5.1.6
       once: 1.4.0
 
   global-modules@2.0.0:
@@ -9069,7 +9069,7 @@ snapshots:
     dependencies:
       axe-core: 4.10.2
 
-  nightwatch@3.10.2(chromedriver@131.0.5)(geckodriver@5.0.0(bare-buffer@3.0.1)):
+  nightwatch@3.11.0(chromedriver@131.0.5)(geckodriver@5.0.0(bare-buffer@3.0.1)):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
