@@ -12,6 +12,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBpskRzFtzSn7SZiF2zwWQTB1jPZSXzM18auCL6re9Xu
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEZAI5jhPKdwGtko7+8dJ6sipbNRBW3nOLmlmeVi9LGh dave+kosh@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN/rQvUtk+ZoqHcd2NuvIIAnMF4RwCQV2l9wUojloiMJ dave+nas@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK9xs4nuxGfzgDpAv9iwdjQoJbC1P+H6iLFb9+QPUvmx dave+cbp@dave.io
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILnvLvJmN1puWEJhRy/8sXMoUgnbQVyjqvIHCgnnlBui dave+homeassistant@dave.io
 
 # services
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOqZu6SN/uKj9464mcwQs0Bh9W8NsN0PTdHnVauxvX1x dave+aws@dave.io
