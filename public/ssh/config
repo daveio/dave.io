@@ -1,7 +1,15 @@
 Host *
   User dave
   Compression yes
-  Port 22
+  IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+
+Host fw
+  HostName 10.0.101.1
+  Port 212
+
+Host fw-16c
+  HostName 10.0.99.1
+  Port 212
 
 Host surface
   HostName dave-surface.manticore-minor.ts.net
@@ -114,6 +122,12 @@ Host mba-ubuvm
   HostName 100.66.214.95
   Port 212
 
+Host homeassistant
+  HostName homeassistant.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::7701:695b
+  HostName 100.85.105.91
+  Port 212
+
 Host mba-winvm
   HostName dave-mba-winvm.manticore-minor.ts.net
   HostName fd7a:115c:a1e0::6d01:386e
@@ -137,3 +151,6 @@ Host office-chromecast
   HostName fd7a:115c:a1e0::da01:1153
   HostName 100.95.17.83
   Port 212
+
+Host *
+  Port 22

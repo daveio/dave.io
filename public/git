@@ -1,0 +1,93 @@
+[alias]
+  unstage = reset HEAD --
+  pr = pull --rebase
+  addp = add --patch
+  aa = add -A .
+  cam = commit -am
+  comp = commit --patch
+  co = checkout
+  ci = commit
+  c = commit
+  b = branch
+  p = push
+  d = diff
+  a = add
+  s = status
+  f = fetch
+  br = branch
+  pa = add --patch
+  pc = commit --patch
+  rf = reflog
+  l = log --graph --pretty='%Cred%h%Creset - %C(bold blue)<%an>%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)' --abbrev-commit --date=relative
+  pp = !git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+  recent-branches = branch --sort=-committerdate
+[color]
+  ui = true
+[color "diff"]
+  meta = 11
+  frag = magenta bold
+  func = 146 bold
+  commit = yellow bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
+[commit]
+  gpgsign = true
+[core]
+  editor = code --wait
+  pager = diff-so-fancy | less --tabs=4 -RF
+[diff]
+  tool = Kaleidoscope
+[difftool]
+  prompt = false
+  trustExitCode = true
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[ghq]
+  root = ~/src
+[gpg]
+  program = /usr/local/MacGPG2/bin/gpg2
+[gpg "ssh"]
+  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+  allowedsignersfile = ~/.ssh/allowed_signers
+[init]
+  defaultBranch = main
+[interactive]
+  diffFilter = diff-so-fancy --patch
+[lfs]
+  tustransfers = true
+[merge]
+  tool = Kaleidoscope
+[mergetool]
+  prompt = false
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+  trustExitCode = true
+[pull]
+  rebase = true
+[signing]
+  signByDefault = true
+  key = D8DC6603D9C3515382A1C63C385FD3CEF5E5C6EC
+[tag]
+  forceSignAnnotated = true
+[user]
+  name = Dave Williams
+  email = dave@dave.io
+  signingKey = D8DC6603D9C3515382A1C63C385FD3CEF5E5C6EC
+  bitbucket = daveio
+  github = daveio
+  gitlab = dave
+[credential]
+  helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+  useHttpPath = true
