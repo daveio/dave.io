@@ -123,6 +123,8 @@ Host mba-ubuvm
   Port 212
 
 Host homeassistant
+  HostName 2001:8b0:65d3:47a0:942b:d9a4:7bca:184e
+  HostName 10.0.101.2
   HostName homeassistant.manticore-minor.ts.net
   HostName fd7a:115c:a1e0::7701:695b
   HostName 100.85.105.91
