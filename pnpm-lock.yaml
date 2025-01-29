@@ -64,8 +64,8 @@ importers:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.5.0)
       chromedriver:
-        specifier: 131.0.5
-        version: 131.0.5
+        specifier: 132.0.2
+        version: 132.0.2
       geckodriver:
         specifier: 5.0.0
         version: 5.0.0(bare-buffer@3.0.1)
@@ -74,7 +74,7 @@ importers:
         version: 26.0.0
       nightwatch:
         specifier: 3.10.2
-        version: 3.10.2(chromedriver@131.0.5)(geckodriver@5.0.0(bare-buffer@3.0.1))
+        version: 3.10.2(chromedriver@132.0.2)(geckodriver@5.0.0(bare-buffer@3.0.1))
       npm-run-all2:
         specifier: 7.0.2
         version: 7.0.2
@@ -2414,8 +2414,8 @@ packages:
   chroma-js@2.6.0:
     resolution: {integrity: sha512-BLHvCB9s8Z1EV4ethr6xnkl/P2YRFOGqfgvuMG/MyCbZPrTA+NeiByY6XvgF0zP4/2deU2CXnWyMa3zu1LqQ3A==}
 
-  chromedriver@131.0.5:
-    resolution: {integrity: sha512-OQY4BHUe9JedxH4aAsPZJcf8Y0lMlE7y+3tiCvQSCQ6qDz2b99R0qsqyqzUUSW2DFx0bg4YxmK8CDVMKb9u5kg==}
+  chromedriver@132.0.2:
+    resolution: {integrity: sha512-aywIWYggkAwdFN5zkyYHXUyUBJt2hFMweS3XU0XINIdfOG386z+sqAlExB4P1A10cSz+SO5gxcCgxd8UJNBvgg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3606,6 +3606,7 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.isplainobject@4.0.6:
     resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
@@ -4967,6 +4968,7 @@ packages:
   wrangler@3.101.0:
     resolution: {integrity: sha512-zKRqL/jjyF54DH8YCCaF4B2x0v9kSdxLpNkxGDltZ17vCBbq9PCchooN25jbmxOTC2LWdB2LVDw7S66zdl7XuQ==}
     engines: {node: '>=16.17.0'}
+    deprecated: Downgrade to 3.99.0
     hasBin: true
     peerDependencies:
       '@cloudflare/workers-types': ^4.20241230.0
@@ -7642,7 +7644,7 @@ snapshots:
 
   chroma-js@2.6.0: {}
 
-  chromedriver@131.0.5:
+  chromedriver@132.0.2:
     dependencies:
       '@testim/chrome-version': 1.1.4
       axios: 1.7.9
@@ -9069,7 +9071,7 @@ snapshots:
     dependencies:
       axe-core: 4.10.2
 
-  nightwatch@3.10.2(chromedriver@131.0.5)(geckodriver@5.0.0(bare-buffer@3.0.1)):
+  nightwatch@3.10.2(chromedriver@132.0.2)(geckodriver@5.0.0(bare-buffer@3.0.1)):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -9106,7 +9108,7 @@ snapshots:
       untildify: 4.0.0
       uuid: 8.3.2
     optionalDependencies:
-      chromedriver: 131.0.5
+      chromedriver: 132.0.2
       geckodriver: 5.0.0(bare-buffer@3.0.1)
     transitivePeerDependencies:
       - bufferutil

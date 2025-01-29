@@ -44,7 +44,7 @@
 		"@vue/test-utils": "2.4.6",
 		"@vue/tsconfig": "0.7.0",
 		"autoprefixer": "10.4.20",
-		"chromedriver": "131.0.5",
+		"chromedriver": "132.0.2",
 		"geckodriver": "5.0.0",
 		"jsdom": "26.0.0",
 		"nightwatch": "3.10.2",
