@@ -13,8 +13,8 @@ Host fw-16c
 
 Host surface
   HostName dave-surface.manticore-minor.ts.net
-  HostName fd7a:115c:a1e0::9901:286b
-  HostName 100.101.40.103
+  HostName fd7a:115c:a1e0::4901:b405
+  HostName 100.68.180.5
   Port 212
 
 Host nas
