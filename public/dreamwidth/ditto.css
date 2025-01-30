@@ -432,7 +432,7 @@ ul.ljtaglist {
 .month {
 	padding: 5px;
 	border: 0;
-	background-color: none;
+	background-color: transparent;
 }
 
 .month .header {

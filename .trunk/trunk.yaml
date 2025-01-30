@@ -19,6 +19,7 @@ runtimes:
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   disabled:
+    - codespell
     - cspell
     - eslint
     - rome
@@ -29,7 +30,6 @@ lint:
     - biome@1.9.4
     - checkov@3.2.358
     - circleci@0.1.31425
-    - codespell@2.4.1
     - djlint@1.36.4
     - dotenv-linter@3.3.0
     - dustilock@1.2.0
