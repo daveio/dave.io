@@ -1,7 +1,7 @@
 import { URL, fileURLToPath } from "node:url";
 import { configDefaults } from "vitest/config";
 
-import { liveDesigner } from "@pinegrow/vite-plugin";
+// import { liveDesigner } from "@pinegrow/vite-plugin";
 import presetIcons from "@unocss/preset-icons";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
@@ -13,14 +13,14 @@ import vueDevTools from "vite-plugin-vue-devtools";
 // https:/ / vite.dev / config /
 export default defineConfig({
 	plugins: [
-		liveDesigner({
-			tailwindcss: {
-				configPath: "tailwind.config.ts",
-				cssPath: "@/assets/css/tailwind.css",
-				restartOnConfigUpdate: true,
-				restartOnThemeUpdate: true,
-			},
-		}),
+		// liveDesigner({
+		//   tailwindcss: {
+		//     configPath: "tailwind.config.ts",
+		//     cssPath: "@/assets/css/tailwind.css",
+		//     restartOnConfigUpdate: true,
+		//     restartOnThemeUpdate: true,
+		//   },
+		// }),
 		Unocss({
 			presets: [
 				presetIcons({
