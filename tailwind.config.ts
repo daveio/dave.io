@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { pg_colors, pg_fonts, pg_backgrounds } from "./theme/tokens.mjs";
+import { pg_backgrounds, pg_colors, pg_fonts } from "./theme/tokens.mjs";
 
 export default {
 	get content() {

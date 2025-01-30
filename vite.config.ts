@@ -1,14 +1,14 @@
+import { URL, fileURLToPath } from "node:url";
 import { configDefaults } from "vitest/config";
-import { fileURLToPath, URL } from "node:url";
 
-import { defineConfig } from "vite";
+import { liveDesigner } from "@pinegrow/vite-plugin";
+import presetIcons from "@unocss/preset-icons";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
-import vueDevTools from "vite-plugin-vue-devtools";
-import nightwatchPlugin from "vite-plugin-nightwatch";
 import Unocss from "unocss/vite";
-import presetIcons from "@unocss/preset-icons";
-import { liveDesigner } from "@pinegrow/vite-plugin";
+import { defineConfig } from "vite";
+import nightwatchPlugin from "vite-plugin-nightwatch";
+import vueDevTools from "vite-plugin-vue-devtools";
 
 // https:/ / vite.dev / config /
 export default defineConfig({
