@@ -7,10 +7,11 @@
       things work, I keep them working, and I put them back together when they break.
     </p>
     <p>
-      I tweet as <a rel="me" href="https://go.dave.io/x">@syn</a>, toot as
+      I'm on Bluesky as <a rel="me" href="https://go.dave.io/bsky">@dave.io</a>, on Mastodon as
       <a rel="me" href="https://go.dave.io/mastodon">@dave@basilisk.gallery</a>, and write at
       <a rel="me" href="https://go.dave.io/blog">blog.dave.io</a> about topics I
-      consider worth a longform piece.
+      consider worth a longform piece. If you must, I'm still on Twitter / X as
+      <a rel="me" href="https://go.dave.io/x">@syn</a>.
     </p>
     <p>
       You can email me using
