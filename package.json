@@ -60,7 +60,7 @@
 		"vite": "6.0.11",
 		"vite-plugin-nightwatch": "0.4.6",
 		"vite-plugin-vue-devtools": "7.7.1",
-		"vitest": "3.0.4",
+		"vitest": "3.0.6",
 		"vue-tsc": "2.2.0",
 		"wrangler": "3.106.0"
 	},
