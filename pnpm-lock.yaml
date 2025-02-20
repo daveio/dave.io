@@ -67,8 +67,8 @@ importers:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.5.2)
       chromedriver:
-        specifier: 133.0.1
-        version: 133.0.1
+        specifier: 133.0.2
+        version: 133.0.2
       geckodriver:
         specifier: 5.0.0
         version: 5.0.0
@@ -77,7 +77,7 @@ importers:
         version: 26.0.0
       nightwatch:
         specifier: 3.11.1
-        version: 3.11.1(chromedriver@133.0.1)(geckodriver@5.0.0)
+        version: 3.11.1(chromedriver@133.0.2)(geckodriver@5.0.0)
       npm-run-all2:
         specifier: 7.0.2
         version: 7.0.2
@@ -1937,8 +1937,8 @@ packages:
   chroma-js@2.6.0:
     resolution: {integrity: sha512-BLHvCB9s8Z1EV4ethr6xnkl/P2YRFOGqfgvuMG/MyCbZPrTA+NeiByY6XvgF0zP4/2deU2CXnWyMa3zu1LqQ3A==}
 
-  chromedriver@133.0.1:
-    resolution: {integrity: sha512-Z9VrJ9547daetazzP4k+7COj0PTtkomvtt8OZr8swTzsqDOzG0Xymdxg0dUtptc4da3X9Zts1iZoxOkm7blx/g==}
+  chromedriver@133.0.2:
+    resolution: {integrity: sha512-Ku4JqyzMNyla2t2z40/Or2tTH/FrRBp2xXhg3LUM7/Qi9tN7mk9uB1xtkmoP33S977FJuhkKenHBCEMH67lD2g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6248,7 +6248,7 @@ snapshots:
 
   chroma-js@2.6.0: {}
 
-  chromedriver@133.0.1:
+  chromedriver@133.0.2:
     dependencies:
       '@testim/chrome-version': 1.1.4
       axios: 1.7.9
@@ -7672,7 +7672,7 @@ snapshots:
     dependencies:
       axe-core: 4.10.2
 
-  nightwatch@3.11.1(chromedriver@133.0.1)(geckodriver@5.0.0):
+  nightwatch@3.11.1(chromedriver@133.0.2)(geckodriver@5.0.0):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -7709,7 +7709,7 @@ snapshots:
       untildify: 4.0.0
       uuid: 8.3.2
     optionalDependencies:
-      chromedriver: 133.0.1
+      chromedriver: 133.0.2
       geckodriver: 5.0.0
     transitivePeerDependencies:
       - bufferutil
