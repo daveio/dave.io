@@ -13,14 +13,14 @@ import vueDevTools from "vite-plugin-vue-devtools";
 // https:/ / vite.dev / config /
 export default defineConfig({
 	plugins: [
-		// liveDesigner({
-		// 	tailwindcss: {
-		// 		configPath: "tailwind.config.ts",
-		// 		cssPath: "@/assets/css/tailwind.css",
-		// 		restartOnConfigUpdate: true,
-		// 		restartOnThemeUpdate: true,
-		// 	},
-		// }),
+		liveDesigner({
+			tailwindcss: {
+				configPath: "tailwind.config.ts",
+				cssPath: "@/assets/css/tailwind.css",
+				restartOnConfigUpdate: true,
+				restartOnThemeUpdate: true,
+			},
+		}),
 		Unocss({
 			presets: [
 				presetIcons({
