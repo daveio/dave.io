@@ -1,7 +1,5 @@
 /* trunk-ignore-all(stylelint/at-rule-no-unknown) */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 h1 {
   font-size: 26px;
