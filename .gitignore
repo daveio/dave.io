@@ -1,3 +1,18 @@
+# Pinegrow temp folders
+_pg*
+
+## optional
+# pinegrow.json
+
+## optional
+## Uncomment the below as per your needs
+## add any d.ts files that are auto-generated, for eg,
+# auto-imports.d.ts
+# components.d.ts
+# composables.d.ts
+## rollup visualizer
+# stats.html
+
 # Logs
 logs
 *.log
@@ -8,7 +23,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-**/.DS_Store
+.DS_Store
 dist
 dist-ssr
 coverage
@@ -35,19 +50,3 @@ tests_output/
 # wrangler files
 .wrangler
 .dev.vars
-
-# Vue Designer
-pinegrow.json
-
-# Vue Designer temp folders
-_pg*
-
-# # optional
-# # Uncomment the below as per your needs
-# # add any d.ts files that are auto-generated, for eg,
-# auto-imports.d.ts
-# components.d.ts
-# composables.d.ts
-
-# rollup visualizer
-stats.html
