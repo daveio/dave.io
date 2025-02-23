@@ -1,4 +1,4 @@
-# dave-io
+# dave.io
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -53,7 +53,7 @@ npm run test:e2e -- tests/e2e/example.ts
 # Runs the tests in debug mode
 npm run test:e2e -- --debug
 ```
-    
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
