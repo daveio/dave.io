@@ -5,7 +5,3 @@ pages_build_output_dir = "dist"
 
 [placement]
 mode = "smart"
-
-[assets]
-directory = "./public/"
-binding = "PUBLIC"
