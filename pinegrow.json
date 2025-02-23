@@ -1,1 +1,1 @@
-{ "files": {}, "template_framework_id": "vue", "open-pages": [] }
+{ "files": {}, "template_framework_id": "vue", "open-pages": ["src/App.vue"] }
