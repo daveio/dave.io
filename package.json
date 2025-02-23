@@ -12,13 +12,13 @@
   "description": "personal site for Dave Williams",
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250214.0",
-    "@iconify/json": "^2.2.309",
+    "@iconify/json": "2.2.309",
     "@nightwatch/vue": "3.1.2",
-    "@pinegrow/vite-plugin": "^3.0.69",
+    "@pinegrow/vite-plugin": "3.0.69",
     "@tsconfig/node22": "22.0.0",
     "@types/jsdom": "21.1.7",
     "@types/node": "22.13.5",
-    "@unocss/preset-icons": "^66.0.0",
+    "@unocss/preset-icons": "66.0.0",
     "@vitejs/plugin-vue": "5.2.1",
     "@vitest/eslint-plugin": "1.1.31",
     "@vue/eslint-config-prettier": "10.2.0",
@@ -36,12 +36,14 @@
     "npm-run-all2": "7.0.2",
     "oxlint": "0.15.11",
     "prettier": "3.5.2",
-    "stylelint-config-standard": "^37.0.0",
+    "stylelint": "16.14.1",
+    "stylelint-config-prettier": "9.0.5",
+    "stylelint-config-standard": "37.0.0",
     "ts-node": "10.9.2",
     "typescript": "~5.7.3",
-    "unocss": "^66.0.0",
-    "unplugin-auto-import": "^19.1.0",
-    "unplugin-vue-components": "^28.4.0",
+    "unocss": "66.0.0",
+    "unplugin-auto-import": "19.1.0",
+    "unplugin-vue-components": "28.4.0",
     "vite": "6.1.1",
     "vite-plugin-nightwatch": "0.4.6",
     "vite-plugin-vue-devtools": "7.7.2",
@@ -56,6 +58,16 @@
   "license": "MIT",
   "name": "dave.io",
   "packageManager": "pnpm@10.4.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@nightwatch/nightwatch-inspector",
+      "chromedriver",
+      "esbuild",
+      "geckodriver",
+      "sharp",
+      "workerd"
+    ]
+  },
   "private": true,
   "repository": "https://github.com/daveio/dave.io.git",
   "scripts": {
@@ -73,15 +85,5 @@
     "type-check": "vue-tsc --build"
   },
   "type": "module",
-  "version": "0.1.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@nightwatch/nightwatch-inspector",
-      "chromedriver",
-      "esbuild",
-      "geckodriver",
-      "sharp",
-      "workerd"
-    ]
-  }
+  "version": "0.1.0"
 }
