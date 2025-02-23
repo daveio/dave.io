@@ -1,35 +1,32 @@
-@import url('./base.css');
+/* trunk-ignore-all(stylelint/at-rule-no-unknown) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+h1 {
+  font-size: 26px;
 }
 
-a,
-.green {
+h2 {
+  font-size: 20px;
+}
+
+p,
+code {
+  font-size: 20px;
+}
+
+a {
   text-decoration: none;
-  color: hsl(160deg 100% 37% / 100%);
-  transition: 0.4s;
-  padding: 3px;
+  font-weight: bold;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsl(160deg 100% 37% / 20%);
-  }
+a:hover {
+  text-decoration: underline;
 }
 
-@media (width >= 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+body {
+  background-image: url('@/assets/bg-1.jpg');
+  background-size: cover;
+  min-height: 100vh;
 }

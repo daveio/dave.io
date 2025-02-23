@@ -14,7 +14,12 @@ import AutoImportAPIs from 'unplugin-auto-import/vite'
 export default defineConfig({
   plugins: [
     liveDesigner({
-      //...
+      tailwindcss: {
+        configPath: 'tailwind.config.ts',
+        cssPath: '@/assets/css/tailwind.css',
+        restartOnConfigUpdate: true,
+        restartOnThemeUpdate: true,
+      },
     }),
     Unocss({
       presets: [
