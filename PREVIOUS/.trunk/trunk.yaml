@@ -63,16 +63,16 @@ lint:
     - linters:
         - prettier
       paths:
-        - "**/*.js"
-        - "**/*.cjs"
-        - "**/*.mjs"
-        - "**/*.ts"
-        - "**/*.cts"
-        - "**/*.mts"
-        - "**/*.json"
-        - "**/*.css"
-        - "**/*.scss"
-        - "**/*.html"
+        - '**/*.js'
+        - '**/*.cjs'
+        - '**/*.mjs'
+        - '**/*.ts'
+        - '**/*.cts'
+        - '**/*.mts'
+        - '**/*.json'
+        - '**/*.css'
+        - '**/*.scss'
+        - '**/*.html'
 actions:
   enabled:
     - trunk-announce
