@@ -1,0 +1,82 @@
+{
+	"name": "dave.io",
+	"version": "0.1.0",
+	"private": true,
+	"description": "personal site for Dave Williams",
+	"repository": "https://github.com/daveio/dave.io.git",
+	"license": "MIT",
+	"author": {
+		"name": "Dave Williams",
+		"email": "dave@dave.io",
+		"url": "https://dave.io"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "run-p type-check \"build-only {@}\" --",
+		"build-only": "vite build",
+		"deploy": "pnpm run build && wrangler pages deploy ./dist",
+		"dev": "vite",
+		"format": "trunk fmt -a",
+		"lint": "trunk check -a",
+		"preview": "pnpm run build && wrangler pages dev ./dist",
+		"test:e2e": "nightwatch tests/e2e/*",
+		"test:unit": "vitest",
+		"type-check": "vue-tsc --build --force"
+	},
+	"dependencies": {
+		"flowbite": "3.1.2",
+		"pinia": "3.0.1",
+		"vue": "3.5.13",
+		"vue-router": "4.5.0"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "4.20250214.0",
+		"@iconify/json": "2.2.309",
+		"@nightwatch/vue": "3.1.2",
+		"@pinegrow/tailwindcss-plugin": "3.0.35",
+		"@pinegrow/vite-plugin": "3.0.69",
+		"@tailwindcss/postcss": "4.0.8",
+		"@tsconfig/node22": "22.0.0",
+		"@types/jsdom": "21.1.7",
+		"@types/node": "22.13.5",
+		"@unocss/preset-icons": "66.0.0",
+		"@vitejs/plugin-vue": "5.2.1",
+		"@vitejs/plugin-vue-jsx": "4.1.1",
+		"@vue/test-utils": "2.4.6",
+		"@vue/tsconfig": "0.7.0",
+		"autoprefixer": "10.4.20",
+		"chromedriver": "133.0.2",
+		"geckodriver": "5.0.0",
+		"jsdom": "26.0.0",
+		"nightwatch": "3.11.1",
+		"npm-run-all2": "7.0.2",
+		"oxlint": "0.15.11",
+		"postcss": "8.5.3",
+		"stylelint-config-standard": "37.0.0",
+		"tailwindcss": "4.0.8",
+		"ts-node": "10.9.2",
+		"typescript": "5.7.3",
+		"unocss": "66.0.0",
+		"vite": "6.1.1",
+		"vite-plugin-nightwatch": "0.4.6",
+		"vite-plugin-vue-devtools": "7.7.2",
+		"vitest": "3.0.6",
+		"vue-tsc": "2.2.4",
+		"wrangler": "3.109.2"
+	},
+	"packageManager": "pnpm@10.4.1",
+	"engines": {
+		"node": "~22.14.0",
+		"pnpm": "~10.4.1"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@nightwatch/nightwatch-inspector",
+			"chromedriver",
+			"esbuild",
+			"geckodriver",
+			"sharp",
+			"workerd"
+		]
+	}
+}
