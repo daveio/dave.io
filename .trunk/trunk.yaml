@@ -34,6 +34,11 @@ lint:
         - ALL
       paths:
         - PREVIOUS/**
+    - linters:
+        - stylelint
+      paths:
+        - src/assets/base.css
+        - src/assets/main.css
 actions:
   enabled:
     - trunk-announce
