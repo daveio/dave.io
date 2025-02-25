@@ -23,10 +23,10 @@ export default defineConfigWithVueTs(
   pluginVue.configs['flat/essential'],
   vueTsConfigs.recommended,
 
-  {
-    ...pluginVitest.configs.recommended,
-    files: ['src/**/__tests__/*'],
-  },
+  // {
+  //   ...pluginVitest.configs.recommended,
+  //   files: ['src/**/__tests__/*'],
+  // },
   oxlint.configs['flat/recommended'],
   skipFormatting,
 )
