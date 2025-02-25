@@ -57,11 +57,11 @@
   },
   "engines": {
     "node": "~22.14.0",
-    "pnpm": "~10.4.1"
+    "pnpm": "~10.5.0"
   },
   "license": "MIT",
   "name": "dave.io",
-  "packageManager": "pnpm@10.4.1",
+  "packageManager": "pnpm@10.5.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@nightwatch/nightwatch-inspector",
