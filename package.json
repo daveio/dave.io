@@ -56,7 +56,7 @@
     "wrangler": "3.109.2"
   },
   "engines": {
-    "node": ">= 22",
+    "node": "~22.14.0",
     "pnpm": "~10.4.1"
   },
   "license": "MIT",
