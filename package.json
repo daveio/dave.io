@@ -38,7 +38,7 @@
     "jsdom": "26.0.0",
     "nightwatch": "3.11.1",
     "npm-run-all2": "7.0.2",
-    "oxlint": "0.15.11",
+    "oxlint": "0.15.12",
     "prettier": "3.5.2",
     "stylelint": "16.14.1",
     "stylelint-config-prettier": "9.0.5",
