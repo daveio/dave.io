@@ -24,7 +24,7 @@
     "@types/node": "22.13.5",
     "@unocss/preset-icons": "66.0.0",
     "@vitejs/plugin-vue": "5.2.1",
-    "@vitest/eslint-plugin": "1.1.32",
+    "@vitest/eslint-plugin": "1.1.36",
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/eslint-config-typescript": "14.4.0",
     "@vue/test-utils": "2.4.6",
