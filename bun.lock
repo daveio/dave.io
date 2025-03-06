@@ -14,7 +14,7 @@
       },
       "devDependencies": {
         "@cloudflare/workers-types": "4.20250303.0",
-        "@iconify/json": "2.2.313",
+        "@iconify/json": "2.2.314",
         "@nightwatch/vue": "3.1.2",
         "@pinegrow/vite-plugin": "3.0.69",
         "@tsconfig/node22": "22.0.0",
@@ -252,7 +252,7 @@
 
     "@humanwhocodes/retry": ["@humanwhocodes/retry@0.4.2", "", {}, "sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ=="],
 
-    "@iconify/json": ["@iconify/json@2.2.313", "", { "dependencies": { "@iconify/types": "*", "pathe": "^1.1.2" } }, "sha512-lzZ0KFpb0/IN4TVp/9lkUQQx6pmDqe6UD6lWiwkjnPMUVfFXYFMOfy6Qna5zb2cKwVQLTcOUgKk82Ah4qilKlw=="],
+    "@iconify/json": ["@iconify/json@2.2.314", "", { "dependencies": { "@iconify/types": "*", "pathe": "^1.1.2" } }, "sha512-yikVmts2jl9Z5ozNekFhEv5ovZBGOC24ugMrcobOr6gnOHuRrr9XCZvpY5lmUT2TIT0NGWKVAaPbhmRkJIukUw=="],
 
     "@iconify/types": ["@iconify/types@2.0.0", "", {}, "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg=="],
 
