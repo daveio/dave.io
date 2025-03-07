@@ -34,7 +34,7 @@
         "geckodriver": "5.0.0",
         "jiti": "2.4.2",
         "jsdom": "26.0.0",
-        "nightwatch": "3.11.1",
+        "nightwatch": "3.12.0",
         "npm-run-all2": "7.0.2",
         "oxlint": "0.15.13",
         "prettier": "3.5.3",
@@ -51,7 +51,7 @@
         "vite-plugin-vue-devtools": "7.7.2",
         "vitest": "3.0.8",
         "vue-tsc": "2.2.8",
-        "wrangler": "3.113.0",
+        "wrangler": "3.114.0",
       },
     },
   },
@@ -1408,7 +1408,7 @@
 
     "netmask": ["netmask@2.0.2", "", {}, "sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg=="],
 
-    "nightwatch": ["nightwatch@3.11.1", "", { "dependencies": { "@nightwatch/chai": "5.0.3", "@nightwatch/html-reporter-template": "^0.3.0", "@nightwatch/nightwatch-inspector": "^1.0.1", "@types/chai": "^4.3.5", "@types/selenium-webdriver": "^4.1.14", "ansi-to-html": "0.7.2", "aria-query": "5.1.3", "assertion-error": "1.1.0", "boxen": "5.1.2", "chai-nightwatch": "^0.5.3", "chalk": "^4.1.2", "ci-info": "3.3.0", "cli-table3": "^0.6.3", "devtools-protocol": "^0.0.1140464", "didyoumean": "^1.2.2", "dotenv": "16.3.1", "ejs": "^3.1.10", "envinfo": "7.11.0", "glob": "7.2.3", "jsdom": "^24.1.0", "lodash": "^4.17.21", "minimatch": "3.1.2", "minimist": "1.2.6", "mocha": "10.3.0", "nightwatch-axe-verbose": "^2.3.0", "open": "8.4.2", "ora": "5.4.1", "piscina": "^4.3.1", "selenium-webdriver": "4.27.0", "semver": "7.5.4", "stacktrace-parser": "0.1.10", "strip-ansi": "6.0.1", "untildify": "4.0.0", "uuid": "8.3.2" }, "peerDependencies": { "@cucumber/cucumber": "*" }, "optionalPeers": ["@cucumber/cucumber"], "bin": { "nightwatch": "bin/nightwatch" } }, "sha512-CNVDXpy38RzVxM3Nmb/H56os9LrU9tGfpTjFbnbeZW6SWEggMT+ScbbedowUbPw2IPuNfGP8/a1vXD5sYrtdeA=="],
+    "nightwatch": ["nightwatch@3.12.0", "", { "dependencies": { "@nightwatch/chai": "5.0.3", "@nightwatch/html-reporter-template": "^0.3.0", "@nightwatch/nightwatch-inspector": "^1.0.1", "@types/chai": "^4.3.5", "@types/selenium-webdriver": "^4.1.14", "ansi-to-html": "0.7.2", "aria-query": "5.1.3", "assertion-error": "1.1.0", "boxen": "5.1.2", "chai-nightwatch": "^0.5.3", "chalk": "^4.1.2", "ci-info": "3.3.0", "cli-table3": "^0.6.3", "devtools-protocol": "^0.0.1140464", "didyoumean": "^1.2.2", "dotenv": "16.3.1", "ejs": "^3.1.10", "envinfo": "7.11.0", "glob": "7.2.3", "jsdom": "^24.1.0", "lodash": "^4.17.21", "minimatch": "3.1.2", "minimist": "1.2.6", "mocha": "10.3.0", "nightwatch-axe-verbose": "^2.3.0", "open": "8.4.2", "ora": "5.4.1", "piscina": "^4.3.1", "selenium-webdriver": "4.27.0", "semver": "7.5.4", "stacktrace-parser": "0.1.10", "strip-ansi": "6.0.1", "untildify": "4.0.0", "uuid": "8.3.2" }, "peerDependencies": { "@cucumber/cucumber": "*" }, "optionalPeers": ["@cucumber/cucumber"], "bin": { "nightwatch": "bin/nightwatch" } }, "sha512-0AVxqz3O6ziNaZn+1b/jK5gV3YtQPNshD5sQhZkwbQtYsPQdZ+D7QFC8CkoceuTTkgzC16Mck/mTaSI+11b57w=="],
 
     "nightwatch-axe-verbose": ["nightwatch-axe-verbose@2.3.1", "", { "dependencies": { "axe-core": "^4.9.1" } }, "sha512-C6N95bwPHsRnv04eVIwJ6w5m6X1+Pddvo6nzpzOHQlO0j+pYRVU7zaQmFUJ0L4cqeUxReNEXyTUg/R9WWfHk7w=="],
 
@@ -1876,7 +1876,7 @@
 
     "workerpool": ["workerpool@6.2.1", "", {}, "sha512-ILEIE97kDZvF9Wb9f6h5aXK4swSlKGUcOEGiIYb2OOu/IrDU9iwj0fD//SsA6E5ibwJxpEvhullJY4Sl4GcpAw=="],
 
-    "wrangler": ["wrangler@3.113.0", "", { "dependencies": { "@cloudflare/kv-asset-handler": "0.3.4", "@cloudflare/unenv-preset": "2.0.0", "@esbuild-plugins/node-globals-polyfill": "0.2.3", "@esbuild-plugins/node-modules-polyfill": "0.2.2", "blake3-wasm": "2.1.5", "esbuild": "0.17.19", "miniflare": "3.20250224.0", "path-to-regexp": "6.3.0", "unenv": "2.0.0-rc.8", "workerd": "1.20250224.0" }, "optionalDependencies": { "fsevents": "~2.3.2", "sharp": "^0.33.5" }, "peerDependencies": { "@cloudflare/workers-types": "^4.20250224.0" }, "optionalPeers": ["@cloudflare/workers-types"], "bin": { "wrangler": "bin/wrangler.js", "wrangler2": "bin/wrangler.js" } }, "sha512-Fr7sxO9kNFoN12AZLdwkQEnHN7pf1FziOfmEZsQIvyyMJTQC0HMWWS9LEsMdxJf0X9okoRMXLPfE9wtz1C1SIg=="],
+    "wrangler": ["wrangler@3.114.0", "", { "dependencies": { "@cloudflare/kv-asset-handler": "0.3.4", "@cloudflare/unenv-preset": "2.0.0", "@esbuild-plugins/node-globals-polyfill": "0.2.3", "@esbuild-plugins/node-modules-polyfill": "0.2.2", "blake3-wasm": "2.1.5", "esbuild": "0.17.19", "miniflare": "3.20250224.0", "path-to-regexp": "6.3.0", "unenv": "2.0.0-rc.8", "workerd": "1.20250224.0" }, "optionalDependencies": { "fsevents": "~2.3.2", "sharp": "^0.33.5" }, "peerDependencies": { "@cloudflare/workers-types": "^4.20250224.0" }, "optionalPeers": ["@cloudflare/workers-types"], "bin": { "wrangler": "bin/wrangler.js", "wrangler2": "bin/wrangler.js" } }, "sha512-cY0HxgU5yuc24tE1Y4KD2n9UzYYEx+9lSL7p/Sqj18SgDfwyiMPY/FryXQAPYLuD/S+dxArRQyeEkFSokIr75Q=="],
 
     "wrap-ansi": ["wrap-ansi@7.0.0", "", { "dependencies": { "ansi-styles": "^4.0.0", "string-width": "^4.1.0", "strip-ansi": "^6.0.0" } }, "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q=="],
 
