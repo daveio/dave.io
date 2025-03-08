@@ -56,8 +56,8 @@
     "wrangler": "3.114.0"
   },
   "engines": {
-    "node": "~22.14.0",
-    "bun": "~1.2.4"
+    "bun": "~1.2.4",
+    "node": "~22.14.0"
   },
   "license": "MIT",
   "name": "dave.io",
@@ -78,8 +78,6 @@
     "test:unit": "bun runvitest",
     "type-check": "bun run vue-tsc --build"
   },
-  "type": "module",
-  "version": "0.1.0",
   "trustedDependencies": [
     "@nightwatch/nightwatch-inspector",
     "chromedriver",
@@ -87,5 +85,7 @@
     "geckodriver",
     "sharp",
     "workerd"
-  ]
+  ],
+  "type": "module",
+  "version": "0.1.0"
 }
