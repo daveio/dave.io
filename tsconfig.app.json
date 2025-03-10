@@ -1,22 +1,11 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": [
-    "env.d.ts",
-    "src/**/*",
-    "src/**/*.vue",
-    "components.d.ts",
-    "auto-imports.d.ts"
-  ],
-  "exclude": [
-    "src/**/__tests__/*"
-  ],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "components.d.ts", "auto-imports.d.ts"],
+  "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "strict": true,
     "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    "lib": ["ESNext", "DOM"],
     "composite": true,
     "noEmit": true,
     "moduleResolution": "Bundler",
@@ -24,15 +13,9 @@
     "baseUrl": ".",
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "~/*": [
-        "./src/*"
-      ],
-      "~~/*": [
-        "./*"
-      ]
+      "@/*": ["./src/*"],
+      "~/*": ["./src/*"],
+      "~~/*": ["./*"]
     }
   }
 }

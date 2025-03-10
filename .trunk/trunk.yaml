@@ -12,28 +12,24 @@ runtimes:
     - python@3.10.8
 lint:
   enabled:
-    - semgrep@1.109.0
-    - stylelint@16.14.1
-    - checkov@3.2.372
+    - semgrep@1.111.0
+    - stylelint@16.15.0
+    - checkov@3.2.382
     - git-diff-check
     - markdownlint@0.44.0
     - osv-scanner@1.9.2
     - oxipng@9.1.4
-    - prettier@3.5.1
+    - prettier@3.5.3
     - svgo@3.3.2
     - taplo@0.9.3
-    - trufflehog@3.88.12
+    - trufflehog@3.88.15
     - yamllint@1.35.1
   ignore:
     - linters:
-        - ALL
-      paths:
-        - PREVIOUS/**
-    - linters:
         - stylelint
       paths:
-        - src/assets/base.css
         - src/assets/main.css
+        - public/dreamwidth/ditto.css
 actions:
   enabled:
     - trunk-announce
