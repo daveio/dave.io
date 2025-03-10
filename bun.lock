@@ -13,7 +13,7 @@
         "vue-router": "4.5.0",
       },
       "devDependencies": {
-        "@cloudflare/workers-types": "4.20250303.0",
+        "@cloudflare/workers-types": "4.20250310.0",
         "@iconify/json": "2.2.315",
         "@nightwatch/vue": "3.1.2",
         "@pinegrow/vite-plugin": "3.0.69",
@@ -146,7 +146,7 @@
 
     "@cloudflare/workerd-windows-64": ["@cloudflare/workerd-windows-64@1.20250214.0", "", { "os": "win32", "cpu": "x64" }, "sha512-GMwMyFbkjBKjYJoKDhGX8nuL4Gqe3IbVnVWf2Q6086CValyIknupk5J6uQWGw2EBU3RGO3x4trDXT5WphQJZDQ=="],
 
-    "@cloudflare/workers-types": ["@cloudflare/workers-types@4.20250303.0", "", {}, "sha512-O7F7nRT4bbmwHf3gkRBLfJ7R6vHIJ/oZzWdby6obOiw2yavUfp/AIwS7aO2POu5Cv8+h3TXS3oHs3kKCZLraUA=="],
+    "@cloudflare/workers-types": ["@cloudflare/workers-types@4.20250310.0", "", {}, "sha512-SNE2ohlL9/VxFbcHQc28n3Nj70FiS1Ea0wrUhCXUIbR2lsr4ceRVndNxhuzhcF9EZd2UXm2wwow34RIS1mm+Mg=="],
 
     "@colors/colors": ["@colors/colors@1.5.0", "", {}, "sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ=="],
 
