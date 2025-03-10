@@ -6,9 +6,13 @@ updates:
     schedule:
       interval: daily
     open-pull-requests-limit: 10
-# # Configuration for github-actions
-# - package-ecosystem: github-actions
-#   directory: /
-#   schedule:
-#     interval: daily
-#   open-pull-requests-limit: 10
+    assignees:
+      - daveio
+    # # Configuration for github-actions
+    # - package-ecosystem: github-actions
+    #   directory: /
+    #   schedule:
+    #     interval: daily
+    #   open-pull-requests-limit: 10
+    #   assignees:
+    #     - daveio
