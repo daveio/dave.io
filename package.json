@@ -5,23 +5,23 @@
     "url": "https://dave.io"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "4.0.11",
-    "autoprefixer": "^10.4.20",
+    "@tailwindcss/postcss": "4.0.12",
+    "autoprefixer": "^10.4.21",
     "pinia": "3.0.1",
     "postcss": "^8.5.3",
-    "tailwindcss": "4.0.11",
+    "tailwindcss": "4.0.12",
     "vue": "3.5.13",
     "vue-router": "4.5.0"
   },
   "description": "personal site for Dave Williams",
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250303.0",
-    "@iconify/json": "2.2.314",
+    "@iconify/json": "2.2.315",
     "@nightwatch/vue": "3.1.2",
     "@pinegrow/vite-plugin": "3.0.69",
     "@tsconfig/node22": "22.0.0",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.13.9",
+    "@types/node": "22.13.10",
     "@unocss/preset-icons": "66.0.0",
     "@vitejs/plugin-vue": "5.2.1",
     "@vitest/eslint-plugin": "1.1.36",
@@ -30,7 +30,7 @@
     "@vue/test-utils": "2.4.6",
     "@vue/tsconfig": "0.7.0",
     "chromedriver": "134.0.0",
-    "eslint": "9.21.0",
+    "eslint": "9.22.0",
     "eslint-plugin-oxlint": "0.15.13",
     "eslint-plugin-vue": "10.0.0",
     "geckodriver": "5.0.0",
@@ -53,7 +53,7 @@
     "vite-plugin-vue-devtools": "7.7.2",
     "vitest": "3.0.8",
     "vue-tsc": "2.2.8",
-    "wrangler": "3.114.0"
+    "wrangler": "3.112.0"
   },
   "engines": {
     "bun": "~1.2.4",
