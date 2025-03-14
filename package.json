@@ -53,7 +53,7 @@
     "vite-plugin-vue-devtools": "7.7.2",
     "vitest": "3.0.8",
     "vue-tsc": "2.2.8",
-    "wrangler": "3.112.0"
+    "wrangler": "4.0.0"
   },
   "engines": {
     "bun": "~1.2.5",
