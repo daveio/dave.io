@@ -5,18 +5,18 @@
     "url": "https://dave.io"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "4.0.13",
+    "@tailwindcss/postcss": "4.0.14",
     "autoprefixer": "^10.4.21",
     "pinia": "3.0.1",
     "postcss": "^8.5.3",
-    "tailwindcss": "4.0.13",
+    "tailwindcss": "4.0.14",
     "vue": "3.5.13",
     "vue-router": "4.5.0"
   },
   "description": "personal site for Dave Williams",
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250312.0",
-    "@iconify/json": "2.2.316",
+    "@cloudflare/workers-types": "4.20250313.0",
+    "@iconify/json": "2.2.317",
     "@nightwatch/vue": "3.1.2",
     "@pinegrow/vite-plugin": "3.0.69",
     "@tsconfig/node22": "22.0.0",
@@ -40,7 +40,7 @@
     "npm-run-all2": "7.0.2",
     "oxlint": "0.15.15",
     "prettier": "3.5.3",
-    "stylelint": "16.15.0",
+    "stylelint": "16.16.0",
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-standard": "37.0.0",
     "ts-node": "10.9.2",
@@ -48,7 +48,7 @@
     "unocss": "66.0.0",
     "unplugin-auto-import": "19.1.1",
     "unplugin-vue-components": "28.4.1",
-    "vite": "6.2.1",
+    "vite": "6.2.2",
     "vite-plugin-nightwatch": "0.4.6",
     "vite-plugin-vue-devtools": "7.7.2",
     "vitest": "3.0.8",
@@ -87,5 +87,5 @@
     "workerd"
   ],
   "type": "module",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
