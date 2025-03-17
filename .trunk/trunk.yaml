@@ -12,6 +12,7 @@ runtimes:
     - python@3.10.8
 lint:
   enabled:
+    - actionlint@1.7.7
     - hadolint@2.12.1-beta
     - semgrep@1.112.0
     - stylelint@16.15.0
