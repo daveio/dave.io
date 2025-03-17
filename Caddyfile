@@ -1,0 +1,27 @@
+{
+	admin off
+	auto_https off
+}
+
+:80 {
+	root * /site
+
+	file_server
+
+	log {
+		output stdout
+		format json
+	}
+
+	# HEADERS
+	header /.well-known/nostr.json +Access-Control-Allow-Origin *
+
+	# REDIRECTS
+	redir /301 https://www.youtube.com/watch?v=fEM21kmPPik permanent
+	redir /302 https://www.youtube.com/watch?v=BDERfRP2GI0
+	redir /contact https://dave.io/dave-williams.vcf permanent
+	redir /cv https://cv.dave.io permanent
+	redir /nerd-fonts https://www.dropbox.com/s/raw/quamwqgpfm49d1f/nerd-fonts.6d0b8ba05af0d1380905aee1a136c1dedf71c1db.tar.zst permanent
+	redir /public-key https://dave.io/dave-williams.asc permanent
+	redir /todo https://dave.io/go/todo permanent
+}

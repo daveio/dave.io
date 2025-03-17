@@ -6,4 +6,5 @@ env_file = '.env'
 
 [tools]
 bun = '1.2.5'
+caddy = '2.9.1'
 node = '22.14.0'
