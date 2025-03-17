@@ -12,9 +12,9 @@ runtimes:
     - python@3.10.8
 lint:
   enabled:
-    - semgrep@1.111.0
+    - semgrep@1.112.0
     - stylelint@16.15.0
-    - checkov@3.2.384
+    - checkov@3.2.386
     - git-diff-check
     - markdownlint@0.44.0
     - osv-scanner@1.9.2
@@ -22,7 +22,7 @@ lint:
     - prettier@3.5.3
     - svgo@3.3.2
     - taplo@0.9.3
-    - trufflehog@3.88.16
+    - trufflehog@3.88.17
     - yamllint@1.36.0
   ignore:
     - linters:
