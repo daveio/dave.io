@@ -44,3 +44,8 @@ merge:
     - devskim
     - codacy
     # Add more required statuses here
+merge:
+  required_statuses:
+    - CodeQL
+    - devskim
+    - codacy
