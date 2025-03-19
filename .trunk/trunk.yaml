@@ -11,6 +11,8 @@ runtimes:
     - node@18.20.5
     - python@3.10.8
 lint:
+  disabled:
+    - cspell
   enabled:
     - actionlint@1.7.7
     - hadolint@2.12.1-beta

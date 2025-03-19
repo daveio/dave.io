@@ -36,7 +36,7 @@
     "geckodriver": "5.0.0",
     "jiti": "2.4.2",
     "jsdom": "26.0.0",
-    "nightwatch": "3.12.0",
+    "nightwatch": "3.12.1",
     "npm-run-all2": "7.0.2",
     "oxlint": "0.16.0",
     "prettier": "3.5.3",
@@ -53,7 +53,7 @@
     "vite-plugin-vue-devtools": "7.7.2",
     "vitest": "3.0.9",
     "vue-tsc": "2.2.8",
-    "wrangler": "4.1.0"
+    "wrangler": "4.2.0"
   },
   "engines": {
     "bun": "~1.2.5",
