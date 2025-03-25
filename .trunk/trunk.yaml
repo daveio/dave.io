@@ -16,9 +16,9 @@ lint:
   enabled:
     - actionlint@1.7.7
     - hadolint@2.12.1-beta
-    - semgrep@1.112.0
+    - semgrep@1.114.0
     - stylelint@16.16.0
-    - checkov@3.2.386
+    - checkov@3.2.392
     - git-diff-check
     - markdownlint@0.44.0
     - osv-scanner@2.0.0
@@ -26,8 +26,8 @@ lint:
     - prettier@3.5.3
     - svgo@3.3.2
     - taplo@0.9.3
-    - trufflehog@3.88.17
-    - yamllint@1.36.2
+    - trufflehog@3.88.18
+    - yamllint@1.37.0
   ignore:
     - linters:
         - stylelint
