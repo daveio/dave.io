@@ -15,7 +15,7 @@
   },
   "description": "personal site for Dave Williams",
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250321.0",
+    "@cloudflare/workers-types": "4.20250327.0",
     "@iconify/json": "2.2.320",
     "@nightwatch/vue": "3.1.2",
     "@pinegrow/vite-plugin": "3.0.69",
