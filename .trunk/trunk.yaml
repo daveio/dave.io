@@ -17,8 +17,8 @@ lint:
     - actionlint@1.7.7
     - hadolint@2.12.1-beta
     - semgrep@1.114.0
-    - stylelint@16.16.0
-    - checkov@3.2.392
+    - stylelint@16.17.0
+    - checkov@3.2.394
     - git-diff-check
     - markdownlint@0.44.0
     - osv-scanner@2.0.0

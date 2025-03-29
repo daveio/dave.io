@@ -15,13 +15,13 @@
   },
   "description": "personal site for Dave Williams",
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250321.0",
-    "@iconify/json": "2.2.320",
+    "@cloudflare/workers-types": "4.20250327.0",
+    "@iconify/json": "2.2.321",
     "@nightwatch/vue": "3.1.2",
     "@pinegrow/vite-plugin": "3.0.69",
     "@tsconfig/node22": "22.0.1",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.13.13",
+    "@types/node": "22.13.14",
     "@unocss/preset-icons": "66.0.0",
     "@vitejs/plugin-vue": "5.2.3",
     "@vitest/eslint-plugin": "1.1.38",
@@ -53,15 +53,15 @@
     "vite-plugin-vue-devtools": "7.7.2",
     "vitest": "3.0.9",
     "vue-tsc": "2.2.8",
-    "wrangler": "4.4.1"
+    "wrangler": "4.6.0"
   },
   "engines": {
-    "bun": "~1.2.5",
+    "bun": "~1.2.7",
     "node": "~22.14.0"
   },
   "license": "MIT",
   "name": "dave.io",
-  "packageManager": "bun@1.2.5",
+  "packageManager": "bun@1.2.7",
   "private": true,
   "repository": "https://github.com/daveio/dave.io.git",
   "scripts": {
