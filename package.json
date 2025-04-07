@@ -30,7 +30,7 @@
     "@vue/test-utils": "2.4.6",
     "@vue/tsconfig": "0.7.0",
     "chromedriver": "135.0.0",
-    "eslint": "9.23.0",
+    "eslint": "9.24.0",
     "eslint-plugin-oxlint": "0.16.4",
     "eslint-plugin-vue": "10.0.0",
     "geckodriver": "5.0.0",
