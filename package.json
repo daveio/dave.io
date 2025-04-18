@@ -56,12 +56,12 @@
     "wrangler": "4.12.0"
   },
   "engines": {
-    "bun": "~1.2.8",
+    "bun": "~1.2.10",
     "node": "~23.11.0"
   },
   "license": "MIT",
   "name": "dave.io",
-  "packageManager": "bun@1.2.8",
+  "packageManager": "bun@1.2.10",
   "private": true,
   "repository": "https://github.com/daveio/dave.io.git",
   "scripts": {
