@@ -1,8 +1,29 @@
 {
+  "name": "dave.io",
+  "version": "1.0.2",
+  "private": true,
+  "description": "personal site for Dave Williams",
+  "repository": "https://github.com/daveio/dave.io.git",
+  "license": "MIT",
   "author": {
-    "email": "dave@dave.io",
     "name": "Dave Williams",
+    "email": "dave@dave.io",
     "url": "https://dave.io"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "pnpm type-check && pnpm build-only",
+    "build-only": "pnpm vite build",
+    "deploy": "pnpm build && pnpm wrangler pages deploy ./dist",
+    "dev": "pnpm vite",
+    "format": "pnpm prettier --write src/",
+    "lint": "pnpm lint:eslint && pnpm lint:oxlint",
+    "lint:eslint": "pnpm eslint . --fix",
+    "lint:oxlint": "pnpm oxlint . --fix -D correctness --ignore-path .gitignore",
+    "preview": "pnpm build && pnpm wrangler pages dev ./dist",
+    "test:e2e": "pnpm nightwatch tests/e2e/*",
+    "test:unit": "pnpm vitest",
+    "type-check": "pnpm vue-tsc --build"
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.1.4",
@@ -13,9 +34,7 @@
     "vue": "3.5.13",
     "vue-router": "4.5.0"
   },
-  "description": "personal site for Dave Williams",
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250423.0",
     "@iconify/json": "2.2.330",
     "@nightwatch/vue": "3.1.2",
     "@pinegrow/vite-plugin": "3.0.69",
@@ -29,7 +48,7 @@
     "@vue/eslint-config-typescript": "14.5.0",
     "@vue/test-utils": "2.4.6",
     "@vue/tsconfig": "0.7.0",
-    "chromedriver": "135.0.2",
+    "chromedriver": "135.0.3",
     "eslint": "9.25.1",
     "eslint-plugin-oxlint": "0.16.7",
     "eslint-plugin-vue": "10.0.0",
@@ -40,7 +59,7 @@
     "npm-run-all2": "7.0.2",
     "oxlint": "0.16.7",
     "prettier": "3.5.3",
-    "stylelint": "16.18.0",
+    "stylelint": "16.19.0",
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-standard": "38.0.0",
     "ts-node": "10.9.2",
@@ -53,39 +72,10 @@
     "vite-plugin-vue-devtools": "7.7.5",
     "vitest": "3.1.2",
     "vue-tsc": "2.2.10",
-    "wrangler": "4.12.1"
+    "wrangler": "4.13.0"
   },
+  "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f",
   "engines": {
-    "bun": "~1.2.10",
     "node": "~23.11.0"
-  },
-  "license": "MIT",
-  "name": "dave.io",
-  "packageManager": "bun@1.2.10",
-  "private": true,
-  "repository": "https://github.com/daveio/dave.io.git",
-  "scripts": {
-    "build": "bun run type-check && bun run build-only",
-    "build-only": "bun run vite build",
-    "deploy": "bun run build && bun run wrangler pages deploy ./dist",
-    "dev": "bun run vite",
-    "format": "bun run prettier --write src/",
-    "lint": "bun run lint:eslint && bun run lint:oxlint",
-    "lint:eslint": "bun run eslint . --fix",
-    "lint:oxlint": "bun run oxlint . --fix -D correctness --ignore-path .gitignore",
-    "preview": "bun run build && bun run wrangler pages dev ./dist",
-    "test:e2e": "bun run nightwatch tests/e2e/*",
-    "test:unit": "bun runvitest",
-    "type-check": "bun run vue-tsc --build"
-  },
-  "trustedDependencies": [
-    "@nightwatch/nightwatch-inspector",
-    "chromedriver",
-    "esbuild",
-    "geckodriver",
-    "sharp",
-    "workerd"
-  ],
-  "type": "module",
-  "version": "1.0.1"
+  }
 }

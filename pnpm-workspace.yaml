@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@nightwatch/nightwatch-inspector'
+  - chromedriver
+  - esbuild
+  - geckodriver
+  - sharp
+  - workerd
