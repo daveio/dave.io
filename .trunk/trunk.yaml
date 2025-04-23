@@ -18,6 +18,11 @@ actions:
     - trunk-fmt-pre-commit
     - trunk-upgrade-available
 lint:
+  ignore:
+    - linters:
+        - ALL
+      paths:
+        - "*.d.ts"
   disabled:
     - renovate
     - cspell
