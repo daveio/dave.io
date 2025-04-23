@@ -5,6 +5,5 @@ DAVE_IO_MISE_ACTIVE = 'true'
 env_file = '.env'
 
 [tools]
-bun = '1.2.9'
 caddy = '2.9.1'
 node = '23.11.0'
