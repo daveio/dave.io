@@ -59,7 +59,7 @@
 		"npm-run-all2": "7.0.2",
 		"oxlint": "0.16.7",
 		"prettier": "3.5.3",
-		"stylelint": "16.19.0",
+		"stylelint": "16.19.1",
 		"stylelint-config-prettier": "9.0.5",
 		"stylelint-config-standard": "38.0.0",
 		"ts-node": "10.9.2",
