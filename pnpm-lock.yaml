@@ -70,8 +70,8 @@ importers:
         specifier: 0.7.0
         version: 0.7.0(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
       chromedriver:
-        specifier: 135.0.4
-        version: 135.0.4
+        specifier: 136.0.0
+        version: 136.0.0
       eslint:
         specifier: 9.25.1
         version: 9.25.1(jiti@2.4.2)
@@ -92,7 +92,7 @@ importers:
         version: 26.1.0
       nightwatch:
         specifier: 3.12.1
-        version: 3.12.1(chromedriver@135.0.4)(geckodriver@5.0.0)
+        version: 3.12.1(chromedriver@136.0.0)(geckodriver@5.0.0)
       npm-run-all2:
         specifier: 7.0.2
         version: 7.0.2
@@ -2124,8 +2124,8 @@ packages:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
 
-  chromedriver@135.0.4:
-    resolution: {integrity: sha512-x0DESUcvCfKydljOCTQUve6f0+78Vq71FHcAMmdzBoWzAnyzB+2Fd2PouGRoJJkqk/vgfNzCiuwFosT0hnIjEg==}
+  chromedriver@136.0.0:
+    resolution: {integrity: sha512-21LxtGIqRLkafi0aOLKxIyQ3uRklgdmhuihzAkoL3Er5QtC74UDuu2OeTDdh58LM7WDbiuTXjdoIQARUekL8DA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4777,6 +4777,7 @@ packages:
   wrangler@4.14.0:
     resolution: {integrity: sha512-WhypgOBEYuUMo/ZFw8MgZ0wtyE7EmDanytjD8Me+OMm62raKU9V9DZTlF1UVLkNfilfQNlRbMnFRdzSBji/MEA==}
     engines: {node: '>=18.0.0'}
+    deprecated: Workers with configured tail consumers would sometimes prevent wrangler dev from running. Downgrade to 4.13.2 to workaround this issue
     hasBin: true
     peerDependencies:
       '@cloudflare/workers-types': ^4.20250428.0
@@ -6750,7 +6751,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chromedriver@135.0.4:
+  chromedriver@136.0.0:
     dependencies:
       '@testim/chrome-version': 1.1.4
       axios: 1.9.0
@@ -8269,7 +8270,7 @@ snapshots:
     dependencies:
       axe-core: 4.10.3
 
-  nightwatch@3.12.1(chromedriver@135.0.4)(geckodriver@5.0.0):
+  nightwatch@3.12.1(chromedriver@136.0.0)(geckodriver@5.0.0):
     dependencies:
       '@nightwatch/chai': 5.0.3
       '@nightwatch/html-reporter-template': 0.3.0
@@ -8306,7 +8307,7 @@ snapshots:
       untildify: 4.0.0
       uuid: 8.3.2
     optionalDependencies:
-      chromedriver: 135.0.4
+      chromedriver: 136.0.0
       geckodriver: 5.0.0
     transitivePeerDependencies:
       - bufferutil
