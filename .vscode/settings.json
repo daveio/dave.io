@@ -25,5 +25,21 @@
     "dlv": "${workspaceFolder}/.vscode/mise-tools/dlv",
     "gopls": "${workspaceFolder}/.vscode/mise-tools/gopls"
   },
-  "workbench.colorCustomizations": {}
+  "workbench.colorCustomizations": {},
+  "piny.project_settings": {
+    "open-pages": [
+      "index.html"
+    ],
+    "component-settings": {
+      "src/components/HelloWorld.vue:::Temp": {
+        "route": null
+      }
+    },
+    "app-routes": {
+      "routes": [
+        "/"
+      ],
+      "current_route": "/"
+    }
+  }
 }
