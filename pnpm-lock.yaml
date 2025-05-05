@@ -49,8 +49,8 @@ importers:
         specifier: 22.15.3
         version: 22.15.3
       '@unocss/preset-icons':
-        specifier: 66.0.0
-        version: 66.0.0
+        specifier: 66.1.0
+        version: 66.1.0
       '@vitejs/plugin-vue':
         specifier: 5.2.3
         version: 5.2.3(vite@6.3.5(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2))(vue@3.5.13(typescript@5.8.3))
@@ -1594,9 +1594,6 @@ packages:
     resolution: {integrity: sha512-+ha33SKD6zmkwEQU2EvI83ceYeGKJYUWP7MpR/k5rCy6Tcmn2ecP5ZPUWO4OhUIwfc3b+L5LrC14Q7bMOyQ7ig==}
     engines: {node: '>=14'}
 
-  '@unocss/core@66.0.0':
-    resolution: {integrity: sha512-PdVbSMHNDDkr++9nkqzsZRAkaU84gxMTEgYbqI7dt2p1DXp/5tomVtmMsr2/whXGYKRiUc0xZ3p4Pzraz8TcXA==}
-
   '@unocss/core@66.1.0':
     resolution: {integrity: sha512-BKnWrzy05uACXfkE/rqQegj5cvXcIP+eE7CHwSwKpyWNlY9bRsPa7BA5t4WOQMGxhYeVJnZ1ELp8PqzYD6TtWg==}
 
@@ -1614,9 +1611,6 @@ packages:
 
   '@unocss/preset-attributify@66.1.0':
     resolution: {integrity: sha512-Jy7hePNaEgw+6WNR01hnYuDEO3PzHCcc4kcI+OSvKQLdwVLTz3vxLj4042KxxtIEWIxYWjyVef/EK4vqq0R9ww==}
-
-  '@unocss/preset-icons@66.0.0':
-    resolution: {integrity: sha512-6ObwTvEGuPBbKWRoMMiDioHtwwQTFI5oojFLJ32Y8tW6TdXvBLkO88d7qpgQxEjgVt4nJrqF1WEfR4niRgBm0Q==}
 
   '@unocss/preset-icons@66.1.0':
     resolution: {integrity: sha512-vyC5X0bPUCHs9lDJA40yoaCz6V4vQVOzt86hly46VVMIsW59xgfoTnHWEzxOeS8+UoMuBSN8WZO+CeCTToaaWQ==}
@@ -6302,8 +6296,6 @@ snapshots:
       '@unocss/core': 66.1.0
       unconfig: 7.3.2
 
-  '@unocss/core@66.0.0': {}
-
   '@unocss/core@66.1.0': {}
 
   '@unocss/extractor-arbitrary-variants@66.1.0':
@@ -6333,14 +6325,6 @@ snapshots:
   '@unocss/preset-attributify@66.1.0':
     dependencies:
       '@unocss/core': 66.1.0
-
-  '@unocss/preset-icons@66.0.0':
-    dependencies:
-      '@iconify/utils': 2.3.0
-      '@unocss/core': 66.0.0
-      ofetch: 1.4.1
-    transitivePeerDependencies:
-      - supports-color
 
   '@unocss/preset-icons@66.1.0':
     dependencies:

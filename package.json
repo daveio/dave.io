@@ -41,7 +41,7 @@
 		"@tsconfig/node22": "22.0.1",
 		"@types/jsdom": "21.1.7",
 		"@types/node": "22.15.3",
-		"@unocss/preset-icons": "66.0.0",
+		"@unocss/preset-icons": "66.1.0",
 		"@vitejs/plugin-vue": "5.2.3",
 		"@vitest/eslint-plugin": "1.1.44",
 		"@vue/eslint-config-prettier": "10.2.0",
