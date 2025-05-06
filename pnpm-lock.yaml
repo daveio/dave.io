@@ -142,8 +142,8 @@ importers:
         specifier: 2.2.10
         version: 2.2.10(typescript@5.8.3)
       wrangler:
-        specifier: 4.14.1
-        version: 4.14.1
+        specifier: 4.14.2
+        version: 4.14.2
 
 packages:
 
@@ -4973,8 +4973,8 @@ packages:
   workerpool@6.2.1:
     resolution: {integrity: sha512-ILEIE97kDZvF9Wb9f6h5aXK4swSlKGUcOEGiIYb2OOu/IrDU9iwj0fD//SsA6E5ibwJxpEvhullJY4Sl4GcpAw==}
 
-  wrangler@4.14.1:
-    resolution: {integrity: sha512-EU7IThP7i68TBftJJSveogvWZ5k/WRijcJh3UclDWiWWhDZTPbL6LOJEFhHKqFzHOaC4Y2Aewt48rfTz0e7oCw==}
+  wrangler@4.14.2:
+    resolution: {integrity: sha512-kD0ilA7WXwhDt1lfyPwppZ2/lT9uwDLp93tfqnqrUENmP/uj+5tErzfZY51emtgXZoU1HFK6HytBEYLRCvCiPg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -10056,7 +10056,7 @@ snapshots:
 
   workerpool@6.2.1: {}
 
-  wrangler@4.14.1:
+  wrangler@4.14.2:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250428.0)
