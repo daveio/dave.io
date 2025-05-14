@@ -5,6 +5,6 @@ DAVE_IO_MISE_ACTIVE = 'true'
 env_file = '.env'
 
 [tools]
-'aqua:caddyserver/caddy' = '2.10.0'
+'aqua:caddyserver/caddy' = { version = '2.10.0' }
 node = { version = '22.15.0' }
-bun = '1.2.11'
+bun = { version = '1.2.13' }
