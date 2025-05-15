@@ -1,8 +1,0 @@
-onlyBuiltDependencies:
-  - '@nightwatch/nightwatch-inspector'
-  - '@tailwindcss/oxide'
-  - chromedriver
-  - esbuild
-  - geckodriver
-  - sharp
-  - workerd
