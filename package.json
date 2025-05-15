@@ -78,7 +78,16 @@
   "packageManager": "bun@1.2.13",
   "engines": {
     "bun": "~1.2.13",
-    "node": "~23.11.0"
+    "node": "~lts"
   },
-  "trustedDependencies": ["@biomejs/biome", "@nightwatch/nightwatch-inspector", "@tailwindcss/oxide"]
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "@nightwatch/nightwatch-inspector",
+    "@tailwindcss/oxide",
+    "chromedriver",
+    "esbuild",
+    "geckodriver",
+    "sharp",
+    "workerd"
+  ]
 }
