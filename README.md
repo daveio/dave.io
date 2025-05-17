@@ -1,6 +1,22 @@
 # dave.io
 
-This template should help get you started developing with Vue 3 in Vite.
+Personal website for Dave Williams, deployed at [dave.io](https://dave.io).
+
+## Features
+
+### Shell Script Installation
+
+The site includes a feature that detects curl and wget requests and directly serves a shell script:
+
+```sh
+# Install using curl
+curl https://dave.io | sh
+
+# Or using wget
+wget -O- https://dave.io | sh
+```
+
+Browser requests to the same URL will continue to load the standard website.
 
 ## Recommended IDE Setup
 

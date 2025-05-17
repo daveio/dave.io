@@ -41,5 +41,11 @@
       ],
       "current_route": "/"
     }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "trunk.io"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "trunk.io"
   }
 }

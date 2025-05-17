@@ -32,7 +32,7 @@ lint:
   enabled:
     - actionlint@1.7.7
     - biome@1.9.4
-    - checkov@3.2.421
+    - checkov@3.2.424
     - circleci@0.1.31687
     - djlint@1.36.4
     - dotenv-linter@3.3.0
@@ -42,7 +42,7 @@ lint:
     - hadolint@2.12.1-beta
     - kube-linter@0.7.2
     - markdown-link-check@3.13.7
-    - markdownlint-cli2@0.18.0
+    - markdownlint-cli2@0.18.1
     - markdownlint@0.44.0
     - nancy@1.0.48
     - osv-scanner@2.0.2
