@@ -27,18 +27,14 @@
   },
   "workbench.colorCustomizations": {},
   "piny.project_settings": {
-    "open-pages": [
-      "index.html"
-    ],
+    "open-pages": ["index.html"],
     "component-settings": {
       "src/components/HelloWorld.vue:::Temp": {
         "route": null
       }
     },
     "app-routes": {
-      "routes": [
-        "/"
-      ],
+      "routes": ["/"],
       "current_route": "/"
     }
   },

@@ -3,7 +3,7 @@ Host tilde
   User daveio
   Port 22
 
-Host github.com
+Host github.com gist.github.com
   Port 22
 
 Host tilde-pink
@@ -87,10 +87,10 @@ Host mba
   HostName fd7a:115c:a1e0::5601:ac40
   HostName 100.96.172.64
 
-Host mba-work
-  HostName mba-work.manticore-minor.ts.net
-  HostName fd7a:115c:a1e0::1701:d421
-  HostName 100.107.212.33
+Host mbp
+  HostName dave-mbp.manticore-minor.ts.net
+  HostName fd7a:115c:a1e0::d801:f21d
+  HostName 100.84.242.28
 
 Host mog-barometer
   HostName mog-barometer.manticore-minor.ts.net

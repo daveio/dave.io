@@ -1,20 +1,20 @@
 <script lang="ts" setup>
-import BaseIcon from './BaseIcon.vue'
 import { computed } from 'vue'
+import BaseIcon from './BaseIcon.vue'
 
 const props = defineProps({
   iconName: {
     type: String,
-    default: 'i-line-md-iconify1',
+    default: 'i-line-md-iconify1'
   },
   linkText: {
     type: String,
-    default: 'unnamed',
+    default: 'unnamed'
   },
   linkTarget: {
     type: String,
-    default: '#',
-  },
+    default: '#'
+  }
 })
 </script>
 

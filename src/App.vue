@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import AboutPicture from '@/components/AboutPicture.vue'
+import FooterContent from '@/components/FooterContent.vue'
 import NavItem from '@/components/NavItem.vue'
 import NavItemURL from '@/components/NavItemURL.vue'
-import FooterContent from '@/components/FooterContent.vue'
-import AboutPicture from '@/components/AboutPicture.vue'
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 <template>
   <div class="text-white flex flex-col h-screen justify-between">

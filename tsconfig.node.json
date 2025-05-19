@@ -16,7 +16,6 @@
     "types": ["node"],
     "strict": true,
     "lib": ["ESNext", "DOM"],
-    // "composite": true,
     "forceConsistentCasingInFileNames": true
   }
 }

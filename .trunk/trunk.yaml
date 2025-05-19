@@ -32,8 +32,8 @@ lint:
   enabled:
     - actionlint@1.7.7
     - biome@1.9.4
-    - checkov@3.2.424
-    - circleci@0.1.31687
+    - checkov@3.2.425
+    - circleci@0.1.31792
     - djlint@1.36.4
     - dotenv-linter@3.3.0
     - dustilock@1.2.0
@@ -43,7 +43,7 @@ lint:
     - kube-linter@0.7.2
     - markdown-link-check@3.13.7
     - markdownlint-cli2@0.18.1
-    - markdownlint@0.44.0
+    - markdownlint@0.45.0
     - nancy@1.0.48
     - osv-scanner@2.0.2
     - oxipng@9.1.5
@@ -55,8 +55,8 @@ lint:
     - svgo@3.3.2
     - taplo@0.9.3
     - trivy@0.62.1
-    - trufflehog-git@3.88.29
-    - trufflehog@3.88.29
+    - trufflehog-git@3.88.30
+    - trufflehog@3.88.30
     - yamllint@1.37.1
 merge:
   required_statuses:

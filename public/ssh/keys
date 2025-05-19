@@ -10,13 +10,14 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDKWHvw2OVnJjZrBDD27ADl6+gp4BPXi9fVVy9AsHb9
 # tunnels
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHGtiVPF47PUU4Hk4cws61UaQKj1joBYBtwT/UkiNTN0 dave+mbp-tunnel@dave.io
 
+# mobile devices with secure enclave
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAe6eVk1T6ZS/0euGp15aC6zyLsvEz2NOrV3z1csptyQ2qcfVBRN+Z/pGMcHFZbnWikwJN0GVJ6knz4dL4RbRJo= dave+iphone-termius@dave.io
+
 # devices
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO9EhPOEK8j2n1bV7jsy6x2d+JMEmRkUra7PHzypLnUW dave+ipad-blink@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILM+Yem/aS6QpO1UJo7fOgHnm/dPkd9949YdealB+WRK dave+surface@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEZAI5jhPKdwGtko7+8dJ6sipbNRBW3nOLmlmeVi9LGh dave+kosh@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJcn/BHJQIXRC2yz57c7KJqX3CjWNqj2D/D08yO6tU3z dave+nas@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK9xs4nuxGfzgDpAv9iwdjQoJbC1P+H6iLFb9+QPUvmx dave+cbp@dave.io
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCLmVgBL+7EmHScFFTzKHyUOALkq7HwyrqLAFMmBzWM+AWmRIEjCeE3CD4HuJlpWn5QABdWD8qv/XALurVtFNdA= dave+laterminal-ipad@dave.io
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII+ad17VHwIaPUccJDT4cCIIrFxgdOepTB48MIlEWJZc dave+xcode-mbp@dave.io
 
 # services

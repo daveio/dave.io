@@ -6,7 +6,7 @@
     }
   },
   "files": {
-    "ignore": ["../../.trunk"]
+    "ignore": ["../../.trunk", "../../.history", "../../node_modules", "../../dist", "../../.git"]
   },
   "formatter": {
     "attributePosition": "auto",
@@ -42,6 +42,17 @@
   "organizeImports": {
     "enabled": true
   },
+  "overrides": [
+    {
+      "include": ["*.jsonc"],
+      "json": {
+        "parser": {
+          "allowComments": true,
+          "allowTrailingCommas": true
+        }
+      }
+    }
+  ],
   "vcs": {
     "clientKind": "git",
     "defaultBranch": "main",

@@ -4,24 +4,24 @@ import { computed } from 'vue'
 const props = defineProps({
   name: {
     type: String,
-    default: 'i-line-md-iconify1',
+    default: 'i-line-md-iconify1'
   },
   tag: {
     type: String,
-    default: 'span',
+    default: 'span'
   },
   width: {
     type: String,
-    default: '',
+    default: ''
   },
   height: {
     type: String,
-    default: '',
+    default: ''
   },
   link: {
     type: String,
-    default: '',
-  },
+    default: ''
+  }
 })
 
 const addUnit = (val: any) => {
@@ -39,7 +39,7 @@ const iconStyle = computed(() => {
   return {
     width,
     height,
-    display,
+    display
   }
 })
 </script>
