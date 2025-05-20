@@ -14,7 +14,7 @@ export const onRequest = async (context) => {
   // Only serve shell script for the root path
   if (isCurlOrWget && (url.pathname === '/' || url.pathname === '')) {
     // Fetch the shell script file from our own site
-    const scriptResponse = await fetch(`${url.origin}/run.sh`)
+    const scriptResponse = await fetch(`${url.origin}/scripts/hello.sh`)
 
     if (scriptResponse.ok) {
       const scriptContent = await scriptResponse.text()
@@ -29,14 +29,17 @@ export const onRequest = async (context) => {
     }
 
     // Fallback if script fetch fails
-    return new Response('echo "Error: Couldn\'t load the install script. Fetch https://dave.io/run.sh instead."', {
-      headers: {
-        'Content-Type': 'text/plain',
-        'Cache-Control': 'no-cache',
-        Location: 'https://dave.io/run.sh'
-      },
-      status: 302
-    })
+    return new Response(
+      'echo "Error: Couldn\'t load the install script. Fetch https://dave.io/scripts/hello.sh instead."',
+      {
+        headers: {
+          'Content-Type': 'text/plain',
+          'Cache-Control': 'no-cache',
+          Location: 'https://dave.io/scripts/hello.sh'
+        },
+        status: 302
+      }
+    )
   }
 
   // For browser requests or non-root paths, continue with normal processing
